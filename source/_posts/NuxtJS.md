@@ -1,8 +1,12 @@
 ---
 title: nuxt.js
 date: 2020-02-04 11:14:16
-tags: vue
-categories: 前端框架
+author: 于吉浒
+tags: 
+- vue
+- ssr
+- nuxt.js
+categories: vue
 keywords: vue.js,服务器端渲染,SSR
 description: Nuxt.js 是一个基于 Vue.js 的轻量级应用框架,可用来创建服务端渲染 (SSR) 应用,也可充当静态站点引擎生成静态站点应用,具有优雅的代码结构分层和热加载等特性。
 cover: https://img11.360buyimg.com/imagetools/jfs/t1/105460/30/11621/22495/5e38e372E0cfb98b4/ee15034e2da3e64e.png

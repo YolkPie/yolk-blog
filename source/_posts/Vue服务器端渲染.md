@@ -1,8 +1,11 @@
 ---
 title: Vue服务器端渲染
 date: 2020-02-03 16:55:25
-tags: vue
-categories: 前端框架
+author: 于吉浒
+tags: 
+- vue
+- ssr
+categories: vue
 keywords: vue.js,服务器端渲染,SSR
 description: Vue.js服务器端渲染
 cover: https://cn.vuejs.org/images/logo.png
@@ -180,7 +183,7 @@ renderer.renderToString(app, context, (err, html) => {
 
 对于客户端应用程序和服务器应用程序，我们都要使用 webpack 打包 - 服务器需要「服务器 bundle」然后用于服务器端渲染(SSR)，而「客户端 bundle」会发送给浏览器，用于混合静态标记。
 
-![webpack打包步骤](https://github.com/yujihu/blog/blob/master/images/webpack-bundle.png)
+![webpack打包步骤](webpack-bundle.png)
 
 ## 3 本文将一步步带您构建一个完整的vue ssr项目
 >1. 首先，搭建一个包含交互的简单vue ssr demo，涉及webpack对服务端应用程序和客户端应用程序的打包配置(参考demo1)。

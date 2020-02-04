@@ -69,7 +69,7 @@ algolia_search:
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
@@ -274,11 +274,11 @@ qihu_site_verification:
 # 友情鏈接界面設置
 Flink:
   headline: 相关链接
-  info_headline: 前端研发部简介
-  name: 部门名称： YolkPie
-  address: 官网地址： https://yolkpie.github.io/
+  info_headline: 团队简介
+  name: 团队名称： YolkPie
+  address: 官网地址： https://yolkpie.net/
   avatar: 工作地址： 中国 北京
-  info: 部门简介： 前端研发部
+  info: 团队简介： 前端研发部
 
 # 打賞按鈕
 reward:
