@@ -1,0 +1,8 @@
+class:
+  class_name: 相关链接
+  link_list:
+    1:
+      name: Yolk CLI
+      link: https://yolkpie.github.io/yolk-cli/
+      avatar: https://img14.360buyimg.com/imagetools/jfs/t1/104143/22/11560/31422/5e37e999E4cd9a363/55459d2bd9084ce1.png
+      descr: 前端项目脚手架
