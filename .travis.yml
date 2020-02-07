@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - lts/*
+cache:
+  directories:
+    - node_modules
+before_install:
+  - npm install hexo-cli -g
+install:
+  - npm install
+script:
+  - hexo clean
+  - hexo g
+after_script:
+  - git clone "https://${GH_TOKEN}@${GH_REF}"
+  - cp -rf public/* yolkpie.github.io/
+  - cd ./yolkpie.github.io
+  - git config --global user.name "${U_NAME}"
+  - git config --global user.email "${U_EMAIL}"
+  - git add .
+  - git commit -m 'travis-ci auto build yolk-blog'
+  - git push origin "${P_BRANCH}"
+branches:
+  only:
+    - master
