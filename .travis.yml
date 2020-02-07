@@ -9,6 +9,7 @@ before_install:
 install:
   - npm install
 script:
+  - git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
   - hexo clean
   - hexo g
 after_script:
