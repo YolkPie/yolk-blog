@@ -103,7 +103,7 @@ index_img: https://img12.360buyimg.com/imagetools/jfs/t1/85092/10/11652/2222678/
 default_top_img: https://img12.360buyimg.com/imagetools/jfs/t1/85092/10/11652/2222678/5e38d2a5Eaf85d33b/b38ee43b29256508.png
 
 # the default cover of the post
-default_cover: https://img14.360buyimg.com/imagetools/jfs/t1/104143/22/11560/31422/5e37e999E4cd9a363/55459d2bd9084ce1.png
+default_cover: https://img14.360buyimg.com/imagetools/jfs/t1/91651/30/12213/6391/5e43b128Eff8daab8/f864607845087d4a.png
 
 # the banner image of archive page
 archive_img: https://img12.360buyimg.com/imagetools/jfs/t1/85092/10/11652/2222678/5e38d2a5Eaf85d33b/b38ee43b29256508.png
@@ -130,7 +130,7 @@ post_meta:
 
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#字数统计
 wordcount:
-  enable: false
+  enable: true
 
 toc:
   enable: true
@@ -303,17 +303,17 @@ related_post:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#691107"
-#   paginator: "#691107"
-#   button_hover: "#FF7242"
-#   text_selection: "#691107"
-#   link_color: "#99a9bf"
-#   meta_color: '#858585'
-#   hr_color: "#A4D8FA"
-#   read-mode-bg_color: '#FAF9DE'
-#   inline-code-color: '#F47466'
+theme_color:
+  enable: true
+  main: "#ff9933"
+  paginator: "#ff9933"
+  button_hover: "#FF7242"
+  text_selection: "#ff9933"
+  link_color: "#99a9bf"
+  meta_color: '#858585'
+  hr_color: "#A4D8FA"
+  read-mode-bg_color: '#FAF9DE'
+  inline-code-color: '#F47466'
 
 # 主頁設置
 # 默認top_img全屏，site_info在中間
@@ -361,7 +361,7 @@ canvas_ribbon_piao:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.

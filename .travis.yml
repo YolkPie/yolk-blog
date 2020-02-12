@@ -11,6 +11,7 @@ install:
 script:
   - git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
   - cp -rf source/img/* themes/Butterfly/source/img/
+  - cp -rf source/css/* themes/Butterfly/source/css/
   - hexo clean
   - hexo g
 after_success:
