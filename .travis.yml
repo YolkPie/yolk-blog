@@ -12,7 +12,7 @@ script:
   - git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
   - cp -rf source/img/* themes/Butterfly/source/img/
   - cp -rf source/css/* themes/Butterfly/source/css/
-  - cp -rf source/_layout/* themes/Butterfly/source/layout/
+  - cp -rf source/_layout/* themes/Butterfly/layout/
   - hexo clean
   - hexo g
 after_success:
