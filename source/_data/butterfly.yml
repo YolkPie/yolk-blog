@@ -196,14 +196,14 @@ laibili:
   uid:
 
 gitalk:
-  enable: false
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
-  language: # en , zh-CN , zh-TW
-  count: false # top_img顯示評論數
+  enable: true
+  client_id: 6e1bb19099a60d063402
+  client_secret: 6fefeea17c4f73c838216b0aab539d37c7bbcdad
+  repo: yolkpie.github.io
+  owner: YolkPie
+  admin: yujihu
+  language: zh-CN
+  count: true # top_img顯示評論數
 
 # valine comment system. https://valine.js.org
 valine:
