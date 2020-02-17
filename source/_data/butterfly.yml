@@ -203,7 +203,9 @@ gitalk:
   owner: YolkPie
   admin: yujihu
   language: zh-CN
-  count: true # top_img顯示評論數
+  count: true, # top_img顯示評論數
+  createIssueManually: true # 如果当前页面没有相应的 isssue ，且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
+  distractionFreeMode: false # 是否启用快捷键(cmd|ctrl + enter) 提交评论.
 
 # valine comment system. https://valine.js.org
 valine:
