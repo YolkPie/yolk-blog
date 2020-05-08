@@ -25,7 +25,7 @@ after_success:
   - git commit -m 'travis-ci auto build yolk-blog'
   - git push origin "${P_BRANCH}"
   - cd ../
-  - git clone "https://yolkpie:${CO_TOKEN}@${CO_REF}"
+  - git clone "https://yujihu:${CO_TOKEN}@${CO_REF}"
   - cp -rf public/* yolkpie.coding.io/
   - cd ./yolkpie.coding.io
   - git add .
