@@ -441,8 +441,8 @@ canvas_ribbon:
 
 # 動態彩帶
 canvas_ribbon_piao:
-  enable: false
-  mobile: false # false 手機端不顯示 true 手機端顯示
+  enable: true
+  mobile: true # false 手機端不顯示 true 手機端顯示
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
