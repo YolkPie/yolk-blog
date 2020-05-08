@@ -2,22 +2,24 @@
   display: flex
   align-items: flex-start
   margin: 0 auto
-  padding: 0 15px
+  padding: 2rem 15px
   max-width: 1200px
 
 // index
 #recent-posts
   width: 75%
 
+  & > .recent-post-item:not(:first-child)
+    margin-top: 1rem
+
   & > .recent-post-item
     display: flex
     flex-direction: row
     align-items: center
-    margin-top: 20px
     padding: 0
     height: 280px
     border-radius: 8px
-    background: #fff
+    background: $card-bg
     box-shadow: 0 4px 8px 6px rgba(7, 17, 27, .06)
     transition: all .3s
 
@@ -27,20 +29,20 @@
       img.post_bg
         transform: scale(1.1)
 
-    if hexo-config('index_post_cover') == 'both'
+    if hexo-config('cover.position') == 'both'
       .left_radius
         border-radius: 8px 0 0 8px
 
       .right_radius
         order: 2
         border-radius: 0 8px 8px 0
-    else if hexo-config('index_post_cover') == 'left'
+    else if hexo-config('cover.position') == 'left'
       .left_radius
         border-radius: 8px 0 0 8px
 
       .right_radius
         border-radius: 8px 0 0 8px
-    else if hexo-config('index_post_cover') == 'right'
+    else if hexo-config('cover.position') == 'right'
       .left_radius
         order: 2
         border-radius: 0 8px 8px 0
@@ -53,9 +55,7 @@
       overflow: hidden
       width: 45%
       height: 280px
-      padding: 20px
-      background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAMAAAD8CC+4AAAARVBMVEXz9fjw8/f3+Pru8fbz9fj3+Pr3+Pr3+Pru8fbs8PXw8vfz9fj19vnx9Pfm6/LY4Ove5e7j6fHa4uzg5/Dp7vTc4+3l6vIDNzfUAAAAB3RSTlMCy89tG29uQ8EydAAAGCBJREFUeNrs3cFyszAMBGBl0sN6Z/Kf+v7P+pdkaAYsp2mwGlnWcun0uv0Ay0DlK+fTJ0ZLybySf6ezLPk4QQ9/PN6a0j7yT+JBTh8isnTur9Jj2rP4R62LnAGwSd0590fSs/ZWznLCsNKXtKVn7W3q5YH0AayjKT1rb+VTcFj6+2uvsxSftbciAA9Kd1A7mtKzdSWdpHs4zWvSl+Qqzki6h/N8wU561h1e+lpwJT0nNnbSfTSPjfRyLzvv6Qykuym+KT2v7lbSHVzb78UXpPS/kO5lDXdreCM9r+5W0p3c2RUszlN6+Lv3fWrpuffaWbrHfRtNes5rukl/f8F6WtLnPt/3le5xG65Alz7xXF7YUbrbbThN+sTbMUIGlw4UoCV9zgerhCSBi6V0F+W3pM94bRfeEln6yl2RPueDVcI1VVexpG/2XndBmes0L9zESrqTzRisJW+PMtkable6zUSOoJvNmIKq2ek24GrpjCz9mqb0WRbvwiqGd+8+RncFgCZ9mlt5oRLQTLqzeU1Kv8da+ntrL7hFkz7FwEbYCGgr3QP3pvTgSzhhMwBjrdO1pPQqHaV7uYvbRpUefsdd+Dg20j2NaQs06aGfsBL+nF7SvdRcR5ce9h2Zp0rvLt3fpowmPex4Vp6EfjGS7mZad2u2lh5xG074XECaSHc0l1/q1aTHe9Fd+HxCS78mpdcBu0v3N5cvG+kht+GEv0l/6R7n8qilx1rDCX+dPtLBzeFlLn9NSq9zwaWbdKdz+YJVesQvmQhfieU13UvtivQo1Qtfi6F0N72jIKXvYyPdU+3ahnuAl1+FR3LpJx0OpaMlffBX3oXHYindy9I9pVcxvKb7Wbor0gd+vqZH6aSNdE9Ld036sA9WCXsEYGzp37Wm9GoNZyLdz8X9bvt6DPtglbBjDKW7EF8KUEkfkHzX0oNLX9+NuUsftHhh14BdpFc/0dPD1FvpA57hhb3TRfrtqH7l4ys2e+nDfW1aaJDg0lEARfo4Uzqb0q2ke3prQpE+ypfKhEYB40pfM+JNnGnpBNhdure34zZD+XH+9+d/7s5tuXEQCKJ+UzMx//+7u5SzhbUDEwWrpYahKqk4fjs6g7jOw4hBM13qXsK96TMswT1yNmaMj9Nj02Um5fede23KV1Y9Mpu6DZluoeli14438QpfTFigk7GzTRc4K9Hr06F52v0FPRuVO2xt0wG0lIaq7t/Q2b7zTNc5HONF//4hN6R7h56NGqeZ7rZfiyzCuXJBqvl9B50O/jTT/99+rVLqN3nTBZdkHHR+9z5ueoXdNl0D+950xWk7B50tO9N0lRe7VJozXadzd9D54POI6UIrLUfzfEWutgIXQCeGF/2g6T5MtLCAT/GlaSy6t6HzuY+Z3oMrebNFw3SRcpAv6AK6n2q6xDQdItPHwPOh8223UdOV6//tIjIdA9jp0PkDuGHTlW+ka6X5uUyn635Cnz7Dk9A1fQg8Hzo/zZ/99i5YBDIwfQQ7Hzo/zcN4potM0KYEZzrb9xj6/bbDbGnTC/bQdDZ2D13BdjOm6RJ7KRMC08m6e+gathsyzXSZwzGh6SzsHroQ9b+xsuklEjCd6XTwyBTThQ7HJKBjegD+fuhs4Vumqw7AR8E3TO9yl4FOxf6R6a3PFEvH7BwPC0moQK/caTFser8WvNg4rjr+r73/qiEEnYz9M9MRmK5zPCaha/oevAp0u2LGhmS6zHXTCZjNdP7A3QZNd//Yf1nouukquje9oheDTgaP0kZMtylMR4nQdCTcB93uw25M0wU22JRIPqrpUDSdP3Cnmi6xpy69G69i+v3zs6XRTL9/CJeArumlSUJng1/c9BKh6VCFTvadZroM+ITAdCTIQTc+ddio6ao7KxoRmQ416BfZPmZ654swxVWcyHSIQqfPz9qZpmsWfg3e3iEKnf5OZ8OmYwLT3QYbf5ONJnQyd47pSncTJsxnOh/7un16jdQzvTRR6FzqmWe6yhOQEJmOBBHotv+LC35101/YTzbdni3oE+meOaaLPQVt08fQ47ltLehTYXfzNWuZXpDvdHem/w7717Z1oc/F/XTT1S40SUBg+nHs9txi6BPN15zfp+tN2vb6dIc9zuwXQbdrXupgC5v+HZ+ZnrftKPSZsjzFdJmjMUCnT6+fxJn9Nuhk7iTTha6fxZDp+Nre4vGVf4yZdB8w/cAQTer6WfiKYKgtyuwVeokcxFTMS/zOdCttkj69ckffdA8ez81BP0B9LvA00wGRZ+An0+Eyu4d+DPxkYziG6SYzhCt8Y9NrZo+hX8LdrtDdATvJdKGTcAlA33S4zO6gXya7XZnmVzb9FSkwHTWze+i5tuW6d4rpSjXdE5B6ptfMHpteuOcY+1TQC3ae6fdvqEsA4E33mT02/ZDsU4Ff2vRXeNNdZg9NL225JH+u6YrVJv6wd0Zra8IwGN6ZJTUIit7/pc7iWIT8BJqfQFv9umdjzu3kfd60KYWNTeeVnZv+HrK9rB0bO9OTWNdV5DtVdtn0420H68bd2PQEnnl+sma7MYLp4/FKeUt5hwWb/j90O01nOnosbZ+uZNP/hZAL0HFGdRx+LqqDG2HczvRkHnmmyq43fV2Zz8p2MDE9jbcbsMqumtMH+KVxt5vTFdvyhprrTacPhWRV5R2AsekK7EbI9aaXN7tbzukK7HaVXW/6cIVi8sIO5qbLqzpTzfWmaxZ0eU3u4IowHU9x+YOC6azMm4GHo2wHa9MV6M0qO5nOVBdN91jUNl2gbmu6Ar1ZZSfokaaHFLWmc24X002wU2U3ndM99helrek2Mp3I72Q6VXZr04c/L+ru6zamu3nT6dKgslubPlwV9pSEQya6wnRYmNPBsLLbmz7U+pJmd8jKdKrsO5qOJR6oG4Q3Mz0Mq8pub/pwUdbJKgdZmI6kuRq6yvTnKHJyB3PTwzCo7Aamo2h6aa37DqbD7pWdQ5dND5FNX1HlM9qWd5DqnN5X9nRML8t2gG1NpyuTyq6HHmd6GNPJvqSjFs9sbjqbOAwqu7HpfFlf8gat3nSxtEPM7TQj6PhL0wt7vYGp6fTPGGvOofNw0z1GmB6gm4OH3WTfx3QwRi5DjzIdJ6bTl0tayh9vOlV2S+gr53T67fTLZT0ThTuYDqLm+0BfMp0GM/31SWFrOodgbToIyPeCvmg6X/3RT+Vt2IRYmw5CZd8Numw6DTKdTtIVvl9jZDr8oHmapg/BycoeS+zcTU2nSzooYQpd5s5N52P0LSzz3UUObE3nlf0A6DGmj771VueL425tehhU2Q+BrjZ9CBZ2gDYwsTadKvth0GdNx3nTcRjkPJoEjpjbTU0fV/bkTPdzpvNVQWGvNzA0nVX2Q6HrTX/+KO+hKLAwHaYHJRKAjl5lOqWoY9MOtzadV/YEoK81ne/dlLgp/8wGpsu7MWlAX2P6fLCwm3Dwe9PlI3DpQF8yHefG7g88Q/+TKXfUmk7fE9bsCUEfGK4yPYGlvLnvoDddruwJQafEmo40CtqweQbVczpIa/bkoDOizHQ5O3I3r/Kkr8b0eeTJQWdhpstjD+ww+hWMozFd3mdPETpT/V15KdS1F/QsnAPFnC5X9hShjzI9PrVseomvM4kzHRY0Txf62HQfM7ljcaflAdx60xeRpwv9nSCr9eIg7nbgAUdx9e1+vd6btgKriKbH7cakDZ3ElkxHYTd/F9/hcb0MaTqwCQEWTV+jedrQZ89Gix+yNb9x6oCccqvALLhg+jrkGUAXpBbrAYE3TX0PpK/NrX082ra5G2OXTF+76ZoFdHJ4/kgV/4D4G+7Md82rqD/qIW3A3jqwisOfTY+o7FlAF0K82Qdkupnu1QQ5Yb+2YJcfTcf1jHKBjsJgX6GM6G+O/PZC3tbT3K5P7DUYhnArDjfnAl3IhDUv9Ta6u7ZHfh+Qc+z3GsEupHp0Zc8L+ozpnD7/bON9eRCRhzThjzuwS4Cta83zgs7C6zo3nbIV9qFLu95qIY+G2najJFDZBeiWti+t6WhsVeW7OyGX0gbsN4dgGX86Poeajlx9brpOdr5kr5dC/RuacT+8su8HHaUKjsKJjN/fhatu1KWtxX61WtElUNlTMB3fP2BB/V04eclOkRfy5VX2XaHLNTxk/jSd9lE4IORRaQL2DgALrOxpmE5oZ4Oq1h3kJfuKhTxieZX9AOgSXeSDC7+euh45LeQrBMCyKnsqpg9DjvASG3WXJq/ohv4NS6rs/6AnE1wYnq4Wkcct2eX+DbCgyn4U9PkiLgdH12JjrkfOb8Q8ELGcyp6W6Si7TnO6cM9dvJemx14jAmIZlf1I6BxwhOnCSt7dVF3actvepwjNczN9ar3/1V5MF9e/hRSB/FjovzIdOfbHJWLJXiG6Lq5/Q8y/sh8PXW06q/KxjXkFGFLVsdgxe83TgL7OdGSmj2yvYxrzDmjdF9m/9ckbeRLQV5kuHavzvnshb9Yh79GpsF8f8IKOuVb2tKDrTO8/pXPNEcgp0EX2b32y1TxAP3vvz/04PirToxrzrsIf4rq4/k3m7tPWvIf+jA8J2JNAHzWnO4ZcCiHXYKfzkwgYkmFlf4d+TgJ5tOlxjXmFQlxU2179dx3zquwE/ZkX8UTK/DrTPWyGXNW/DcmqshP0N+7J+s5Mx4eiMRei7N9CMqrsY+gplfl50ym1ArkV9hfyLCo7Qaf0yBMo80umd7q9mOVApenfEHOp7D9Bz8T0m7oxXw5E9W8V9smmshN0Dv58eO+OwlHpxgC5tm0P1DOq7ASdJz3XJ57f23XIPUZE1b+5zDQn6Dwp2P7uO13XoWNaxcSFv2WLvb3ec0P+gp6F7HQ79cl8leaV4mXTioX8tTrllid0IWnI3vtNoq9jXqGnmGJvTrlFhh54p7ZR11yadcjR74O9PeUWBp2DT6PQD6L7y2VFY846AMZ9w7b9lFv+zKMeks6t1z4kuogcp6YrZYfuc6BPkkaRf5neLnVpQnQL+U+FnkaND7ksIpdv0KqwfyT0wD2JtbwM3YnHrqjKR5OvPhR6iE/g3utluTFHGhPe+jJffQZ0/8NHwfSDuV8E5EKqppuevZ2krhawfwL0aRI5Y3OZa8ylhHNV3cKy7npp3UL/9rHQz+cETQcvBZ7IGXTWxTVhfxdk7N3HQjfr3fXQxXfVPC4hd7fQwjXN63Vi8/Fn+GToA24FeBPovLjzc1Vu4f8CbB50HGYcOijhPhr6aGNeHXvodK6KoM/o3rTDcZjuR81Pz3Tth0M/n5M3vWvoGTcBuvcDdHocnVX2U0jdfDz0gF09u9tDp5fPcOg8ATqda2+qSWUP+UIn7poqbw8d6IEngi6laaevg6bK/soXOjtnocBuCN1d6emXGejIoI/PtXdU2V/5Qp+4ruBuCR0I+bLpSNBH2LsJ8k+H7hl4BXZD6Hd6FCK6vNMB52p8uPnToRNtujjQdNacP5k/ah10yn1y0vULnccrXnBgAx3DHkuthk7Uxyddv9DloxbE/Qjo3eXSqqDLJ12/0OXFPGE/AvrtwuDooLffOT1iNU/Yj4B+v9Qq6Dyj+v6FrsZuDx2vzRe6PXQewn4E9NtW0N3pLV/oSznU9DYWOn6h/0+Ct2NWQX98Td8CejKHLVZBr7/QRejGOcT0+9f0v+zdwXKjMAyA4aMwEk5ITN//UTfAEC2Lo7G9BeSgP50eev1GJCoEctF1H+QNXTU6bs7DkWb0p6HvdIwntR/kwNB/vXnSV+qa0AkM/fdj78lfFzoBGHpxmHSUJ2WTDq8Mfbd40sffOvZ0gjFD37Nl0kkH+kJu6PvGR3k6HR2WDD2ejpMxv4lO8M7QDwmX11HoIrmh7xhGvhpDp6DDKkM/KB50OhydYJ2hH9hxk96K5IZ+aHwWjnZFDw6XIFZv6DuFsT8dM+l+uDse803dYOgHh/zaD338/vEHcuxvN0M/OiajPdD5uVoxdPK3V09DPzq+Deke6Mz+8Bv2MN+LyCb9hBZx2gedH6cW4O/4XkSGfkYofPU1E11kvztYcveF3NDPCGmsfNK5wUuNzM9Zs3k/1s/QTw35VYr+THgcdo/QMbmhnx//V74IPe0Buc/3k7gNXUVvcCpBb/sU9oXc0NWEM/30k4uOIelJqRO5oSur/C7QPqUXuaErDJdXJnrrUzJ0pfGlFjno2Bp6xeiUNelcFwy9YnQ+yOegI2Ew9IrRx2bIZHSCV10w9LrRJ/dUdIK5Nhh6xehE6ZNOwDWGXjP6WAo6wSpqDL1ydIqidxFzjpyh14xOjL6OyWOhM/SvQ/+5DYHJY2Ew9C9D99PlMEgg1AWZ1xm62hh9c13EswUhcX9zBFdCBwKqqQg6P1er70Cs+UCOAJdCH6vJPYrO10X8IEhRhD0gjPkLXQI9TXpF7CO6yO4JhDb7W+hgrr/alx2ANLMjcRI6X9cuRk3wS24hv9a3VoFAPztxDz8msw8O5LBrnHMtEnDPy066fveRRm56QG4DeV170rWzOy8k7W9y5egN1FZs0pVvcX6VtL8hpJeK/gWDXuGkU+eFhP1Nrhgdobpikw7KR731XMb+JleK3kJ9fZp01cd4QV3Y3+RS0b/AvMpJJ0KXwT44SKrPR3cENSZOumZ+gb1wf7vnoocK384rnnR4JUx7yf7mhlseeuig1oRJVzvrMCVcF5G/v7l75o2GQpVv5jmTrmuPA65j9vL9bbkfRdqk1/oPmaonHda1GeyP+P7W9RP5nc0l9PrJ0yZd0ds8bGv+b3/Dnm9OkIJe7Uf23ElXc5CHWNSU72/4syEX9/D+Xj95zqSff/IVPlW6v5F/8P3E4iGscjV/fiua9HPZQYpK9rfwL/k3nDbdYdLPYwcxZk/e39ywIf+G06Z/2Dmj3UaBGAD6bZJmG+mk/P+3ns7itEKhK9uhiRc8aiPY9m00AQPi10rn7eIxcLt65rflFXL3MQc4gM9aOkZunrF9eWvgCUNHUPyl877esfP9MJ/I62A+5sExkUVe3tLxYb7t+ud+VucIKN7S31U7fi73fbhyVJbSgZSlE6Fd91A+631TxVq6fkRKpzvKoByi2o9wq9xEL50GwdJ1KY9y8L6F4AgPvjnopS/4S1/+TibnGOe3Mw1q26X3TXfp6ZRD9C1yl2NekBmWjurDf0zXzUTKwTi/HeFRRwOG0pu39GyZK4P57XSn7DAsXXeCpZNKOdCupZzOsHSAWOlkUg4b2s84pdEZlk60dBqJnDOa347wQLOXYekNVKG39FSZKz/Pb0d4oNnPuPT/C/7SaeRRDvD9OPFgvmJUel8kWjp5nANfpVyxlY5qD5VOI4lygMtZB/MV49JXa6HS01S+0C6lHHvpy0ekdF1K4Rx9ndgJB/MVvtIVd+mZlCu3r+s/Lic1jrf0BtHSSaK88JfeiJSeJ/MiVDoES6eUJyFQun6GSqeUpyBWOuvc7aXTKOcfJ1B634mWTikPkaH0wDGdRin/OALR0pVY6eU8RIbSdcNdein/OMJCqPS+aiu9zt9SIDzhLh0wlV5f7EkQUDRWgqU3jKVX5inYp3Sl6eKPpZfyNAhr1Iu79L68XXpdjUmF8EyDWOn6u1V6nbOnQtggWrrubJVeladCGBApvaE/vfRSno6B9FjpytI4dWslJbuX3v+pjuVZEcZESte9urWSF8FAoHSlOs+JQbq/dOrGSmoEGw1L6eV6CqzSPaWX++QIDtRjlT49Zumq0lR6nb9lR3BQx/RjIDgZlF66J8EvvUqfHiFAlT43Qoxn06V9GoRXqNKnRHiVhlLK52GH0uv0bTZelV6BT8jr0usC3HQIxeko6SfkL3t0IAAAAAAgyN96kEsh6UPSh6QPSR+SPiR9SPqQ9CHpQ9KHpA9JH5I+JH1I+pD0IelD0oekD0kfkj4kfUj6kPQh6UPSh6QPSR+SPiR9SPqQ9CHpQ9KHpA9JH5I+JH1I+pD0IelD0oekD0kfkj4kfUj6kPQh6UPSh6QPSR+SPiR9SPqQ9CHpQ9KHpA9JH5I+JH1I+pD0IelD0oekD0kfkj4kfUj6kPQh6UPSh6QPSR+SPiR9SPqQ9CHpQ9KHpA9JH5I+JH1I+pD0IelD0oekD0kfkj4kfUj6kPQh6UPSh6QPSR+SPiR9SPqQ9CHpQ9KHpA9JH5I+JH1I+pD0IelD0oekD0kfkj4kfUj6kPQh6UPSh2qPDo4ABmEgBh4ewJ+4/3Yz1CFtC2s6kOlApgOZDmQ6kOlA+Vowk9WCWbktmJtUC6WSbNdRauc5NS2EqZPkB0LLcMWSeXMJAAAAAElFTkSuQmCC") center / 100% auto no-repeat
-      background-clip: content-box
+      -webkit-mask-image: -webkit-radial-gradient(white, black)
 
       img.post_bg
         display: block
@@ -66,7 +66,6 @@
         border: 0
         transition: all .6s
         object-fit: cover
-        border-radius: 8px
 
         &:hover
           transform: scale(1.1)
@@ -77,12 +76,14 @@
       padding: 0 40px
       width: 55%
 
+      &.no-cover
+        width: 100%
+
       & > .article-title
         display: -webkit-box
         overflow: hidden
         margin-bottom: .3rem
-        color: $black
-        text-decoration: none
+        color: $font-black
         text-overflow: ellipsis
         word-wrap: break-word
         font-size: 1.2rem
@@ -94,36 +95,42 @@
         &:hover
           color: $light-blue !important
 
-      & > time
-        color: $grey
+      & > .article-meta-wrap
+        font-size: 95%
 
-      & > .article-meta
-        color: $grey
+        & > time
+          color: $theme-meta-color
+          cursor: pointer
+
+        & > .article-meta
+          color: $theme-meta-color
 
         .sticky
-          color: $theme-button-hover-color
+          color: $sticky-color
 
         i
-          margin: 0 .2rem 0 .3rem
+          margin: 0 .2rem 0 0
 
-        .article-meta__separator
-          margin-left: .3rem
+        .article-meta__separator,
+        .article-meta__link
+          margin: 0 .3rem
 
         .fa-angle-right
-          margin: 0 0 0 .3rem
+          margin: 0 .3rem
 
-        a.article-meta__categories
-          color: #858585
-          text-decoration: none
+        a.article-meta__categories,
+        a.article-meta__tags
+          color: $theme-meta-color
 
           &:hover
-            color: #49b1f5 !important
+            color: $light-blue !important
+            text-decoration: underline
 
       & > .content
         display: -webkit-box
         overflow: hidden
-        margin-top: .5rem
-        height: 90px
+        margin-top: .3rem
+        // height: 85px
         word-break: break-word
         -webkit-line-clamp: 3
         -webkit-box-orient: vertical
@@ -133,12 +140,11 @@
   a
     display: inline-block
     padding: 0 .4rem
-    text-decoration: none
     cursor: pointer
     transition: all .3s
 
     &:hover
-      color: $ruby !important
+      color: $theme-button-hover-color !important
       transform: scale(1.1)
 
   &__title
@@ -148,40 +154,29 @@
   &-tags
     text-align: center
 
-#tag,
-#category,
-#archive
-  padding: 3rem
-
-.tag-cloud,
-#page,
-.category-content,
-.flink
-  padding: 40px 44px 44px
-
-#page,
-.category-content,
-#archive,
-.tag-cloud,
-.flink,
-#tag,
-#category
-  margin-top: 20px
-  width: 75%
+.layout_post > #post,
+.layout_page > div:first-child:not(.recent-posts)
+  padding: 50px 40px
   border-radius: 8px
-  background: $white
+  background: $card-bg
   box-shadow: 0 4px 8px 6px rgba(7, 17, 27, .06)
   transition: all .3s
 
   &:hover
     box-shadow: 0 4px 12px 12px rgba(7, 17, 27, .15)
 
+.layout_page
+  & > div:first-child:not(.recent-posts)
+    width: 75%
+
 .article-sort
+  margin-left: .5rem
   padding-left: 1rem
-  border-left: 2px solid $pale-blue
+  border-left: 2px solid lighten($light-blue, 20)
 
   &-title
     position: relative
+    margin-left: .5rem
     padding-bottom: 1.2rem
     padding-left: 1rem
     font-size: 1.2rem
@@ -189,7 +184,7 @@
 
     &:hover
       &:before
-        border-color: $ruby
+        border-color: $theme-button-hover-color
 
     &:before
       position: absolute
@@ -200,7 +195,7 @@
       height: h = w
       border: .5 * w solid $light-blue
       border-radius: w
-      background: $white
+      background: $card-bg
       content: ''
       line-height: h
       transition: all .2s ease-in-out
@@ -212,17 +207,19 @@
       z-index: 0
       width: .1rem
       height: 1.3rem
-      background: $pale-blue
+      background: lighten($light-blue, 20)
       content: ''
 
   &-item
     position: relative
     margin: 0 0 1rem .5rem
+    width: 100%
+    height: 80px
     transition: all .2s ease-in-out
 
     &:hover
       &:before
-        border-color: $ruby
+        border-color: $theme-button-hover-color
 
     &:before
       $w = .3rem
@@ -233,12 +230,22 @@
       height: h = w
       border: .5 * w solid $light-blue
       border-radius: w
-      background: $white
+      background: $card-bg
       content: ''
       line-height: h
       transition: all .2s ease-in-out
 
+    &.no-article-cover
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+      .article-sort-post
+        padding: 0
+        width: 100%
+
     &.year
+      height: auto
       font-size: 1rem
 
       &:hover
@@ -247,17 +254,15 @@
 
       &:before
         top: .7rem
-        border-color: $ruby
+        border-color: $theme-button-hover-color
 
     &__time
       padding-left: .4rem
-      color: $a-link-color
       font-size: .7rem
 
     &__title
       display: -webkit-box
       overflow: hidden
-      height: 60px
       color: $font-black
       font-size: .75rem
       transition: all .3s
@@ -265,7 +270,7 @@
       -webkit-box-orient: vertical
 
       &:hover
-        color: $light-blue
+        color: $light-blue !important
         transform: translateX(20px)
 
     &__img
@@ -280,23 +285,21 @@
           transform: scale(1.1)
 
     &__post
-      text-decoration: none
-      cursor: pointer
+      color: $theme-meta-color
 
       &:hover
-        color: $a-link-color
+        color: $theme-meta-color
 
   &-img
-    display: inline-block
+    float: left
     overflow: hidden
     width: 80px
     height: 80px
 
   &-post
-    position: absolute
-    top: 0
     display: inline-block
-    margin-left: 1rem
+    padding: 0 1rem
+    width: calc(100% - 80px)
 
 .category-lists
   padding: 1rem 0 1.5rem
@@ -308,12 +311,11 @@
 .category-list
   a
     color: $font-black
-    text-decoration: none
     cursor: pointer
 
   .category-list-count
     margin-left: .4rem
-    color: $a-link-color
+    color: $theme-meta-color
 
     &:before
       content: '('
@@ -321,19 +323,19 @@
     &:after
       content: ')'
 
+// 隱藏aside
+.hide-aside
+  max-width: 1000px
+
+  & > div
+    width: 100% !important
+
 @media screen and (max-width: $sm)
   .layout_page
-    padding: 0 5px !important
+    padding: 1rem 5px !important
 
-  #page,
-  .category-content,
-  #archive,
-  .tag-cloud,
-  .flink,
-  #tag,
-  #category
-    margin: 0
-    padding: 1.8rem 1.3rem
+    & > div:first-child:not(.recent-posts)
+      padding: 1.8rem .7rem
 
   .category-lists
     padding: 0
@@ -351,17 +353,17 @@
 
       .recent-post-info
         order: 2 !important
-        padding: 30px 25px 18px !important
+        padding: 1rem 1rem 1.5rem
         width: 100%
+
+        &.no-cover
+          padding: 1.5rem 1rem
 
         .article-title
           font-size: 1rem
 
-        .article-meta.tags
-          display: none
-
-      &:first-child
-        margin: 0
+        .content
+          height: auto
 
 @media screen and (min-width: 900px)
   if hexo-config('aside.position') == 'left'
@@ -370,17 +372,17 @@
     .category-content,
     #archive,
     .tag-cloud,
-    .flink,
     #tag,
     #category
       order: 2
 
 @media screen and (max-width: 900px)
-  #page,
-  .category-content,
-  #archive,
-  .tag-cloud,
-  .flink,
-  #tag,
-  #category
-    width: 100% !important
+  .layout_page
+    & > div:first-child:not(.recent-posts)
+      width: 100% !important
+
+// ie10-ios11使用
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+  .recent-post-info
+    .content
+      height: 90px
