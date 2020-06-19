@@ -10,4 +10,4 @@ $ hexo new <title>       # 创建新文章
 提交代码至远程仓库，自动完成部署。
 
 ### 主题
-[hexo-theme-butterfly](https://jerryc.me/posts/21cfbf15/)
+[hexo-theme-butterfly](https://demo.jerryc.me/)
