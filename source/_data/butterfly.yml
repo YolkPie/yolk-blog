@@ -5,12 +5,12 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  首页: / || iconfont iconshouye
-  文章: /archives/ || iconfont iconwenzhang
-  标签: /tags/ || iconfont iconbiaoqian
-  分类: /categories/ || iconfont iconfenlei
-  相关链接: /link/ || iconfont iconlianjie
-  关于我们: /about/ || iconfont iconguanyuwomen
+  首页: / || fas fa-home
+  文章: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  相关链接: /link/ || fas fa-link
+  关于我们: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
