@@ -741,7 +741,7 @@ inject:
   head:
     - <link rel="stylesheet" href="https://at.alicdn.com/t/font_1638514_cadwssqh3zv.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - <div style="display:none"><script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1279214088&web_id=1279214088"></script></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
