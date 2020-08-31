@@ -6,8 +6,8 @@ tags:
 - React
 - Redux
 categories: Redux
-cover: https://img11.360buyimg.com/imagetools/jfs/t1/129896/39/8643/18432/5f4c6616E70a0d79f/4726b7fd0f2a1e84.jpg
-top_img: https://img12.360buyimg.com/imagetools/jfs/t1/142354/30/7170/74136/5f4c660dE5bfbb699/00859843d6cef29f.png
+cover: https://img12.360buyimg.com/imagetools/jfs/t1/142354/30/7170/74136/5f4c660dE5bfbb699/00859843d6cef29f.png
+top_img: https://img11.360buyimg.com/imagetools/jfs/t1/129896/39/8643/18432/5f4c6616E70a0d79f/4726b7fd0f2a1e84.jpg
 ---
 
 ### 1.核心概念
