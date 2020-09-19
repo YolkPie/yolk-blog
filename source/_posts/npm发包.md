@@ -36,7 +36,7 @@ cover: https://m.360buyimg.com/img/jfs/t1/140402/22/8997/490/5f659cc4E83d34415/c
 
 + 点击个人头像 -> Packages, 可查看自己已发布的所有包 (如图)
 
-#### ![](npm-3.png)
+#### ![](npm-3.jpg)
 
 
 
