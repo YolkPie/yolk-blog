@@ -5,7 +5,6 @@ tags:
 - 单元测试
 - Jest
 categories: 测试
-author: 崔梦林
 keywords: Jest,单元测试
 description: Jest,单元测试
 cover: https://img14.360buyimg.com/imagetools/jfs/t1/112099/34/10664/24933/5eec71feE440de023/e1c745c1ec75aebb.jpg
