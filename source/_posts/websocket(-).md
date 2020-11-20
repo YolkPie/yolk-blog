@@ -5,7 +5,7 @@ cover: "https://m.360buyimg.com/img/jfs/t1/150391/7/7970/9687/5fb7ae0dEe8c94509/
 ---
 
 
-#WebSocket(-)
+## WebSocket(-)
 
 ### 简介
 WebSocket protocol是HTML5一种新的协议。它实现了浏览器与服务器全双工通信(full-duplex)。一开始的握手需要借助HTTP请求完成。
