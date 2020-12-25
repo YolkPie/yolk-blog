@@ -1,11 +1,11 @@
 ---
-title: WebSocket(一)
+title: WebSocket
 date: 2020-11-20 20:00:09
 cover: "https://m.360buyimg.com/img/jfs/t1/150391/7/7970/9687/5fb7ae0dEe8c94509/0363e802babbf257.png"
 ---
 
 
-## WebSocket(-)
+## WebSocket
 
 ### 简介
 WebSocket protocol是HTML5一种新的协议。它实现了浏览器与服务器全双工通信(full-duplex)。一开始的握手需要借助HTTP请求完成。
@@ -47,6 +47,14 @@ WebSocket是类似Socket的TCP长连接的通讯模式，一旦 WebSocket 连接
 - 可以发送文本，也可以发送二进制数据。
 - 没有同源限制，客户端可以与任意服务器通信。
 - 协议标识符是ws（如果加密，则为wss），服务器网址就是 URL
+
+### 保持连接+心跳
+WebSocket为了保持客户端、服务端的实时双向通信，需要确保客户端、服务端之间的TCP通道保持连接没有断开。然而，对于长时间没有数据往来的连接，如果依旧长时间保持着，可能会浪费包括的连接资源。
+但不排除有些场景，客户端、服务端虽然长时间没有数据往来，但仍需要保持连接。这个时候，可以采用心跳来实现。
+发送方->接收方：ping
+接收方->发送方：pong
+ping、pong的操作，对应的是WebSocket的两个控制帧，opcode分别是0x9、0xA。
+举例，WebSocket服务端向客户端发送ping，只需要如下代码（采用ws模块）
 
 ### 主要Api
 #### 构造函数
