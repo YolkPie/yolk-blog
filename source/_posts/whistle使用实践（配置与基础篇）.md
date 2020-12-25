@@ -1,5 +1,5 @@
 ---
-title: whistle使用实践
+title: whistle使用实践（配置与基础篇）
 date: 2020-12-22 10:00:00
 tags:
 - whistle
@@ -43,7 +43,7 @@ $ npm install -g whistle
 ``` js 
 whisle -V 
 ```
-如果能正确输出whislte的版本信息，就表示安装成功了。之后可通过help命令查看帮助信息：
+如果能正确输出whistle的版本信息，就表示安装成功了。之后可通过help命令查看帮助信息：
 
 ``` js
 whistle help
@@ -136,7 +136,7 @@ w2 stop
 
 # 安装https证书
 
-关闭防火墙或者给whsitle设置了白名单之后，如果whislte的设置页面可以正常打开，这表示说我们可以代理http请求了。
+关闭防火墙或者给whsitle设置了白名单之后，如果whistle的设置页面可以正常打开，这表示说我们可以代理http请求了。
 
 如果你的页面和接口全部是http请求，就可以忽略安装https证书的这一步了。但现实是除了本地或者预发环境，我们很难找到不是https的了（很多预发环境也是https的），因此还是建议提前把证书装上。
 如果你的环境中出现了以下情况（当然，没有装好证书的话这些情况基本都会出现的），就是https证书没有安装或者没装好：
@@ -164,10 +164,12 @@ w2 stop
 
 > 上面的配置完成之后，如果https的请求还是不能正常访问或者还是出现安全提醒，可以重新打开浏览器访问或者重启下whistle。whistle官网给出的解释是如果之前访问过该页面，导致长链接已建立，所以我们之后的配置是不生效的。
 
-# 准备知识
- 虽然我会按照具体的使用场景来介绍whistle的使用方法，但是在此之前，我们有必要对whistle控制台的功能划分和whisle的配置方式做一下简单的了解。
+# 基础
+ 虽然在[whistle使用实践（实例篇）]中我会按照具体的使用场景来详细介绍whistle的使用方法，但是在此之前，我们有必要对whistle控制台的功能划分和whisle的配置方式做一下简单的了解。
+
 ## 控制台
-whislte控制台的打开方式上文我们已经说过了，这里不再重复。
+
+whistle控制台的打开方式上文我们已经说过了，这里不再重复。
 whistle控制台核心部分的分区如下（[whistle界面详细列表点这里]（http://wproxy.org/whistle/webui/））：
 ![控制台划分](https://img10.360buyimg.com/imagetools/jfs/t1/148002/26/19653/283807/5fe1ad39E16b9900c/30e8246cd6654f05.jpg)
 
@@ -198,9 +200,21 @@ pattern operatorURI
 pattern operatorURI1 operatorURI2 operatorURIN
 ```
 
+在简单了解了配置方式之后，我们就可以按照```pattern operatorURI```的模式为whsitle添加规则了。
+还是再回到whsitle控制台的界面，选中Rules。我们可以像使用SwitchHosts软件管理hosts一样对规则进行分组管理。默认情况下，whistle只有一个Default的分组，如下：
+![default分组](https://img14.360buyimg.com/imagetools/jfs/t1/138559/4/19993/221408/5fe313e6Edf676254/32de4c9528b8bba0.jpg)
+
+我们可以点击Create按钮添加一个单品页的分组，在这个分组里可以加上所有与单品页相关的配置（如果要禁用某个配置，可以使用Ctrl + /的快捷键，或者直接在前面加#）
+![添加分组](https://img13.360buyimg.com/imagetools/jfs/t1/141428/28/19593/327919/5fe313f4E0b32f1ba/7e624a7cbb37d9bf.jpg)
+
+如果要配置的分组生效，需要双击左侧单品页的tab，出现对号就表示生效了，没有在使用的分组是没有对号的，也可以同时使用多个分组。
+![分组生效](https://img13.360buyimg.com/imagetools/jfs/t1/155210/10/11166/324076/5fe313efE0b194f99/f694ed08e697dcb6.jpg)
+
 ### 匹配模式pattern
+
 whistle的匹配模式分为以下几种：
 1. 域名匹配：域名匹配不仅支持匹配某个域名，也可以限定端口号、协议
+
 ``` js
 // 匹配www.domain.com域名下的所有请求，包括http、https、ws、wss，tunnel
 www.domain.com operatorURI
@@ -276,22 +290,42 @@ $www.domain.com:81/path operatorURI
 
 ### 操作值operatorURI
 
-（待补充）
+whistle官网将whsitle的操作值分为字符串和JSON对象两种。本文按照配置方式的不同，将whislte的操作值分为两种：带空格的和不带空格的。
+- 带空格：带空格的字符串和保留缩进格式的JSON对象
+- 不带空格：不带空格的字符串和序列化了的不带空格的JSON对象
 
-## 添加与管理规则Rules
-在简单了解了pattern和operatorURI之后，我们就可以按照```pattern operatorURI```的模式为whsitle添加规则了。
-还是再回到控制台的界面，选中Rules。我们可以像使用S
-SwitchHosts软件管理hosts一样对规则进行分组管理。默认情况下，whistle只有一个Default的分组，如下：
-![default分组](https://img14.360buyimg.com/imagetools/jfs/t1/138559/4/19993/221408/5fe313e6Edf676254/32de4c9528b8bba0.jpg)
+不带空格的操作值可以直接在operatorURI中写入，模式为```pattern opProtocol://(strValue)```，注意字符串必须要用括号包裹：
 
-我们可以点击Create按钮添加一个单品页的分组，在这个分组里可以加上所有与单品页相关的配置（如果要禁用某个配置，可以使用Ctrl + /的快捷键，或者直接在前面加#）
-![添加分组](https://img13.360buyimg.com/imagetools/jfs/t1/141428/28/19593/327919/5fe313f4E0b32f1ba/7e624a7cbb37d9bf.jpg)
+``` js
+// 将符合pattern的url的返回内容用helloworld代替
+pattern resBody://(helloworld)
+```
 
-如果要配置的分组生效，需要双击左侧单品页的tab，出现对号就表示生效了，没有在使用的分组是没有对号的，也可以同事使用多个分组。
-![分组生效](https://img13.360buyimg.com/imagetools/jfs/t1/155210/10/11166/324076/5fe313efE0b194f99/f694ed08e697dcb6.jpg)
+带空格的操作值需要将操作值保存在Values或者本地文件中。
+1. 保存在Values中
+在whsitle控制台中打开Values标签，点击Create，增加名称为test.json的操作值，并在右侧编辑test.json的内容，可按照```pattern opProtocol://{valueName}```来使用，注意value名称是用打括号包裹的，如下：
+
+![添加values](https://img13.360buyimg.com/imagetools/jfs/t1/143992/4/19957/246593/5fe4336cEc5199118/8e955d43a329167f.jpg)
+
+``` js
+// 将符合pattern的url的返回内容用test.json文件中的内容代替
+pattern resBody://{test.json}
+```
+> 增加的操作值的名称是按照自己的需求取的，后缀名也是非必填的。使用后缀名的话会按照对应的格式高亮展示，不使用的话默认文本格式展示
+
+2. 保存在本地文件中
+首先我们先在本地新建一个test1.json的文件，然后在whsitle控制台中点击Files标签
+![点击Files](https://img11.360buyimg.com/imagetools/jfs/t1/156829/15/1850/248324/5fe447e0E52edb3cb/b36938896694268c.jpg)
+
+按照步骤选中创建的test1.json文件，whsitle会生成一个path，我们可以按照这个路径来使用
+![选中](https://img14.360buyimg.com/imagetools/jfs/t1/150822/27/12260/330508/5fe4483eEab5a4da3/0d2527e32c231d94.jpg)
+
+``` js
+// 将符合pattern的url的返回内容用test.json文件中的内容代替
+pattern resBody:///$whistle/test1.json
+```
 
 
-未完待续。。。
 
 
 
