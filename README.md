@@ -15,8 +15,8 @@ $ hexo new <title>       # 创建新文章
 ```
 
 ### 发布
-* 提交代码至远程仓库master分支，自动完成部署。
-* 打开[travis-ci](https://travis-ci.com/github/YolkPie/)，选择相应的项目，点击`restart build`
+* 提交代码至远程仓库master分支，travis-ci会自动完成部署。
+* 如果自动部署没有成功，可打开[travis-ci](https://travis-ci.com/github/YolkPie/)，选择相应的项目，点击`restart build`进行手动部署。
 
 ### 主题
 [hexo-theme-butterfly](https://demo.jerryc.me/)
