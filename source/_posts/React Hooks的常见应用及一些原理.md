@@ -7,9 +7,12 @@ author: 7Hua
 keywords: Hooks
 description: React团队希望，组件不要变成复杂的容器，最好只是数据流的管道，开发者可以根据需要组合管道。
 ---
-# React Hooks的常见应用及一些原理
-
 ## 类组件（class）
+
+类组件的缺点：
+- 大型组件很难拆分和重构，也很难测试
+- 业务逻辑分散在组件的各个方法中，导致重复逻辑或关联逻辑
+- 组件类引入复杂的编程模式，比如render、props
 
 ```js
 import React, { Component } from "react";
@@ -31,11 +34,6 @@ export default class Button extends Component {
   }
 }
 ```
-类组件的缺点：
-- 大型组件很难拆分和重构，也很难测试
-- 业务逻辑分散在组件的各个方法中，导致重复逻辑或关联逻辑
-- 组件类引入复杂的编程模式，比如render、props
-
 ----
 
 ## 函数组件
