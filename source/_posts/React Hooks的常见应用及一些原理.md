@@ -1,3 +1,12 @@
+---
+title: React Hooks的常见应用及一些原理
+date: 2020-02-04 16:44:07
+tags: Hooks
+categories: React
+author: 7Hua
+keywords: Hooks
+description: React团队希望，组件不要变成复杂的容器，最好只是数据流的管道，开发者可以根据需要组合管道。
+---
 # React Hooks的常见应用及一些原理
 
 ## 类组件（class）
