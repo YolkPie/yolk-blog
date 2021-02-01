@@ -6,7 +6,7 @@
 $ npm install hexo-cli -g
 $ npm install
 # 需要安装hexo-theme-butterfly主题，否则打开是空白页
-$ git clone -b 3.0.0-rc1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+$ git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
 ```
 #### 开发
 ```shell
