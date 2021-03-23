@@ -42,7 +42,7 @@ compiler.plugin(someHook, (res) => {
 ```
 #####  常用钩子介绍
 * **entryOption**：在 webpack 选项中的 entry 被处理过之后调用
-* afterPlugins：在初始化内部插件集合完成设置之后调用，回调参数 context 和 entry
+* **afterPlugins**：在初始化内部插件集合完成设置之后调用，回调参数 context 和 entry
 * **compilation**：compilation 创建之后，输出 asset 之前执行。回调参数：compilation
 * **emit**：输出 asset 到 output 目录之前执行。回调参数：compilation
 * **afterEmit**：输出 asset 到 output 目录之后执行。回调参数：compilation
