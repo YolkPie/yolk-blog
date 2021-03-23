@@ -11,19 +11,21 @@ cover: https://img13.360buyimg.com/imagetools/jfs/t1/156873/8/16203/7614/6051ba1
 top_img: https://img10.360buyimg.com/imagetools/jfs/t1/130200/34/17431/262954/5fc092d7E0b54491c/bb832c9742a8f536.png
 ---
 ### 前言
-webpack 自身会提供一些基础插件，比如分析、压缩、html、 provider等。有时，我们还需要自定义一些插件，来满足我们日常开发需要。下面介绍如何自定义 webpack 插件。
+webpack 自身会提供一些基础插件，比如压缩、生成 html 文件、预加载等。有时，我们需要利用 webpack 提供的不同阶段钩子来做一些定制化功能的插件，以满足我们的业务需求，比如代码检查、打包后的文件处理(添加、删除、更改)。下面介绍如何自定义 webpack 插件。
 
 ### 插件基本结构
 自定义插件大概包含以下几个步骤：
-* webpack 插件其实就是一个构造函数，所以要先定义一个类函数；
-* 在构造函数的原型上定义 apply 方法，传入 compiler 对象；
+* webpack 插件其实就是一个构造函数，所以要先定义一个类函数；  
+`function TestPlugin() {}`
+* 在构造函数的原型上定义 apply 方法，在安装插件时，apply 方法会被 Webpack compiler 调用。apply 方法可以接收一个 Webpack compiler 对象的引用；  
+`TestPlugin.prototype.apply = function(compiler) {}`
 * 通过 compiler 对象，可以插入指定的事件钩子；
-* 在钩子回调中，可以拿到 compilation 对象，使用 compilation 操纵修改webapack内部实例数据；
+* 在钩子回调中，可以拿到 compilation 对象，使用 compilation 操纵修改 webpack 内部实例数据，其也提供了事件回调钩子；
 * 实现功能后，调用 Webpack 提供的 callback  
 
 那 compiler 对象和 compilation 对象是什么呢？
-* compiler 对象 包含webpack的所有配置信息（webpack.config.js），包括 options，loader 和 plugin，包括作为 webpack 的实例在启动时被初始化。
-* compilation 对象 包含当前的模块资源、编译生成资源、变化的文件、以及被跟踪依赖的状态信息。当文件发生变化，就会有一个新的 compilation。compilation 对象也提供了许多事件回调钩子
+* compiler 对象，包含了 webpack 的所有配置信息（webpack.config.js），包括 options，loader 和 plugin。该对象在启动 Webpac时被创建
+* compilation 对象，代表一次资源版本的构建，包含了当前的模块资源、编译生成的资源、变化的文件以及依赖等信息。文件发生变化时，都会创建一个新的 compilation 对象，从而生成一组新的编译资源。compilation 对象也提供了许多事件回调钩子
 
 #### compiler 钩子
 ##### 钩子的用法
@@ -33,21 +35,18 @@ webpack 自身会提供一些基础插件，比如分析、压缩、html、 prov
 compiler.hooks.someHook.tap('MyPlugin', (res) => {
   /* ... */
 })
-// webpack 2
+// webpack 2/3
 compiler.plugin(someHook, (res) => {
   /* ... */
 })
 ```
 #####  常用钩子介绍
-* environment 在编译器准备环境时调用，时机就在配置文件中初始化插件之后
-* afterEnvironment 当编译器环境设置完成后，在 environment hook 后直接调用
-* entryOption 在 webpack 选项中的 entry 被处理过之后调用
-* afterPlugins 在初始化内部插件集合完成设置之后调用，回调参数 context 和 entry
-* afterCompile compilation 结束和封印之后执行。回调参数：compilation
-* emit 输出 asset 到 output 目录之前执行。回调参数：compilation
-* afterEmit 输出 asset 到 output 目录之后执行。回调参数：compilation
-* done 在 compilation 完成时执行。回调参数：stats
-* failed 在 compilation 失败时调用。回调参数：error  
+* **entryOption**：在 webpack 选项中的 entry 被处理过之后调用
+* afterPlugins：在初始化内部插件集合完成设置之后调用，回调参数 context 和 entry
+* **compilation**：compilation 创建之后，输出 asset 之前执行。回调参数：compilation
+* **emit**：输出 asset 到 output 目录之前执行。回调参数：compilation
+* **afterEmit**：输出 asset 到 output 目录之后执行。回调参数：compilation
+* **done**：在 compilation 完成时执行。回调参数：stats
 
 全部 compiler 钩子用法请见 [compiler 钩子](https://webpack.docschina.org/api/compiler-hooks/)
 
@@ -59,17 +58,17 @@ compiler.plugin(someHook, (res) => {
 compilation.hooks.someHook.tap('MyPlugin', (res) => {
   /* ... */
 })
-// webpack 2
+// webpack 2/3
 compilation.plugin(someHook, (res) => {
   /* ... */
 })
 ```
 #####  常用钩子介绍
-* buildModule 在模块构建开始之前触发，可以用来修改模块。
-* rebuildModule 在重新构建一个模块之前触发。
-* failedModule 模块构建失败时执行。
-* succeedModule 模块构建成功时执行。
-* finishModules 所有模块都完成构建并且没有错误时执行。  
+* buildModule：在模块构建开始之前触发，可以用来修改模块。
+* rebuildModule：在重新构建一个模块之前触发。
+* finishModules：所有模块都完成构建并且没有错误时执行。
+* seal：compilation 对象停止接收新的模块时触发，不再接收任何模块，进入编译封闭阶段
+* additionalAssets：为 compilation 创建额外 asset，可以加入一些自定义资源
 
 全部 compilation 钩子用法请见 [compilation 钩子](https://webpack.docschina.org/api/compilation-hooks/)
 
@@ -123,7 +122,7 @@ class TestBuildPlugin {
         compiler.plugin('emit', this.emitFn.bind(this))
       }
       if (compiler.hooks) {
-        // 生成资源到output目录之前
+        // 生成资源到output目录之后
         compiler.hooks.done.tap('TestBuildPlugin', this.doneFn.bind(this))
       } else { // 版本适配
         compiler.plugin('done', this.doneFn.bind(this))
@@ -132,8 +131,6 @@ class TestBuildPlugin {
   }
   // emit 钩子的回调函数
   emitFn(compilation, callback) {
-    // console.error(new Error(''));
-    // process.exit(1)
     const assets = compilation.assets || {}
     const assetsArr = Object.keys(assets)
     if (assets && assetsArr && assetsArr.length) {
