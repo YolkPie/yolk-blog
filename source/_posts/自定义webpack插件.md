@@ -99,7 +99,7 @@ module.exports = {
 ```
 ### 插件示例
 下面介绍的自定义的TestBuildPlugin插件，该插件是代码打包检查工具，通过一些简单的配置，在打包的过程中检查，检查webpack的配置项是否正确，打包后的代码是否符合要求。
-**TestBuildPlugin 插件代码**
+#### TestBuildPlugin 插件代码
 ```js
 const path = require('path')
 const resolvePath = dir => path.join(path.resolve('./'), dir)
@@ -268,7 +268,18 @@ class TestBuildPlugin {
 
 module.exports = TestBuildPlugin
 ```
-**.testBuildConfig.js配置打包时的检查项**
+#### TestBuildPlugin 插件的使用
+**安装**
+```
+npm install --save-dev test-build-plugin
+```
+**使用**  
+1）在项目的根目录中建立.testBuildConfig.js  
+2）在.testBuildConfig.js配置打包时的检查项
+* options：webpack 打包配置项，用来检查打包的入口和出口等配置正确；
+* codeRules.mustHave：用来配置必须有的代码，test: 检测的范围；val: 代码；
+* 用来配置必须禁止的代码，test: 检测的范围；val: 代码
+
 ```js
 const path = require('path')
 const resolvePath = dir => path.join(__dirname, dir)
@@ -287,7 +298,7 @@ module.exports = {
     // 用来配置必须有的代码，test: 检测的范围；val: 代码
     mustHave: [{
       test: /index\.html$/,
-      val: ['abcdefg']
+      val: ['必须有的代码']
     }],
     // 用来配置必须禁止的代码，test: 检测的范围；val: 代码
     mustForbidden: [{
@@ -295,5 +306,19 @@ module.exports = {
       val: ['beta-api.m.jd.com']
     }]
   }
+}
+```
+3）项目中引用
+```js
+const TestBuildPlugin = require('test-build-plugin')
+
+config.plugins.push(
+  new TestBuildPlugin()
+)
+```
+4）在打包指令中添加testBuild=1，比如：
+```
+"scripts": {
+   "build:testBuild": "testBuild=1 node build/build.js"
 }
 ```
