@@ -2,6 +2,7 @@
 title: 导出GIF图的4种方式
 date: 2021-03-25 19:33:00
 author: 李黎
+cover: https://m.360buyimg.com/img/jfs/t1/171467/38/14741/297322/605c7e67Ea63c37b4/1070442a8ebcf2bb.png
 ---
 ### 前言
 
