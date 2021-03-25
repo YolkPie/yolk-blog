@@ -11,11 +11,10 @@ cover: https://m.360buyimg.com/img/jfs/t1/156694/16/17976/4358/605c7d52Edbdb2a53
 
 Nginx 是一个高性能的 HTTP 和反向代理服务器，特点是占用内存少，并发能力强，事实上 Nginx 的并发能力确实在同类型的网页服务器中表现较好。Nginx 专为性能优化而开发，性能是其最重要的要求，十分注重效率，有报告 Nginx 能支持高达 50000 个并发连接数。
 
-
-## 1、Nginx 知识网结构图
+## Nginx 知识网结构图
 ![Nginx 知识网结构图](struct.jpg "Nginx 知识网结构图")
 
-## 2、Nginx专业术语
+## Nginx专业术语
 ![Nginx 专业术语](640.gif "Nginx 专业术语")
 Nginx 的基本特性是代理，所以你一定要明白什么是代理和反向代理。
 #### 正向代理与反向代理
@@ -73,7 +72,7 @@ Nginx 的基本特性是代理，所以你一定要明白什么是代理和反�
 ![Nginx 动静分离后](after-split.jpg "Nginx 动静分离后")
 
 
-## 3、Nginx安装
+## Nginx安装
 #### Windows 安装
 下载地址：http://nginx.org/en/download.html
 下载后，解压，直接运行nginx.exe即可
@@ -101,7 +100,7 @@ $ nginx -h
 $ nginx -c file name 
 # brew 安装默认位置： /opt/homebrew/etc/nginx
 ```
-## 4、Nginx配置
+## Nginx配置
 场景一： 我们将在一个公共端口上运行两个文件夹，并设置我们想要的规则
 本地目录结构
 ```js
