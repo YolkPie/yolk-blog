@@ -1,3 +1,9 @@
+---
+title: Nginx基础知识
+date: 2021-03-25 19:33:00
+author: zjk537
+cover: https://m.360buyimg.com/img/jfs/t1/156694/16/17976/4358/605c7d52Edbdb2a53/b95b369946c69565.webp
+---
 ![Nginx](nginx.webp "Nginx")
 ## Nginx 学习手册
 什么是Nginx
