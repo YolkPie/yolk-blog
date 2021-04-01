@@ -400,7 +400,7 @@ clip-path 另外一个强大之处在于可以进行 CSS transtion 与 CSS anima
 
 看一个多边形的过渡切换动画。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/SMw0rcHsoNKx4Cz1QzFjDVdxgHG7lN03iclweBjarRiazbCPfbII7E7qica6E1X6kP9W4V7fKyFo7L2Mwia9toLbEw/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+<!-- ![](https://mmbiz.qpic.cn/mmbiz_gif/SMw0rcHsoNKx4Cz1QzFjDVdxgHG7lN03iclweBjarRiazbCPfbII7E7qica6E1X6kP9W4V7fKyFo7L2Mwia9toLbEw/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1) -->
 
 [多边形过渡动画](https://codepen.io/Chokcoco/pen/LLNWyZ)
 
@@ -409,7 +409,7 @@ clip-path 另外一个强大之处在于可以进行 CSS transtion 与 CSS anima
 
 除此之外，我们还可以尝试，将一个完整的图形，分割成多个小图形，这也是 clip-path 的魅力所在，纯 CSS 的图形变换：
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/SMw0rcHsoNKx4Cz1QzFjDVdxgHG7lN03tXLng1lZbHedTcbOz5NQHbEsKuuYudPJoFhSPCkS4KGrfg3icy7EGhA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+<!-- ![](https://mmbiz.qpic.cn/mmbiz_gif/SMw0rcHsoNKx4Cz1QzFjDVdxgHG7lN03tXLng1lZbHedTcbOz5NQHbEsKuuYudPJoFhSPCkS4KGrfg3icy7EGhA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1) -->
 
 [Clip-path triangle2rect](https://codepen.io/Chokcoco/pen/yXOjZm)
 
@@ -433,7 +433,7 @@ clip-path 动画虽然美好，但是存在一定的局限性，那就是进行�
 
 随机生成 N（N>=1000）边形，进行变换，会是什么效果呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/SMw0rcHsoNKx4Cz1QzFjDVdxgHG7lN03M4hdQL0rVKicwdOxhiatG4zXsSR2bhSao1enTMkWE5zSibUCJic5DxZgSg/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+<!-- ![](https://mmbiz.qpic.cn/mmbiz_gif/SMw0rcHsoNKx4Cz1QzFjDVdxgHG7lN03M4hdQL0rVKicwdOxhiatG4zXsSR2bhSao1enTMkWE5zSibUCJic5DxZgSg/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1) -->
 
 [2000边形过渡动画](https://codepen.io/Chokcoco/pen/XgJRzO)
 
@@ -441,7 +441,7 @@ clip-path 动画虽然美好，但是存在一定的局限性，那就是进行�
 
 在 [VUE官网](https://vuefe.cn/v2/guide/transitioning-state.html#动态状态转换)，有下面这样一个例子，一个规则的多边形进行不断的过渡动画，非常酷炫：
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/SMw0rcHsoNKx4Cz1QzFjDVdxgHG7lN03LcKsAibKWfl4O1G0ssmZkeeAMa1IkZZN5WBCIakURiaSIF3Yg8sJQic6w/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+<!-- ![](https://mmbiz.qpic.cn/mmbiz_gif/SMw0rcHsoNKx4Cz1QzFjDVdxgHG7lN03LcKsAibKWfl4O1G0ssmZkeeAMa1IkZZN5WBCIakURiaSIF3Yg8sJQic6w/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1) -->
 
 
 使用 CSS clip-path 实现：
