@@ -7,8 +7,8 @@ categories: react
 author: 马金坤
 keywords: react, 源码
 description: 在react-native项目中实现沉浸式标题栏
-cover: react_small.jpeg
-top_img: react_big.jpeg
+cover: https://img12.360buyimg.com/imagetools/jfs/t1/192410/37/8360/23491/60c9b074Ea765d291/3e52890e0c12a36e.jpg
+top_img: https://img10.360buyimg.com/imagetools/jfs/t1/171645/8/14914/73312/60c9b074Efb29a81e/efd6e5e2b4a4eb99.jpg
 ---
 react源码版本是17.0.2
 ## 1. react 入口
