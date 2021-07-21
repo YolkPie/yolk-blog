@@ -209,8 +209,8 @@ inline-block 的基线是正常流中（非float/absolute/fixed/html根节点）
 
 数值类百分比类的定义如下：
 
-- <length>: 使元素的基线对齐到父元素的基线之上的给定长度。可以是负数
-- <percentage>: 使元素的基线对齐到父元素的基线之上的给定百分比，该百分比是line-height属性的百分比。可以是负数。
+- length: 使元素的基线对齐到父元素的基线之上的给定长度。可以是负数
+- percentage: 使元素的基线对齐到父元素的基线之上的给定百分比，该百分比是line-height属性的百分比。可以是负数。
 
 理解了 baseline 之后，这部分已经很简单了，就是在 baseline 的基础上加上偏移。有时候我们要把文字或图片上下调几个像素的时候会使用 relative + top 来处理，这种情况下可以考虑用 vertical-align 来代替。
 
