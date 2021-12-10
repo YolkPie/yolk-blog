@@ -105,3 +105,15 @@ search:
   path: search.xml
   field: post
   content: true
+
+menu:
+  首页: / || fas fa-home
+  文章: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+social:
+  fab fa-github: https://github.com/YolkPie
+  fas fa-envelope: mailto:jdfe@jd.com
