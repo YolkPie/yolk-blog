@@ -1,7 +1,9 @@
 ---
 title: 从头认识JavaScript的事件循环模型
 date: 2022-03-29 10:24:27
-tags:
+tags: 
+author: 李珍改
+keywords: javaScript 事件循环
 ---
 ## 1. Js的运行机制
 
