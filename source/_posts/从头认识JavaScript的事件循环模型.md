@@ -114,7 +114,7 @@ console.log(a+b)
 
 ## 2. JavaScript的运行模型
 
-<img src="/Users/lizhengai/Documents/工作总结/学习总结/javaScript图片/图1.jpg" alt="图1" style="zoom:50%;" />
+<img src="https://storage.360buyimg.com/imgtools/a1a529f04e-3bf838b0-b161-11ec-8683-c927b3f1a8c6.jpeg" alt="图1" style="zoom:50%;" />
 
 ##### 从代码片段开发分析
 
@@ -140,11 +140,11 @@ task4()
 
 我们创建了四个函数代表4个任务，函数本身都是同步代码。在执行的时候会按照1，2，3，4进行解析，解析过程中我们发现任务2和3被setTimout进行了定时托管，这样就只能先运行任务1和4了。当任务1和4运行完毕后500毫秒运行3，1000毫秒运行2
 
-<img src="/Users/lizhengai/Documents/工作总结/学习总结/javaScript图片/图2.jpg" alt="图2" style="zoom:50%;" />
+<img src="https://storage.360buyimg.com/imgtools/cdeec850a2-3c18b900-b161-11ec-a458-c9435a018ef2.jpeg" alt="图2" style="zoom:50%;" />
 
 当同步任务都执行完成时，执行异步任务
 
-<img src="/Users/lizhengai/Documents/工作总结/学习总结/javaScript图片/图3.jpg" alt="图3" style="zoom:50%;" />
+<img src="https://storage.360buyimg.com/imgtools/1290bbc2ec-3c3086c0-b161-11ec-959c-2fe702378bf4.jpeg" alt="图3" style="zoom:50%;" />
 
 
 
@@ -186,10 +186,10 @@ task1执行完毕
 */
 ```
 
-<img src="/Users/lizhengai/Documents/工作总结/学习总结/javaScript图片/图4.jpg" alt="图4" style="zoom:50%;" />
+<img src="https://storage.360buyimg.com/imgtools/01700b68e4-3c4a0230-b161-11ec-9ed1-037dfb80dc64.jpeg" alt="图4" style="zoom:50%;" />
 
-<img src="/Users/lizhengai/Documents/工作总结/学习总结/javaScript图片/图5.jpg" alt="图5" style="zoom:50%;" />
+<img src="https://storage.360buyimg.com/imgtools/f486882aa1-3c5f10d0-b161-11ec-9d07-ab60e8bbdfd2.jpeg" alt="图5" style="zoom:50%;" />
 
-<img src="/Users/lizhengai/Documents/工作总结/学习总结/javaScript图片/图6.jpg" alt="图6" style="zoom:50%;" />
+<img src="https://storage.360buyimg.com/imgtools/a739ab5b30-3c772cb0-b161-11ec-a00f-2d8c7a1a309d.jpeg" alt="图6" style="zoom:50%;" />
 
-<img src="/Users/lizhengai/Documents/工作总结/学习总结/javaScript图片/图7.jpg" alt="图7" style="zoom:50%;" />
+<img src="https://storage.360buyimg.com/imgtools/864cc9341b-3c8fe4d0-b161-11ec-a458-c9435a018ef2.jpeg" alt="图7" style="zoom:50%;" />
