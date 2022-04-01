@@ -3,10 +3,8 @@ title: node-schedule 简介
 date: 2022-03-31 20:10:00
 tags:
 - Node.js
-cover: http://img.nodejs.cn/logo.svg
+cover: https://img10.360buyimg.com/imagetools/jfs/t1/214300/20/16409/19531/6246526aE89199487/1fdac97752cc8d5c.jpg
 ---
-
-# 
 
 用Node.js写代码时，可以使用node-schedule来实现定时任务的功能，比如定时获取数据、定时发送报警信息等。node-schedule 是 Node.js 中专门处理定时任务的模块，可以根据配置，按照指定时间执行任务。需要注意的是 node-schedule 是基于时间而不是基于时间间隔的，比如 node-schedule 支持在每小时的0、20、40分钟执行，但是如果你想要从现在开始每二十分钟执行一次的话，建议考虑别的模块。
 
