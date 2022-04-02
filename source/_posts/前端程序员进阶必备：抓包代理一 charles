@@ -1,0 +1,42 @@
+---
+title: 前端程序员进阶必备：抓包代理一 charles抓包
+date: 2022-03-30 10:24:27
+tags: 
+author: 李珍改
+keywords: 抓包 代理 charles
+---
+## 前端程序员进阶必备：抓包代理一 charles抓包
+
+> 什么是抓包，为什么要抓包，不用多讲，大家都已经很清楚了
+
+抓包代理可以说是前端同学的日常必备了，尤其是在我开始接触RN项目开发的时候，不会抓包真的感两眼抹黑，编码无力。下面就介绍一下我常用的几款抓包工具
+
+1、charles
+
+2、whistle
+
+3、fillder
+
+
+
+本次先介绍Charles
+
+
+
+一、下载charles包
+
+https://www.charlesproxy.com/download/
+
+二、安装证书
+
+​	1. 电脑安装SSL证书
+
+​			Charles－》Help－》SSL Proxying－》Install Charles Root
+
+![img](https://upload-images.jianshu.io/upload_images/17053865-cb4dee283eb7a355.gif)
+
+​	2. 浏览器安装ssl证书
+
+​			Charles－》Help－》SSL Proxying－》Install Charles Root Certificate on a Mobile
+
+![img](https://upload-images.jianshu.io/upload_images/17053865-e3c5db5c9a789ada.gif)
