@@ -1,3 +1,11 @@
+---
+title: js执行顺序
+date: 2022-04-26 15:26:47
+tags:
+- git
+
+author: 7
+---
 首先来看一道常见的面试题
 ```javascript
     async function async1() {

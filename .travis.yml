@@ -9,9 +9,6 @@ before_install:
 install:
   - npm install
 script:
-  - git clone -b 3.0.0-rc1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
-  - cp -rf source/img/* themes/Butterfly/source/img/
-  - hexo clean
   - hexo g
 after_success:
   - git config --global user.name "${U_NAME}"
