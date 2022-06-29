@@ -272,7 +272,7 @@ webpack-dev-server 提供了一个基本的 web server，并且具有实时重�
   
 ```
 npm install --save-dev webpack-dev-server
-```  
+```
 
 - 修改开发环境配置文件 webpack.dev.js：
   
