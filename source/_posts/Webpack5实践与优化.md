@@ -1,3 +1,8 @@
+---
+title: Webpack5
+date: 2022-07-01 10:00:00
+---
+
 # Webpack5简单介绍
 Webpack 5 发布于 2020年10月10日，Webpack 5 对Node.js 的版本要求至少是10.13.0 (LTS)。
 有以下特点：
