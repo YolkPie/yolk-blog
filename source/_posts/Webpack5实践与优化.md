@@ -30,6 +30,7 @@ Webpack 5 发布于 2020年10月10日，Webpack 5 对Node.js 的版本要求至�
 - 封装编译、打包命令。
 
 ### 开始新建
+
 ```
 // 初始化项目
 npm init -y
@@ -43,6 +44,7 @@ touch hello.js
 ```
 
 index.js
+
 ```
 import './hello.js'
 
@@ -50,6 +52,7 @@ console.log('index')
 ```
 
 hello.js
+
 ```
 console.log('hello webpack')
 ```
@@ -58,10 +61,12 @@ console.log('hello webpack')
 #### node（版本有要求）
 
 #### webpack
+
 ```
 npm install webpack webpack-cli --save-dev
 ```
 #### 新建配置文件
+
 ```
 // 创建 config 目录
 mkdir config
@@ -79,7 +84,9 @@ touch webpack.dev.js
 touch webpack.prod.js
 ```
 ##### webpack-merge
+
 使用 webpack-marge 合并通用配置和特定环境配置。
+
 ```
 // 安装
 npm i webpack-merge -D
@@ -99,12 +106,12 @@ const common = require('./webpack.common')
 
 module.exports = merge(common, {}) // 暂不添加配置
 ```
-
 #### 入口（entry）
 入口起点(entry point) 指示 webpack 应该使用哪个模块来作为构建其内部依赖图(dependency graph) 的开始。进入入口起点后，webpack会找出有哪些模块和库是入口起点（直接和间接）依赖的。
 
 在此例中，使用 src/index.js 作为项目入口，webpack 以 src/index.js 为起点，查找所有依赖的模块。
 修改 webpack.commom.js：
+
 ```
 module.exports = merge(common, {
   // 入口
@@ -113,7 +120,6 @@ module.exports = merge(common, {
   },
 })
 ```
-
 #### 输出（output)
 
 输出（output)告诉 webpack 在哪里输出它所创建的 bundle，以及如何命名这些文件。
@@ -121,6 +127,7 @@ module.exports = merge(common, {
 生产环境的 output 需要通过 contenthash 值来区分版本和变动，可达到清缓存的效果，而本地环境为了构建效率，则不引人 contenthash。
 
 新增 paths.js，封装路径方法：
+
 ```
 const fs = require('fs')
 const path = require('path')
@@ -134,6 +141,7 @@ module.exports = {
 ```
 
 修改开发环境配置文件 webpack.dev.js：
+
 ```
 module.exports =  merge(common, {
   // 输出
@@ -181,6 +189,7 @@ module.exports =  merge(common, {
 |production|会将 DefinePlugin 中 process.env.NODE_ENV 的值设置为 production。为模块和 chunk 启用确定性的混淆名称。|
 
 修改开发环境配置文件 webpack.dev.js：
+
 ```
 module.exports =  merge(common, {
   // 开发模式
@@ -189,6 +198,7 @@ module.exports =  merge(common, {
 ```
 
 修改开发环境配置文件 webpack.prod.js：
+
 ```
 module.exports =  merge(common, {
   // 生产模式
@@ -202,6 +212,7 @@ module.exports =  merge(common, {
 为了更容易地追踪 error 和 warning， source map 可以将编译后的代码映射回原始源代码。
 
 修改开发环境配置文件 webpack.dev.js：
+
 ```
 module.exports =  merge(common, {
   // 开发工具，开启 source map，编译调试
@@ -218,12 +229,15 @@ source map 还有许多其他 [可用选项](https://webpack.docschina.org/confi
 `npx webpack --config config/webpack.prod.js` 后生成了 bundle.js，我们需要一个 HTML5 文件，用来动态引入打包生成的 bundle 文件。
 
 引入 HtmlWebpackPlugin 插件，生成一个 HTML5 文件， 其中包括使用 script 标签的 body 中的所有 webpack 包。
+
 - 安装
+  
 ```
 npm install --save-dev html-webpack-plugin
 ```
 
 - 修改通用环境配置文件 webpack.commom.js：
+  
 ```
 module.exports = {
   plugins: [
@@ -237,6 +251,7 @@ module.exports = {
 
 执行 `npx webpack --config config/webpack.prod.js`
 生成了 index.html，动态引入了 bundle.js 文件：
+
 ```
 <!DOCTYPE html>
 <html>
@@ -249,17 +264,18 @@ module.exports = {
  <body></body>
 </html>
 ```
-
 #### DevServer
 在每次编译代码时，手动运行 npx webpack --config config/webpack.prod.js 会显得很麻烦， webpack-dev-server 帮助我们在代码发生变化后自动编译代码。
 
 webpack-dev-server 提供了一个基本的 web server，并且具有实时重新加载功能。
 - 安装
+  
 ```
 npm install --save-dev webpack-dev-server
 ```  
 
 - 修改开发环境配置文件 webpack.dev.js：
+  
 ```
 module.exports = merge(common, {
   devServer: {
@@ -274,10 +290,13 @@ module.exports = merge(common, {
 通过 cross-env 配置环境变量，区分开发环境和生产环境。
 
 - 安装
+  
 ```
 npm install --save-dev cross-env
 ```
+
 - 修改 package.json：
+  
 ```
 {
     "scripts": {
@@ -308,6 +327,7 @@ npm install --save-dev cross-env
 在 webpack 5 中，可以使用内置的 [资源模块（Asset Modules）](https://webpack.docschina.org/guides/asset-modules/) ，将 images 图像混入我们的系统中。
 
 修改通用环境配置文件 webpack.commom.js：
+
 ```
 const { resolveApp } = require('./paths');
 module.exports = {
@@ -355,6 +375,7 @@ style-loader 用于将 CSS 插入到 DOM 中，通过使用多个 <style></style
 css-loader 对 @import 和 url() 进行处理，就像 js 解析 import/require() 一样，让 CSS 也能模块化开发。
 
 - 安装相关依赖：
+  
 ```
 npm install --save-dev style-loader css-loader
 ``` 
@@ -387,6 +408,7 @@ Sass 是一款强化 CSS 的辅助工具，它在 CSS 语法的基础上增加�
 sass-loader 加载 Sass/SCSS 文件并将他们编译为 CSS。
 
 - 安装相关依赖：
+  
 ```
 npm install --save-dev sass-loader sass
 ```
@@ -422,11 +444,13 @@ PostCSS 是一个用 JavaScript 工具和插件转换 CSS 代码的工具。
 postcss-loader 使用 PostCSS 处理 CSS 的 loader。
 
 - 安装相关依赖
+  
 ```
 npm install --save-dev postcss-loader postcss postcss-preset-env
 ```
 
 - 修改通用环境配置文件 webpack.commom.js：
+  
 ```
 const { resolveApp } = require('./paths');
 module.exports = {
@@ -478,11 +502,13 @@ module.exports = {
 #### 使用 React + TypeScript
 
 - 安装 React 相关
+  
 ```
 npm i react react-dom @types/react @types/react-dom -D
 ```
 
 - 安装 TypeScript 相关：
+  
 ```
 npm i -D typescript esbuild-loader
 ```
@@ -572,11 +598,13 @@ module.export = {
 #### 引入 react-refresh-webpack-plugin
 
 - 安装
+  
 ```
 npm install -D @pmmmwh/react-refresh-webpack-plugin react-refresh
 ```
 
 - 修改 webpack.dev.js 配置：
+  
 ```
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
@@ -651,6 +679,7 @@ module.exports = {
 ##### alias
 alias 可以创建 import 或 require 的别名，用来简化模块引入。
 webpack.common.js 配置方式如下：
+
 ```
 module.exports = {
     resolve: {
@@ -669,6 +698,7 @@ extensions 表示需要解析的文件类型列表。
 由于 <font color='red'>webpack 的解析顺序是从左到右</font>，因此要将使用频率高的文件类型放在左侧，如下我将 tsx 放在最左侧。
 
 webpack.common.js 配置方式如下：
+
 ```
 module.exports = {
     resolve: {
@@ -682,6 +712,7 @@ modules 表示 webpack 解析模块时需要解析的目录。
 
 指定目录可缩小 webpack 解析范围，加快构建速度。
 webpack.common.js 配置方式如下：
+
 ```
 module.exports = {
     modules: [
@@ -695,6 +726,7 @@ module.exports = {
 通过 [thread-loader](https://webpack.docschina.org/loaders/thread-loader/#root) 将耗时的 loader 放在一个独立的 worker 池中运行，加快 loader 构建速度。
 
 - 安装：
+  
 ```
 npm i -D thread-loader
 ```  
@@ -758,6 +790,7 @@ webpack5 自带最新的 terser-webpack-plugin，无需手动安装。
 > terser-webpack-plugin 默认开启了 parallel: true 配置，并发运行的默认数量： os.cpus().length - 1 ，本文配置的 parallel 数量为 4，使用多进程并发运行压缩以提高构建速度。
 
 webpack.prod.js 配置方式如下：
+
 ```
 const TerserPlugin = require('terser-webpack-plugin');
 module.exports = {
@@ -795,11 +828,13 @@ module.exports = {
 使用 [CssMinimizerWebpackPlugin](https://webpack.docschina.org/plugins/css-minimizer-webpack-plugin/#root) 压缩 CSS 文件。
 
 - 安装
+  
 ```
 npm install -D css-minimizer-webpack-plugin
 ```
 
 - webpack.prod.js 配置方式如下：
+  
 ```
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
@@ -858,11 +893,13 @@ module.exports = {
 如果 CSS 是放在 JS 文件中，[MiniCssExtractPlugin](https://webpack.docschina.org/plugins/mini-css-extract-plugin/) 插件将 CSS 提取到单独的文件中，为每个包含 CSS 的 JS 文件创建一个 CSS 文件，并且支持 CSS 和 SourceMaps 的按需加载。
 
 - 安装：
+  
 ```
 npm install -D mini-css-extract-plugin
 ```
 
 - webpack.common.js 配置方式如下：
+  
 ```
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
@@ -935,6 +972,7 @@ module.exports = {
 
 ###### webpack5 sideEffects
 通过 package.json 的 "sideEffects" 属性，来实现这种方式。
+
 ```
 {
   "name": "your-project",
@@ -956,6 +994,7 @@ module.exports = {
 使用 [purgecss-webpack-plugin](https://github.com/FullHuman/purgecss/tree/main/packages/purgecss-webpack-plugin) 对 CSS Tree Shaking。
 
 - 安装：
+  
 ```
 npm i purgecss-webpack-plugin -D
 ```
@@ -1102,6 +1141,7 @@ module.exports = HelloAsyncPlugin;
 
 #### tapPromise
 当我们用 tapPromise 方法来绑定插件时，_必须_返回一个 pormise ，异步任务完成后 resolve 。
+
 ```
 class HelloAsyncPlugin {
   apply(compiler) {
