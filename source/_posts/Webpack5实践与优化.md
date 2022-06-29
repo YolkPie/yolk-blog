@@ -378,7 +378,7 @@ css-loader 对 @import 和 url() 进行处理，就像 js 解析 import/require(
   
 ```
 npm install --save-dev style-loader css-loader
-``` 
+```
 
 - 修改通用环境配置文件 webpack.commom.js：
   
@@ -729,7 +729,7 @@ module.exports = {
   
 ```
 npm i -D thread-loader
-```  
+```
 
 webpack.common.js 配置方式如下：
 
