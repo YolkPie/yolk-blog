@@ -16,6 +16,6 @@ jobs:
     steps:
       - run: |
               pwd
-              cd /
+              cd ..
               ls -al
  
