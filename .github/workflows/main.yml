@@ -22,6 +22,8 @@ jobs:
             hexo g
     - name: Push Build
       run: |
+            git remote rm origin
+            git remote add origin https://github.com/YolkPie/yolkpie.github.io.git
             git config --global --replace-all user.name "${{secrets.U_NAME}}"
             git config --global --replace-all user.email "${{secrets.U_EMAIL}}"
             git config --global --replace-all user.password "${{secrets.U_PASSWORD}}"
