@@ -22,9 +22,9 @@ jobs:
             hexo g
     - name: Push Build
       run: |
-            git config --global (--replace-all) user.name "${{secrets.U_NAME}}"
-            git config --global (--replace-all) user.email "${{secrets.U_EMAIL}}"
-            git config --global (--replace-all) user.password "${{secrets.U_PASSWORD}}"
+            git config --global --replace-all user.name "${{secrets.U_NAME}}"
+            git config --global --replace-all user.email "${{secrets.U_EMAIL}}"
+            git config --global --replace-all user.password "${{secrets.U_PASSWORD}}"
             git clone "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}"
             Copy-Item "public\*" "yolkpie.github.io\" -Recurse -Force
             cd ./yolkpie.github.io
