@@ -15,5 +15,6 @@ jobs:
 
     steps:
       - run: |
-              ls
+              cd /
+              ls -al
  
