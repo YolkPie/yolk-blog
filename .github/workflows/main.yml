@@ -22,15 +22,5 @@ jobs:
             hexo g
     - name: Push Build
       run: |
-            git config --global user.name "${{secrets.U_NAME}}"
-            git config --global user.email "${{secrets.U_EMAIL}}"
-            git config --global user.password 1234wbzd
-            git clone "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}"
-            Copy-Item "public\*" "yolkpie.github.io\" -Recurse -Force
-            cd ./yolkpie.github.io
-            git add .
-            git commit -m 'travis-ci auto build yolk-blog'
-            git remote remove origin
-            git remote add origin git@github.com:YolkPie/yolkpie.github.io.git
-            git push origin "${{secrets.P_BRANCH}}"
-            echo Hello, world123!
+            ssh-keygen -t rsa -C "it_zdh@163.com"
+
