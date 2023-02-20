@@ -8,5 +8,5 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Push Build
-    - run: ssh-keygen -t rsa -b 4096 -C ${{secrets.U_EMAIL}} -f ~/.ssh/id_rsa -N ''
+      run: ssh-keygen -t rsa -b 4096 -C ${{secrets.U_EMAIL}} -f ~/.ssh/id_rsa -N ''
 
