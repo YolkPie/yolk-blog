@@ -28,6 +28,8 @@ jobs:
             git clone "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}"
             Copy-Item "public\*" "yolkpie.github.io\" -Recurse -Force
             cd ./yolkpie.github.io
+            git config --global credential.helper "!aws codecommit credential-helper $@" 
+            git config --global credential.UseHttpPath true
             git add .
             git commit -m 'travis-ci auto build yolk-blog'
             git push origin "${{secrets.P_BRANCH}}"
