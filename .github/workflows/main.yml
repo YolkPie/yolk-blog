@@ -1,21 +1,22 @@
-name: build-blog CI
-
+name: CI
 on:
   push:
     branches: [ master ]
-
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.18.3]
-
+    name: Build
+    runs-on: windows-latest
     steps:
-      - run: |
-              pwd
-              cd ..
-              ls -al
- 
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: Install Node.js, NPM and Yarn
+      uses: actions/setup-node@v1
+      with:
+          node-version: 12.18.3
+    - name: Install Dependencies
+      run: |
+            npm i
+    - name: Electron Build
+      run: |
+            npm install hexo-cli -g
+            hexo g
