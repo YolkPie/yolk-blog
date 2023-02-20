@@ -30,6 +30,5 @@ jobs:
             cd ./yolkpie.github.io
             git add .
             git commit -m 'travis-ci auto build yolk-blog'
-            git remote add origin https://${{secrets.U_NAME}}:1234wbzd@github.com/YolkPie/yolkpie.github.io.git
             git push origin "${{secrets.P_BRANCH}}"
             echo Hello, world123!
