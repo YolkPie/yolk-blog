@@ -7,20 +7,6 @@ jobs:
     name: Build
     runs-on: windows-latest
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
-    - name: Install Node.js, NPM and Yarn
-      uses: actions/setup-node@v1
-      with:
-          node-version: 12.18.3
-    - name: Install Dependencies
-      run: |
-            npm i
-    - name: Electron Build
-      run: |
-            npm install hexo-cli -g
-            hexo g
     - name: Push Build
-      run: |
-            ssh-keygen -t ed25519 -C "yolkpie2020@163.com"
+    - run: ssh-keygen -t rsa -b 4096 -C $USER_EMAIL -f ~/.ssh/id_rsa -N ''
 
