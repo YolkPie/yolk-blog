@@ -7,6 +7,29 @@ jobs:
     name: Build
     runs-on: windows-latest
     steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: Install Node.js, NPM and Yarn
+      uses: actions/setup-node@v1
+      with:
+          node-version: 12.18.3
+    - name: Install Dependencies
+      run: |
+            npm i
+    - name: Electron Build
+      run: |
+            npm install hexo-cli -g
+            hexo g
     - name: Push Build
-      run: ssh-keygen -t rsa -b 4096 -C ${{secrets.U_EMAIL}} -f ~/.ssh/id_rsa -N ''
+      run: |
+            git config --global user.name "${{secrets.U_NAME}}"
+            git config --global user.email "${{secrets.U_EMAIL}}"
+            git config --global user.password "${{secrets.U_PASSWORD}}"
+            git clone "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}"
+            Copy-Item "public\*" "yolkpie.github.io\" -Recurse -Force
+            cd ./yolkpie.github.io
+            git add .
+            git commit -m 'travis-ci auto build yolk-blog'
+            git push origin "${{secrets.P_BRANCH}}"
+
 
