@@ -15,12 +15,26 @@ jobs:
           node-version: 12.18.3
     - name: Install Dependencies
       run: |
+            npm i
+    - name: Electron Build
+      run: |
+            npm install hexo-cli -g
+            hexo g
+
+    - name: Push Build
+      run: |
             git remote rm origin
             git remote add origin https://github.com/YolkPie/yolkpie.github.io.git
             git config --global user.name yolkpie2020
             git config --global user.email yolkpie2020@163.com
             git config --global user.password 1234wbzd
+            git clone "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}"
             git config --list
+            Copy-Item "public\*" "yolkpie.github.io\" -Recurse -Force
+            cd ./yolkpie.github.io
+            git add .
+            git commit -m 'travis-ci auto build yolk-blog'
+            git push origin "${{secrets.P_BRANCH}}"
             
 
 
