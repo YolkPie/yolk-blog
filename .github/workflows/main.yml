@@ -28,6 +28,7 @@ jobs:
             git config --global user.name yolkpie2020
             git config --global user.email yolkpie2020@163.com
             git config --global user.password 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
+            git config user.password
             git clone "https://oauth2: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@github.com/YolkPie/yolkpie.github.io.git"
             git config --list
             Copy-Item "public\*" "yolkpie.github.io\" -Recurse -Force
