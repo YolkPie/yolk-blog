@@ -15,7 +15,10 @@ jobs:
           node-version: 12.18.3
     - name: Install Dependencies
       run: |
-            git config --list
+            git config --global user.name "${{secrets.U_NAME}}"
+            git config --global user.email "${{secrets.U_EMAIL}}"
+            git config --global user.password "${{secrets.U_PASSWORD}}"
+            echo git config --list
 
 
 
