@@ -24,7 +24,7 @@ jobs:
     - name: Push Build
       run: |
             git remote rm origin
-            git remote add origin https://github.com/YolkPie/yolkpie.github.io.git
+            git remote add origin git@github.com:YolkPie/yolkpie.github.io.git
             git config --global user.name yolkpie2020
             git config --global user.email yolkpie2020@163.com
             git clone "https://oauth2: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@github.com/YolkPie/yolkpie.github.io.git"
