@@ -15,10 +15,13 @@ jobs:
           node-version: 12.18.3
     - name: Install Dependencies
       run: |
+            git remote rm origin
+            git remote add origin https://github.com/YolkPie/yolkpie.github.io.git
             git config --global user.name yolkpie2020
             git config --global user.email yolkpie2020@163.com
             git config --global user.password 1234wbzd
             git config --list
+            
 
 
 
