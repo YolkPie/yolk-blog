@@ -11,7 +11,7 @@ top_img: https://img10.360buyimg.com/imagetools/jfs/t1/3527/34/19935/156961/6413
 
 Babel 是我们开发中都会用到但都不太关注的一个工具，我们大概都知道，现在我们可以按照新的 js 语法写代码而不用担心适配问题，是因为 Babel 将我们的 js 转换成了可以适配低版本浏览器的代码，但如何在项目中配置 Babel、配置时该使用哪种类型的 Babel等类似的问题，仍旧会困扰我们。
 
-## Babel 是什么
+# Babel 是什么
 
 babel /ˈbeɪbl/ 是巴别塔（也叫通天塔）的意思，来自圣经中的典故：当时人类联合起来兴建希望能通往天堂的高塔，为了阻止人类的计划，上帝让人类说不同的语言，使人类相互之间不能沟通，计划因此失败，人类自此各散东西。这座塔就是巴别塔。
 
@@ -25,7 +25,7 @@ Babel 是什么？下面是 Babel 官网的说明：
 
 下面举一个简单的例子。
 我们常用的箭头函数在 IE 浏览器中是不支持的：
-![arrow function 兼容性](https://img11.360buyimg.com/imagetools/jfs/t1/105639/36/35437/189721/640f1443F8b937953/e153d1e68f989c56.png)
+![arrow function 兼容性](https://img13.360buyimg.com/imagetools/jfs/t1/170159/30/35510/189721/6413cca1F096d4e0f/379b2194edaba841.png)
 
 下面这段代码在 IE 11 中运行时会报语法错误：
 ``` js
@@ -39,41 +39,40 @@ Babel 是什么？下面是 Babel 官网的说明：
         return a + b;
     };
 ```
-
-Babel 的用途如下：
-1. 将代码转成 ES5 语法
-- 转译 esnext、typescript、flow 等代码到目标环境支持的 js，并且还可以把目标环境不支持的 api 进行 polyfill。
-
-2. 特定用途的转换，转成特定目标代码
-babel 是一个转译器，暴露了很多 api，用这些 api 可以完成代码到 AST 的 parse，AST 的转换，以及目标代码的生成，开发者可以用它来来完成一些特定用途的转换
-- 比如函数插桩（函数中自动插入一些代码，例如埋点代码、代码覆盖率统计)
-- 自动国际化
-- default import 转 named import 等
-- 现在比较流行的小程序转译工具 taro，就是基于 babel 的 api 来实现的
-- prettier体系中，用于格式化 js 文件的功能，用的就是babel 的 api
-
-3. 分析代码信息，做静态检查
-对代码进行 parse 之后，能够进行转换，是因为通过 AST 的结构能够理解代码。理解了代码之后，除了进行转换然后生成目标代码之外，也同样可以用于分析代码的信息，进行一些检查。
-- linter 工具
-就是分析 AST 的结构，对代码规范进行检查。
-最常见的就是 eslint，但是eslint支持除babel parser之外的其他parser，默认的是
-- api 文档自动生成工具
-可以提取源码中的注释，然后生成文档。比如jsdoc
-- type checker
-会根据从 AST 中提取的或者推导的类型信息，对 AST 进行类型是否一致的检查，从而减少运行时因类型导致的错误。
-- 压缩混淆工具
-这个也是分析代码结构，进行删除死代码、变量名混淆、常量折叠等各种编译优化，生成体积更小、性能更优的代码。
-- js 解释器
-除了对 AST 进行各种信息的提取和检查以外，我们还可以直接解释执行 AST。也就是在js 运行时，递归遍历ast节点，根据不同的节点类型，执行对应的操作。
-
-Babel 的版本如下：
+# Babel 的版本
 - 2014，6to5 发布
 - 2015-02-15，6to5重命名为 babel
 - 2015-03-31，babel 5.0发布
 - 2015-10-30，babel 6.0发布
 - 2018-08-27, babel 7.0发布，目前最新版本是 7.21.0
 
-## Babel 的使用
+# Babel 的执行步骤
+
+Babel 的执行分为三个步骤：
+![babel 执行过程](https://img10.360buyimg.com/imagetools/jfs/t1/162023/30/36116/8517/6413d03fF1443b593/d95a3a2e61c2e339.png)
+
+# Babel 可以做什么
+
+1. 将代码转成 ES5 语法
+- 转译 esnext、typescript、flow 等代码到目标环境支持的 js，并且还可以把目标环境不支持的 api 进行 polyfill。
+
+2. 特定用途的转换，转成特定目标代码
+babel 是一个转译器，暴露了很多 api，用这些 api 可以完成代码到 AST 的 parse，AST 的转换，以及目标代码的生成，开发者可以用它来来完成一些特定用途的转换
+- 比如函数插桩（函数中自动插入一些代码，例如[埋点代码](https://blog.csdn.net/weixin_44800563/article/details/125726496)、代码覆盖率统计)
+- [自动国际化](https://juejin.cn/post/7128724544717586468)
+- default import 转 named import 等
+- 现在比较流行的小程序转译工具 taro，就是基于 babel 的 api 来实现的
+- prettier体系中，用于格式化 js 文件的功能，用的就是babel 的 api
+
+3. 分析代码信息，做静态检查
+对代码进行 parse 之后，能够进行转换，是因为通过 AST 的结构能够理解代码。理解了代码之后，除了进行转换然后生成目标代码之外，也同样可以用于分析代码的信息，进行一些检查。
+- linter 工具：分析 AST 的结构并对代码规范进行检查（最常见的是 eslint）。
+- api 文档自动生成工具：可以提取源码中的注释，然后生成文档（比如jsdoc）。
+- type checker：会根据从 AST 中提取的或者推导的类型信息，对 AST 进行类型是否一致的检查，从而减少运行时因类型导致的错误。
+- 压缩混淆工具：这个也是分析代码结构，进行删除死代码、变量名混淆、常量折叠等各种编译优化，生成体积更小、性能更优的代码。
+- js 解释器：除了对 AST 进行各种信息的提取和检查以外，我们还可以直接解释执行 AST。也就是在 js 运行时，递归遍历ast节点，根据不同的节点类型，执行对应的操作。
+
+# 使用 Babel
 
 使用 Babel 时，有以下三种方式：
 
@@ -81,18 +80,17 @@ Babel 的版本如下：
 2. 使用命令行 (babel 提供的 @babel/cli)
 3. 作为构建工具的插件 (webpack 的 babel-loader, rollup 的 rollup-plugin-babel)
 
-第 2 种和第 3 种是工作中常见的，但其本质都是调用的 babel 的内核。我们先从第 1 种使用方式说起。
+第 2 种和第 3 种是工作中常见的，但其本质都是调用的 babel 的内核。我们先来了解下如何直接使用 babel 的核心库来实现代码编译以及如何使用 Babel 的插件等。
 
-### Babel 的执行过程
+## 直接使用
 
-![babel 执行过程](https://img2020.cnblogs.com/blog/1009080/202007/1009080-20200724232941806-120750017.png)
-
-Babel 的执行分为三个步骤：
 1. parse: 通过 @babel/parser 解析代码，生成抽象语法树（即 AST）。
 2. transform: 转换过程其实是对 AST 进行一系列的变换操作。事实上 Babel 中并没有 @babel/transform 这个包，Babel 的转换功能是通过一个个插件实现的。前面我们在介绍 Babel 是什么的时候说过，Babel 是一个工具链，这个工具链是依赖于插件的，当我们不配置任何插件时，经过 Babel 的代码和输入是相同的。Babel 中的插件可以通过 @babel/traverse 对节点进行遍历，并结合 @babel/types 对节点进行检查、转换等操作。 
 3. generate: 通过 @babel/generator 将变换后的 AST 再转换为 js 代码。
 
-注意：babel 7.x 把所有 babel-XXX 重命名为 @babel/XXX。以 @babel/core 为例，Babel 7.x 之后，使用 @babel/core，Babel 6.x 以及更早的版本需要使用 babel-core。
+注意：
+- babel 7.x 把所有 babel-XXX 重命名为 @babel/XXX。以 @babel/generator 为例，Babel 7.x 之后，使用 @babel/generator，Babel 6.x 以及更早的版本需要使用 babel-generator。
+- Babel 在 7.x 之前没有 babel-parser， 而是 babel/babylon（基于 acorn 和 acorn-jsx），在 7.x 移入 @babel/parser
 
 还是以开头的箭头函数为例，我们使用 parse 和 generate 这两个方法对箭头函数进行转换：
 ``` js
@@ -217,7 +215,7 @@ Babel 插件返回的对象如下：
     // transform-arrow-function-plugin.js
     module.exports = ({ types }) => {
         return {
-            name: '@paimai/babel-plugin-transform-arrow-function',
+            name: '@scope/babel-plugin-transform-arrow-function',
             visitor: {
                 VariableDeclaration(path) {
                     const node = path.node;
@@ -258,7 +256,7 @@ Babel 可以按照下面的方式引入插件：
     const babel = require("@babel/core")
     const sumString = `const sum = (a, b) => a + b`
     babel.transform(sumString, { 
-        plugins: ['@paimai/babel-plugin-transform-arrow-function']
+        plugins: ['@scope/babel-plugin-transform-arrow-function']
     }, (err, result) => {
         if (err) {
             console.log(err)
@@ -268,7 +266,10 @@ Babel 可以按照下面的方式引入插件：
     })
 ```
 
-我们使用 npm 引入 Babel 插件的时候需要注意：Babel 在加载插件时会默认在名称前面加上 babel-plugin- 作为前缀，如果我们发布的 npm 包不是以 babel-plugin- 开头，Babel 加上前缀后就和我们发布时候的包名不一致，运行时就会提示 Cannot find module。在上面的例子中，@paimai/babel-plugin-transform-arrow-function 和 @paimai/transform-arrow-function 是等价的。（如果插件名字是 @babel/ 开头，@babel/plugin-XXX 和 @babel/XXX 是等价的。）
+我们使用 npm 引入 Babel 插件的时候需要注意：Babel 在加载插件时会默认在名称前面加上 babel-plugin- 作为前缀，如果我们发布的 npm 包不是以 babel-plugin- 开头，Babel 加上前缀后就和我们发布时候的包名不一致，运行时就会提示 Cannot find module。在上面的例子中，@paimai/babel-plugin-transform-arrow-function 和 @paimai/transform-arrow-function 是等价的。
+
+Babel 插件名称补全规则如下：
+![插件名称规则](https://img13.360buyimg.com/imagetools/jfs/t1/158653/30/35979/86238/64140ea1F29d30109/4132f31bed25cc20.png)
 
 ### Babel 的预设 Presets
 
@@ -279,7 +280,7 @@ Presets 是一组插件的集合。如果我们按单个功能去引入插件，
 ``` js
     module.exports = ({ template }) => {
         return {
-            name: '@paimai/babel-plugin-insert-log-function',
+            name: '@scope/babel-plugin-insert-log-function',
             visitor: {
                 FunctionExpression(path) {
                     const ast = template.ast(`
@@ -353,7 +354,7 @@ Babel 中的插件和预设都支持传入参数，需要传入参数时，可�
 ``` js
     module.exports = ({ template }, {text}) => {
         return {
-            name: '@paimai/babel-plugin-insert-log-function',
+            name: '@scope/babel-plugin-insert-log-function',
             visitor: {
                 FunctionExpression(path) {
                     const ast = template.ast(`
@@ -387,7 +388,7 @@ Babel 中的插件和预设都支持传入参数，需要传入参数时，可�
 
 ```
 
-### @babel/preset-env
+### 常用预设 @babel/preset-env
 
 因为 preset-env 是我们常用的，这里着重介绍一下。
 
@@ -435,34 +436,7 @@ package.json 配置示例：
   "browserslist": ["last 2 versions", "safari > 40"],
 ```
 
-### Babel 的配置文件
-
-这里仅介绍 js 用到的配置，更多配置参考：[babel config files](https://babeljs.io/docs/config-files)
-1. 项目维度: 在 babel 7.x 版本，babel 新增了一个 root 文件夹的概念，root 文件夹指的是当前的工作目录。babel 工作时，会首先在当前文件夹下查找 babel.config.js 或者 babel.config.json 文件作为全局的配置文件，该配置文件同时也会对路径下的 node_modules 下的文件生效。在 babel 6.x 中，如果要对 node_modules 生效，则需要 include 一下（TODO： 待确认）。 
-- babel.config.js
-- babel.config.json
-
-兼容性：babel.config.json 需要 babel 7.8.0 及以上版本，如果是旧版本，使用 babel.config.js
-
-2. 文件维度: babel 遇到要转换的文件时，会在要转换的这个文件的目录结构上查找是否有 .babelrc 或者 package.json 文件的 babel 字段，没有的话会使用全局的配置，有的话这个配置会和全局配置进行合并。我们可以理解为文件维度的配置为局部配置，可以实现对子目录中的文件进行单独配置。
-- .babelrc
-- package.json 中的 babel 字段
-
-TODO: 例子https://zhuanlan.zhihu.com/p/367724302
-
-.    
-├── .babelrc  
-├── babel.config.js
-├── package.json  
-└── src  
-&nbsp;&nbsp;&nbsp;&nbsp;├── index.js  
-&nbsp;&nbsp;&nbsp;&nbsp;└── subdir  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .babelrc  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── utils.js  
-
-
-
-### @babel/polyfill
+### 常用预设 @babel/polyfill
 
 Babel 把 ES6 的标准分为 syntax 和 built-in 两种类型。syntax 就是语法，我们开头示例中的箭头函数的转换就是 syntax 的类型。而对于那些可以通过改写覆盖的语法就认为是 built-in，像 includes 和 Promise 这些都属于 built-in。Babel 默认只转译 syntax 类型的，对于 built-in 类型的就需要通过 @babel/polyfill 来完成转译。@babel/polyfill 就是浏览器 API 的垫片，通过引入这些垫片，使得低版本的浏览器能模拟实现那些新的 API。
 
@@ -491,7 +465,7 @@ Babel 把 ES6 的标准分为 syntax 和 built-in 两种类型。syntax 就是�
     console.log([1, 2, 3].includes(1));
 ```
 
-babel 6 安装的 babel-polyfill
+babel 6 安装的 babel-polyfill：
 
 ```
     "babel-runtime": "^6.26.0",
@@ -499,69 +473,347 @@ babel 6 安装的 babel-polyfill
     "regenerator-runtime": "^0.10.5"
 ```
 
-babel 7 安装的 @babel/polyfill
+babel 7 安装的 @babel/polyfill：
 ```
     "core-js": "^2.6.5",
     "regenerator-runtime": "^0.13.4"
 ```
 
-遇到这种情况，我们需要使用 @babel/polyfill，我们可以直接引入 @babel/polyfill：
+@babel/ployfill 配合 @babel/preset-env 使用，并且要设置 @babel/preset-env 的 useBuiltIns 参数才行。useBuiltIns 参数的配置如下：
+- false: 默认值，不注入任何垫片（上面示例的情况）
+- entry: 需要在项目入口处引入们，缺点是无论项目中有没有用到，会将所有的垫片引入进来，增加文件的体积。我们在上面示例的基础上增加 useBuiltIns: 'entry'，执行后结果如下：
+``` js
+    "use strict";
+
+    require("core-js/modules/es6.array.copy-within.js");
+    require("core-js/modules/es6.array.every.js");
+    require("core-js/modules/es6.array.fill.js");
+    require("core-js/modules/es6.array.filter.js");
+    require("core-js/modules/es6.array.find.js");
+    require("core-js/modules/es6.array.find-index.js");
+    require("core-js/modules/es7.array.flat-map.js");
+    require("core-js/modules/es6.array.for-each.js");
+    require("core-js/modules/es6.array.from.js");
+    require("core-js/modules/es7.array.includes.js");
+    require("core-js/modules/es6.array.index-of.js");
+    require("core-js/modules/es6.array.is-array.js");
+    require("core-js/modules/es6.array.iterator.js");
+    require("core-js/modules/es6.array.last-index-of.js");
+    require("core-js/modules/es6.array.map.js");
+    require("core-js/modules/es6.array.of.js");
+    require("core-js/modules/es6.array.reduce.js");
+    require("core-js/modules/es6.array.reduce-right.js");
+    require("core-js/modules/es6.array.slice.js");
+    require("core-js/modules/es6.array.some.js");
+    require("core-js/modules/es6.array.sort.js");
+    require("core-js/modules/es6.array.species.js");
+    require("core-js/modules/es6.date.now.js");
+    require("core-js/modules/es6.date.to-iso-string.js");
+    require("core-js/modules/es6.date.to-json.js");
+    require("core-js/modules/es6.date.to-primitive.js");
+    require("core-js/modules/es6.date.to-string.js");
+    require("core-js/modules/es6.function.bind.js");
+    require("core-js/modules/es6.function.has-instance.js");
+    require("core-js/modules/es6.function.name.js");
+    require("core-js/modules/es6.map.js");
+    require("core-js/modules/es6.math.acosh.js");
+    require("core-js/modules/es6.math.asinh.js");
+    require("core-js/modules/es6.math.atanh.js");
+    require("core-js/modules/es6.math.cbrt.js");
+    require("core-js/modules/es6.math.clz32.js");
+    require("core-js/modules/es6.math.cosh.js");
+    require("core-js/modules/es6.math.expm1.js");
+    require("core-js/modules/es6.math.fround.js");
+    require("core-js/modules/es6.math.hypot.js");
+    require("core-js/modules/es6.math.imul.js");
+    require("core-js/modules/es6.math.log1p.js");
+    require("core-js/modules/es6.math.log10.js");
+    require("core-js/modules/es6.math.log2.js");
+    require("core-js/modules/es6.math.sign.js");
+    require("core-js/modules/es6.math.sinh.js");
+    require("core-js/modules/es6.math.tanh.js");
+    require("core-js/modules/es6.math.trunc.js");
+    require("core-js/modules/es6.number.constructor.js");
+    require("core-js/modules/es6.number.epsilon.js");
+    require("core-js/modules/es6.number.is-finite.js");
+    require("core-js/modules/es6.number.is-integer.js");
+    require("core-js/modules/es6.number.is-nan.js");
+    require("core-js/modules/es6.number.is-safe-integer.js");
+    require("core-js/modules/es6.number.max-safe-integer.js");
+    require("core-js/modules/es6.number.min-safe-integer.js");
+    require("core-js/modules/es6.number.parse-float.js");
+    require("core-js/modules/es6.number.parse-int.js");
+    require("core-js/modules/es6.object.assign.js");
+    require("core-js/modules/es6.object.create.js");
+    require("core-js/modules/es7.object.define-getter.js");
+    require("core-js/modules/es7.object.define-setter.js");
+    require("core-js/modules/es6.object.define-property.js");
+    require("core-js/modules/es6.object.define-properties.js");
+    require("core-js/modules/es7.object.entries.js");
+    require("core-js/modules/es6.object.freeze.js");
+    require("core-js/modules/es6.object.get-own-property-descriptor.js");
+    require("core-js/modules/es7.object.get-own-property-descriptors.js");
+    require("core-js/modules/es6.object.get-own-property-names.js");
+    require("core-js/modules/es6.object.get-prototype-of.js");
+    require("core-js/modules/es7.object.lookup-getter.js");
+    require("core-js/modules/es7.object.lookup-setter.js");
+    require("core-js/modules/es6.object.prevent-extensions.js");
+    require("core-js/modules/es6.object.to-string.js");
+    require("core-js/modules/es6.object.is.js");
+    require("core-js/modules/es6.object.is-frozen.js");
+    require("core-js/modules/es6.object.is-sealed.js");
+    require("core-js/modules/es6.object.is-extensible.js");
+    require("core-js/modules/es6.object.keys.js");
+    require("core-js/modules/es6.object.seal.js");
+    require("core-js/modules/es6.object.set-prototype-of.js");
+    require("core-js/modules/es7.object.values.js");
+    require("core-js/modules/es6.promise.js");
+    require("core-js/modules/es7.promise.finally.js");
+    require("core-js/modules/es6.reflect.apply.js");
+    require("core-js/modules/es6.reflect.construct.js");
+    require("core-js/modules/es6.reflect.define-property.js");
+    require("core-js/modules/es6.reflect.delete-property.js");
+    require("core-js/modules/es6.reflect.get.js");
+    require("core-js/modules/es6.reflect.get-own-property-descriptor.js");
+    require("core-js/modules/es6.reflect.get-prototype-of.js");
+    require("core-js/modules/es6.reflect.has.js");
+    require("core-js/modules/es6.reflect.is-extensible.js");
+    require("core-js/modules/es6.reflect.own-keys.js");
+    require("core-js/modules/es6.reflect.prevent-extensions.js");
+    require("core-js/modules/es6.reflect.set.js");
+    require("core-js/modules/es6.reflect.set-prototype-of.js");
+    require("core-js/modules/es6.regexp.constructor.js");
+    require("core-js/modules/es6.regexp.flags.js");
+    require("core-js/modules/es6.regexp.match.js");
+    require("core-js/modules/es6.regexp.replace.js");
+    require("core-js/modules/es6.regexp.split.js");
+    require("core-js/modules/es6.regexp.search.js");
+    require("core-js/modules/es6.regexp.to-string.js");
+    require("core-js/modules/es6.set.js");
+    require("core-js/modules/es6.symbol.js");
+    require("core-js/modules/es7.symbol.async-iterator.js");
+    require("core-js/modules/es6.string.anchor.js");
+    require("core-js/modules/es6.string.big.js");
+    require("core-js/modules/es6.string.blink.js");
+    require("core-js/modules/es6.string.bold.js");
+    require("core-js/modules/es6.string.code-point-at.js");
+    require("core-js/modules/es6.string.ends-with.js");
+    require("core-js/modules/es6.string.fixed.js");
+    require("core-js/modules/es6.string.fontcolor.js");
+    require("core-js/modules/es6.string.fontsize.js");
+    require("core-js/modules/es6.string.from-code-point.js");
+    require("core-js/modules/es6.string.includes.js");
+    require("core-js/modules/es6.string.italics.js");
+    require("core-js/modules/es6.string.iterator.js");
+    require("core-js/modules/es6.string.link.js");
+    require("core-js/modules/es7.string.pad-start.js");
+    require("core-js/modules/es7.string.pad-end.js");
+    require("core-js/modules/es6.string.raw.js");
+    require("core-js/modules/es6.string.repeat.js");
+    require("core-js/modules/es6.string.small.js");
+    require("core-js/modules/es6.string.starts-with.js");
+    require("core-js/modules/es6.string.strike.js");
+    require("core-js/modules/es6.string.sub.js");
+    require("core-js/modules/es6.string.sup.js");
+    require("core-js/modules/es6.string.trim.js");
+    require("core-js/modules/es7.string.trim-left.js");
+    require("core-js/modules/es7.string.trim-right.js");
+    require("core-js/modules/es6.typed.array-buffer.js");
+    require("core-js/modules/es6.typed.data-view.js");
+    require("core-js/modules/es6.typed.int8-array.js");
+    require("core-js/modules/es6.typed.uint8-array.js");
+    require("core-js/modules/es6.typed.uint8-clamped-array.js");
+    require("core-js/modules/es6.typed.int16-array.js");
+    require("core-js/modules/es6.typed.uint16-array.js");
+    require("core-js/modules/es6.typed.int32-array.js");
+    require("core-js/modules/es6.typed.uint32-array.js");
+    require("core-js/modules/es6.typed.float32-array.js");
+    require("core-js/modules/es6.typed.float64-array.js");
+    require("core-js/modules/es6.weak-map.js");
+    require("core-js/modules/es6.weak-set.js");
+    require("core-js/modules/web.timers.js");
+    require("core-js/modules/web.immediate.js");
+    require("core-js/modules/web.dom.iterable.js");
+    require("regenerator-runtime/runtime.js");
+    console.log([1, 2, 3].includes(1));
+```
+- usage：不用在项目入口引入，Babel 会在编译的过程中根据使用情况来选择注入相应的实现。
+``` js
+    "use strict";
+
+    require("core-js/modules/es7.array.includes.js");
+    console.log([1, 2, 3].includes(1));
+```
+
+注意：当 useBuiltIns 设置为 entry 或 usage 时，还需要设置 @babel/preset-env 的 corejs 参数（不设置时会默认使用 core-js 2 的版本），用来指定注入 built-in 时使用 core-js 的版本（必须和我们已经安装的 core-js 的版本一致，@babel/polyfill 中 core-js 的版本为 2），否则 Babel 会有如下警告：
+```
+WARNING (@babel/preset-env): We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+```
+
+另外，@babel/polyfill 从 Babel 7.4.0 开始，就被废弃了，我们示例中是通过手动安装的，@babel/polyfill 中的 core-js 只支持 2。（如果要 @babel/ployfill 支持 core-js 3，项目中应增加 core-js 3 的依赖，并在 @babel/preset-env 中配置 corejs 为3）
+
+不使用 @babel/polyfill 的话， 我们需要直接引入 core-js。因为 core-js 3 的版本是持续维护的版本，建议大家直接使用 core-js 3。
+``` js
+    import "core-js/stable";
+    import "regenerator-runtime/runtime";
+```
+
+### 常用预设 @babel/plugin-transform-runtime
+
+在介绍这个预设之前，我们先来看一个例子：
+``` js
+    const babel = require("@babel/core")
+
+    const sumString = `
+        console.log([1, 2, 3].includes(1))
+        class Person {
+            name = 'XXX'
+        }
+    `
+    babel.transform(sumString, { 
+        presets: [['@babel/preset-env', {
+            useBuiltIns: 'usage',
+            corejs: 2
+        }]]
+    }, (err, result) => {
+        if (err) {
+            console.log(err)
+        } else if (result) {
+            console.log(result.code)
+        }
+    })
+
+```
+
+经过 Babel 编译后的结果：
+
+``` js
+    "use strict";
+
+    require("core-js/modules/es6.symbol.js");
+    require("core-js/modules/es6.number.constructor.js");
+    require("core-js/modules/es6.object.define-property.js");
+    require("core-js/modules/es6.string.iterator.js");
+    require("core-js/modules/es6.object.to-string.js");
+    require("core-js/modules/es6.array.iterator.js");
+    require("core-js/modules/web.dom.iterable.js");
+    function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+    require("core-js/modules/es7.array.includes.js");
+    function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+    function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+    function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+    function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+    function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+    function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+    console.log([1, 2, 3].includes(1));
+    var Person = /*#__PURE__*/_createClass(function Person() {
+        _classCallCheck(this, Person);
+        _defineProperty(this, "name", 'cui');
+    });
+```
+
+在 Babel 编译的过程中，对于 built-in 类型的语法通过 require 对应的 polyfill 模块来兼容，对于 syntax 类型的语法在转译的过程会在当前模块中注入类似 _classCallCheck 和 _defineProperty 的 helper 函数来实现兼容。不同项目如果都各自注入了对应的 helper 方法，整个项目文件就会很大。而且，使用 ployfill 还存在一个问题，那就是 polyfill 是通过重写方法来实现的，会造成全局变量的污染。使用 @babel/plugin-transform-runtime 可以解决这两个问题。
+
+``` js
+    npm install @babel/plugin-transform-runtime --save-dev
+    npm install @babel/runtime --save 
+```
+> @babel/plugin-transform-runtime 是编译时使用的，安装为开发依赖，而 @babel/runtime 其实就是 helper 函数的集合，需要被引入到编译后代码中，所以安装为生产依赖
+
+在 Babel 的配置中增加了 之后，编译后的结果如下，原来注入的方法也全部使用 require 的方式引入：
+``` js
+    "use strict";
+
+    var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+    var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+    var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+    var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+    require("core-js/modules/es7.array.includes.js");
+    console.log([1, 2, 3].includes(1));
+    var Person = /*#__PURE__*/(0, _createClass2["default"])(function Person() {
+    (0, _classCallCheck2["default"])(this, Person);
+    (0, _defineProperty2["default"])(this, "name", 'cui');
+    });
+```
+从上面的结果可以看出 includes 方法还是通过 require("core-js/modules/es7.array.includes.js") 的方式实现的，为了解决全局变量污染的问题，我们还需要按照下面的步骤去配置：
+1. 去掉 preset-env 的 useBuiltIn 配置
+2. 配置 @babel/plugin-transform-runtime 的参数 corejs，该参数默认为 false，可以设置为 2 或者 3，分别对应 @babel/runtime-corejs2 和 @babel/runtime-corejs3
+3. 去掉 @babel/runtime, 使用 @babel/runtime-corejs3，去掉 core-js
+```
+    npm uninstall @babel/runtime
+    npm install --save @babel/runtime-corejs3
+    npm uninstall core-js
+```
+Babel 转换后的结果如下，编译后产生了一个 _includes 的局部变量：
+
+``` js
+
+    "use strict";
+
+    var _interopRequireDefault = require("@babel/runtime-corejs3/helpers/interopRequireDefault");
+    var _createClass2 = _interopRequireDefault(require("@babel/runtime-corejs3/helpers/createClass"));
+    var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime-corejs3/helpers/classCallCheck"));
+    var _defineProperty2 = _interopRequireDefault(require("@babel/runtime-corejs3/helpers/defineProperty"));
+    var _includes = _interopRequireDefault(require("@babel/runtime-corejs3/core-js-stable/instance/includes"));
+    var _context;
+    console.log((0, _includes["default"])(_context = [1, 2, 3]).call(_context, 1));
+    var Person = /*#__PURE__*/(0, _createClass2["default"])(function Person() {
+    (0, _classCallCheck2["default"])(this, Person);
+    (0, _defineProperty2["default"])(this, "name", 'cui');
+    });
+```
+注意：@babel/plugin-transform-runtime 目前不支持设置 targets。
+
+## Babel 的配置文件
+
+这里仅介绍 js 用到的配置，更多配置参考：[babel config files](https://babeljs.io/docs/config-files)
+1. 项目维度: 在 babel 7.x 版本，babel 新增了一个 root 文件夹的概念，root 文件夹指的是当前的工作目录。babel 工作时，会首先在当前文件夹下查找 babel.config.js 或者 babel.config.json 文件作为全局的配置文件，该配置文件同时也会对路径下的 node_modules 下的文件生效。在 babel 6.x 中，如果要对 node_modules 生效，则需要注意下 include 中有没有 node_modules。 
+- babel.config.js
+- babel.config.json
+
+兼容性：babel.config.json 需要 babel 7.8.0 及以上版本，如果是旧版本，使用 babel.config.js
+
+2. 文件维度: babel 遇到要转换的文件时，会在要转换的这个文件的目录结构上查找是否有 .babelrc 或者 package.json 文件的 babel 字段，没有的话会使用全局的配置，有的话这个配置会和全局配置进行合并。我们可以理解为文件维度的配置为局部配置，可以实现对子目录中的文件进行单独配置。
+- .babelrc
+- package.json 中的 babel 字段
+
+下面来看一个例子：
+root   
+├── .babelrc  
+├── babel.config.js
+├── package.json  
+└── src  
+&nbsp;&nbsp;&nbsp;&nbsp;├── index.js  
+&nbsp;&nbsp;&nbsp;&nbsp;└── subdir  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .babelrc  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── utils.js  
+
+我们在顶层目录运行 babel src/**/*.js --out-dir dist 。此时会读取当前目录的 babel.config.js 作为全局配置，根据上面的规则：
+- src/index.js 会应用 babel.config.js + .babelrc。
+- src/subdir/utils.js 会应用 babel.config.js + src/subdir/.babelrc
+
+如果我们在 src 目录执行 babel **/*.js --outdir ，此时则不会应用 babel.config.js 的规则，但会应用 src 外层 .babelrc 的配置文件：
+- index.js 会应用 ../.babelrc
+- subdir/index.js 会应用 subdir/.babelrc
+
+> babel 决定一个 js 文件应用哪些配置文件时,会执行如下策略: 如果这个 js 文件在当前项目内，则会先递归向上搜索最近的一个 .babelrc 文件(直到遇到package.json目录)，将其与全局配置合并。如果这个 js 文件不在当前项目内，则只应用全局配置，并忽略与这个文件相关的 .babelrc 。
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### @babel/plugin-transform-runtime
-## babel-loader
+## 使用 @babel/cli
+## 使用 webpack
+### babel-loader
 
 webpack 通过 babel-loader 使用 Babel 。
 
 babel-loader 和 @babel/core 有版本对应关系，否则会提示 core 找不到或者有警告：
+
 |  babel-loader   | babel  | webpack |
-|  ----  | ----  | ---- |
+| ----------- | ----------- | ----------- |
 | 6.x及以下  | 6.x | 1.x |
 | 7.x（^6.2.10 也可以，但是会有版本警告）  | 6.x | 2.x |
 | 7.1以上  | 6.x | 3.x |
