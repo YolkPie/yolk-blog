@@ -3,3115 +3,2527 @@
 
 
 "@babel/code-frame@^7.0.0":
-  "integrity" "sha1-3PyCa+72XnXFDiHTg319lXmN1lg="
-  "resolved" "http://registry.m.jd.com/@babel/code-frame/download/@babel/code-frame-7.12.13.tgz"
-  "version" "7.12.13"
+  version "7.12.13"
+  resolved "http://registry.m.jd.com/@babel/code-frame/download/@babel/code-frame-7.12.13.tgz"
   dependencies:
     "@babel/highlight" "^7.12.13"
 
 "@babel/helper-validator-identifier@^7.12.11":
-  "integrity" "sha1-yaHwIZF9y1zPDU5FPjmQIpgfye0="
-  "resolved" "http://registry.m.jd.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.12.11.tgz"
-  "version" "7.12.11"
+  version "7.12.11"
+  resolved "http://registry.m.jd.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.12.11.tgz"
 
 "@babel/highlight@^7.12.13":
-  "integrity" "sha1-ELLax4UmQk38H0dlDQ5BXf2dxIE="
-  "resolved" "http://registry.m.jd.com/@babel/highlight/download/@babel/highlight-7.13.8.tgz"
-  "version" "7.13.8"
+  version "7.13.8"
+  resolved "http://registry.m.jd.com/@babel/highlight/download/@babel/highlight-7.13.8.tgz"
   dependencies:
     "@babel/helper-validator-identifier" "^7.12.11"
-    "chalk" "^2.0.0"
-    "js-tokens" "^4.0.0"
+    chalk "^2.0.0"
+    js-tokens "^4.0.0"
 
 "@commitlint/execute-rule@^12.0.1":
-  "integrity" "sha1-W7LrqSknDK+yvYGReZ2LRR3n+34="
-  "resolved" "http://registry.m.jd.com/@commitlint/execute-rule/download/@commitlint/execute-rule-12.0.1.tgz"
-  "version" "12.0.1"
+  version "12.0.1"
+  resolved "http://registry.m.jd.com/@commitlint/execute-rule/download/@commitlint/execute-rule-12.0.1.tgz"
 
 "@commitlint/load@>6.1.1":
-  "integrity" "sha1-TRgPyI5bTPy0dqJF2Jn4UVQTdQI="
-  "resolved" "http://registry.m.jd.com/@commitlint/load/download/@commitlint/load-12.0.1.tgz"
-  "version" "12.0.1"
+  version "12.0.1"
+  resolved "http://registry.m.jd.com/@commitlint/load/download/@commitlint/load-12.0.1.tgz"
   dependencies:
     "@commitlint/execute-rule" "^12.0.1"
     "@commitlint/resolve-extends" "^12.0.1"
     "@commitlint/types" "^12.0.1"
-    "chalk" "^4.0.0"
-    "cosmiconfig" "^7.0.0"
-    "lodash" "^4.17.19"
-    "resolve-from" "^5.0.0"
+    chalk "^4.0.0"
+    cosmiconfig "^7.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
 
 "@commitlint/resolve-extends@^12.0.1":
-  "integrity" "sha1-d1CfOG4IvTAmLsmnXHg9j08Cj9I="
-  "resolved" "http://registry.m.jd.com/@commitlint/resolve-extends/download/@commitlint/resolve-extends-12.0.1.tgz"
-  "version" "12.0.1"
+  version "12.0.1"
+  resolved "http://registry.m.jd.com/@commitlint/resolve-extends/download/@commitlint/resolve-extends-12.0.1.tgz"
   dependencies:
-    "import-fresh" "^3.0.0"
-    "lodash" "^4.17.19"
-    "resolve-from" "^5.0.0"
-    "resolve-global" "^1.0.0"
+    import-fresh "^3.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
+    resolve-global "^1.0.0"
 
 "@commitlint/types@^12.0.1":
-  "integrity" "sha1-BKDLuKpWt8AE+JOcLR74iS7Ggyc="
-  "resolved" "http://registry.m.jd.com/@commitlint/types/download/@commitlint/types-12.0.1.tgz"
-  "version" "12.0.1"
+  version "12.0.1"
+  resolved "http://registry.m.jd.com/@commitlint/types/download/@commitlint/types-12.0.1.tgz"
   dependencies:
-    "chalk" "^4.0.0"
+    chalk "^4.0.0"
 
 "@types/babel-types@*", "@types/babel-types@^7.0.0":
-  "integrity" "sha1-Ade4aUn0VUAqlMeIiD/kuldMrUE="
-  "resolved" "http://registry.m.jd.com/@types/babel-types/download/@types/babel-types-7.0.9.tgz"
-  "version" "7.0.9"
+  version "7.0.9"
+  resolved "http://registry.m.jd.com/@types/babel-types/download/@types/babel-types-7.0.9.tgz"
 
 "@types/babylon@^6.16.2":
-  "integrity" "sha1-HFZB22nrjN83jt0ltL53VL7rSLQ="
-  "resolved" "http://registry.m.jd.com/@types/babylon/download/@types/babylon-6.16.5.tgz"
-  "version" "6.16.5"
+  version "6.16.5"
+  resolved "http://registry.m.jd.com/@types/babylon/download/@types/babylon-6.16.5.tgz"
   dependencies:
     "@types/babel-types" "*"
 
 "@types/parse-json@^4.0.0":
-  "integrity" "sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA="
-  "resolved" "http://registry.m.jd.com/@types/parse-json/download/@types/parse-json-4.0.0.tgz"
-  "version" "4.0.0"
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/@types/parse-json/download/@types/parse-json-4.0.0.tgz"
 
-"a-sync-waterfall@^1.0.0":
-  "integrity" "sha1-dba2qnJZi0l6El56J3DxT0yKH6c="
-  "resolved" "http://registry.m.jd.com/a-sync-waterfall/download/a-sync-waterfall-1.0.1.tgz"
-  "version" "1.0.1"
-
-"abbrev@^1.1.1":
-  "integrity" "sha1-+PLIh60Qv2f2NPAFtph/7TF5qsg="
-  "resolved" "http://registry.m.jd.com/abbrev/download/abbrev-1.1.1.tgz"
-  "version" "1.1.1"
-
-"accepts@~1.3.5":
-  "integrity" "sha1-UxvHJlF6OytB+FACHGzBXqq1B80="
-  "resolved" "http://registry.m.jd.com/accepts/download/accepts-1.3.7.tgz"
-  "version" "1.3.7"
+JSONStream@^1.0.7:
+  version "1.3.5"
+  resolved "http://registry.m.jd.com/JSONStream/download/JSONStream-1.3.5.tgz"
   dependencies:
-    "mime-types" "~2.1.24"
-    "negotiator" "0.6.2"
+    jsonparse "^1.2.0"
+    through ">=2.2.7 <3"
 
-"acorn-globals@^3.0.0":
-  "integrity" "sha1-/YJw9x+7SZawBPqIDuXUZXOnMb8="
-  "resolved" "https://registry.npmjs.org/acorn-globals/-/acorn-globals-3.1.0.tgz"
-  "version" "3.1.0"
+a-sync-waterfall@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/a-sync-waterfall/download/a-sync-waterfall-1.0.1.tgz"
+
+abbrev@^1.1.1:
+  version "1.1.1"
+  resolved "http://registry.m.jd.com/abbrev/download/abbrev-1.1.1.tgz"
+
+accepts@~1.3.5:
+  version "1.3.7"
+  resolved "http://registry.m.jd.com/accepts/download/accepts-1.3.7.tgz"
   dependencies:
-    "acorn" "^4.0.4"
+    mime-types "~2.1.24"
+    negotiator "0.6.2"
 
-"acorn@^3.1.0":
-  "integrity" "sha1-ReN/s56No/JbruP/U2niu18iAXo="
-  "resolved" "http://registry.m.jd.com/acorn/download/acorn-3.3.0.tgz"
-  "version" "3.3.0"
-
-"acorn@^4.0.4":
-  "integrity" "sha1-EFSVrlNh1pe9GVyCUZLhrX8lN4c="
-  "resolved" "https://registry.npmjs.org/acorn/-/acorn-4.0.13.tgz"
-  "version" "4.0.13"
-
-"acorn@~4.0.2":
-  "integrity" "sha1-EFSVrlNh1pe9GVyCUZLhrX8lN4c="
-  "resolved" "https://registry.npmjs.org/acorn/-/acorn-4.0.13.tgz"
-  "version" "4.0.13"
-
-"align-text@^0.1.1", "align-text@^0.1.3":
-  "integrity" "sha1-DNkKVhCT810KmSVsIrcGlDP60Rc="
-  "resolved" "https://registry.npmjs.org/align-text/-/align-text-0.1.4.tgz"
-  "version" "0.1.4"
+acorn-globals@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/acorn-globals/-/acorn-globals-3.1.0.tgz"
   dependencies:
-    "kind-of" "^3.0.2"
-    "longest" "^1.0.1"
-    "repeat-string" "^1.5.2"
+    acorn "^4.0.4"
 
-"amdefine@>=0.0.4":
-  "integrity" "sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU="
-  "resolved" "https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz"
-  "version" "1.0.1"
+acorn@^3.1.0:
+  version "3.3.0"
+  resolved "http://registry.m.jd.com/acorn/download/acorn-3.3.0.tgz"
 
-"ansi-escapes@^3.2.0":
-  "integrity" "sha1-h4C5j/nb9WOBUtHx/lwde0RCl2s="
-  "resolved" "http://registry.m.jd.com/ansi-escapes/download/ansi-escapes-3.2.0.tgz"
-  "version" "3.2.0"
+acorn@^4.0.4, acorn@~4.0.2:
+  version "4.0.13"
+  resolved "https://registry.npmjs.org/acorn/-/acorn-4.0.13.tgz"
 
-"ansi-regex@^3.0.0":
-  "integrity" "sha1-7QMXwyIGT3lGbAKWa922Bas32Zg="
-  "resolved" "http://registry.m.jd.com/ansi-regex/download/ansi-regex-3.0.0.tgz"
-  "version" "3.0.0"
-
-"ansi-regex@^4.1.0":
-  "integrity" "sha1-i5+PCM8ay4Q3Vqg5yox+MWjFGZc="
-  "resolved" "http://registry.m.jd.com/ansi-regex/download/ansi-regex-4.1.0.tgz"
-  "version" "4.1.0"
-
-"ansi-regex@^5.0.0":
-  "integrity" "sha1-OIU59VF5vzkznIGvMKZU1p+Hy3U="
-  "resolved" "http://registry.m.jd.com/ansi-regex/download/ansi-regex-5.0.0.tgz"
-  "version" "5.0.0"
-
-"ansi-styles@^3.2.1":
-  "integrity" "sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0="
-  "resolved" "http://registry.m.jd.com/ansi-styles/download/ansi-styles-3.2.1.tgz"
-  "version" "3.2.1"
+align-text@^0.1.1, align-text@^0.1.3:
+  version "0.1.4"
+  resolved "https://registry.npmjs.org/align-text/-/align-text-0.1.4.tgz"
   dependencies:
-    "color-convert" "^1.9.0"
+    kind-of "^3.0.2"
+    longest "^1.0.1"
+    repeat-string "^1.5.2"
 
-"ansi-styles@^4.1.0":
-  "integrity" "sha1-7dgDYornHATIWuegkG7a00tkiTc="
-  "resolved" "http://registry.m.jd.com/ansi-styles/download/ansi-styles-4.3.0.tgz"
-  "version" "4.3.0"
+amdefine@>=0.0.4:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz"
+
+ansi-escapes@^3.2.0:
+  version "3.2.0"
+  resolved "http://registry.m.jd.com/ansi-escapes/download/ansi-escapes-3.2.0.tgz"
+
+ansi-regex@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/ansi-regex/download/ansi-regex-3.0.0.tgz"
+
+ansi-regex@^4.1.0:
+  version "4.1.0"
+  resolved "http://registry.m.jd.com/ansi-regex/download/ansi-regex-4.1.0.tgz"
+
+ansi-regex@^5.0.0:
+  version "5.0.0"
+  resolved "http://registry.m.jd.com/ansi-regex/download/ansi-regex-5.0.0.tgz"
+
+ansi-styles@^3.2.1:
+  version "3.2.1"
+  resolved "http://registry.m.jd.com/ansi-styles/download/ansi-styles-3.2.1.tgz"
   dependencies:
-    "color-convert" "^2.0.1"
+    color-convert "^1.9.0"
 
-"anymatch@~3.1.1":
-  "integrity" "sha1-xV7PAhheJGklk5kxDBc84xIzsUI="
-  "resolved" "http://registry.m.jd.com/anymatch/download/anymatch-3.1.1.tgz"
-  "version" "3.1.1"
+ansi-styles@^4.1.0:
+  version "4.3.0"
+  resolved "http://registry.m.jd.com/ansi-styles/download/ansi-styles-4.3.0.tgz"
   dependencies:
-    "normalize-path" "^3.0.0"
-    "picomatch" "^2.0.4"
+    color-convert "^2.0.1"
 
-"archy@^1.0.0":
-  "integrity" "sha1-+cjBN1fMHde8N5rHeyxipcKGjEA="
-  "resolved" "https://registry.npmjs.org/archy/-/archy-1.0.0.tgz"
-  "version" "1.0.0"
-
-"argparse@^1.0.7":
-  "integrity" "sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE="
-  "resolved" "http://registry.m.jd.com/argparse/download/argparse-1.0.10.tgz"
-  "version" "1.0.10"
+anymatch@~3.1.1:
+  version "3.1.1"
+  resolved "http://registry.m.jd.com/anymatch/download/anymatch-3.1.1.tgz"
   dependencies:
-    "sprintf-js" "~1.0.2"
+    normalize-path "^3.0.0"
+    picomatch "^2.0.4"
 
-"arr-diff@^4.0.0":
-  "integrity" "sha1-1kYQdP6/7HHn4VI1dhoyml3HxSA="
-  "resolved" "https://registry.npmjs.org/arr-diff/-/arr-diff-4.0.0.tgz"
-  "version" "4.0.0"
+archy@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/archy/-/archy-1.0.0.tgz"
 
-"arr-flatten@^1.1.0":
-  "integrity" "sha1-NgSLv/TntH4TZkQxbJlmnqWukfE="
-  "resolved" "http://registry.m.jd.com/arr-flatten/download/arr-flatten-1.1.0.tgz"
-  "version" "1.1.0"
-
-"arr-union@^3.1.0":
-  "integrity" "sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ="
-  "resolved" "https://registry.npmjs.org/arr-union/-/arr-union-3.1.0.tgz"
-  "version" "3.1.0"
-
-"array-unique@^0.3.2":
-  "integrity" "sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg="
-  "resolved" "https://registry.npmjs.org/array-unique/-/array-unique-0.3.2.tgz"
-  "version" "0.3.2"
-
-"asap@^2.0.3", "asap@~2.0.3":
-  "integrity" "sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY="
-  "resolved" "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz"
-  "version" "2.0.6"
-
-"assign-symbols@^1.0.0":
-  "integrity" "sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c="
-  "resolved" "https://registry.npmjs.org/assign-symbols/-/assign-symbols-1.0.0.tgz"
-  "version" "1.0.0"
-
-"async@~0.2.6":
-  "integrity" "sha1-trvgsGdLnXGXCMo43owjfLUmw9E="
-  "resolved" "https://registry.npmjs.org/async/-/async-0.2.10.tgz"
-  "version" "0.2.10"
-
-"atob@^2.1.2":
-  "integrity" "sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k="
-  "resolved" "http://registry.m.jd.com/atob/download/atob-2.1.2.tgz"
-  "version" "2.1.2"
-
-"babel-runtime@^6.26.0":
-  "integrity" "sha1-llxwWGaOgrVde/4E/yM3vItWR/4="
-  "resolved" "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz"
-  "version" "6.26.0"
+argparse@^1.0.7:
+  version "1.0.10"
+  resolved "http://registry.m.jd.com/argparse/download/argparse-1.0.10.tgz"
   dependencies:
-    "core-js" "^2.4.0"
-    "regenerator-runtime" "^0.11.0"
+    sprintf-js "~1.0.2"
 
-"babel-types@^6.26.0":
-  "integrity" "sha1-o7Bz+Uq0nrb6Vc1lInozQ4BjJJc="
-  "resolved" "https://registry.npmjs.org/babel-types/-/babel-types-6.26.0.tgz"
-  "version" "6.26.0"
+arr-diff@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/arr-diff/-/arr-diff-4.0.0.tgz"
+
+arr-flatten@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.m.jd.com/arr-flatten/download/arr-flatten-1.1.0.tgz"
+
+arr-union@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/arr-union/-/arr-union-3.1.0.tgz"
+
+array-unique@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.npmjs.org/array-unique/-/array-unique-0.3.2.tgz"
+
+asap@^2.0.3, asap@~2.0.3:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz"
+
+assign-symbols@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/assign-symbols/-/assign-symbols-1.0.0.tgz"
+
+async@~0.2.6:
+  version "0.2.10"
+  resolved "https://registry.npmjs.org/async/-/async-0.2.10.tgz"
+
+atob@^2.1.2:
+  version "2.1.2"
+  resolved "http://registry.m.jd.com/atob/download/atob-2.1.2.tgz"
+
+babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz"
   dependencies:
-    "babel-runtime" "^6.26.0"
-    "esutils" "^2.0.2"
-    "lodash" "^4.17.4"
-    "to-fast-properties" "^1.0.3"
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
-"babylon@^6.18.0":
-  "integrity" "sha1-ry87iPpvXB5MY00aD46sT1WzleM="
-  "resolved" "http://registry.m.jd.com/babylon/download/babylon-6.18.0.tgz"
-  "version" "6.18.0"
-
-"balanced-match@^1.0.0":
-  "integrity" "sha1-ibTRmasr7kneFk6gK4nORi1xt2c="
-  "resolved" "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz"
-  "version" "1.0.0"
-
-"base@^0.11.1":
-  "integrity" "sha1-e95c7RRbbVUakNuH+DxVi060io8="
-  "resolved" "http://registry.m.jd.com/base/download/base-0.11.2.tgz"
-  "version" "0.11.2"
+babel-types@^6.26.0:
+  version "6.26.0"
+  resolved "https://registry.npmjs.org/babel-types/-/babel-types-6.26.0.tgz"
   dependencies:
-    "cache-base" "^1.0.1"
-    "class-utils" "^0.3.5"
-    "component-emitter" "^1.2.1"
-    "define-property" "^1.0.0"
-    "isobject" "^3.0.1"
-    "mixin-deep" "^1.2.0"
-    "pascalcase" "^0.1.1"
+    babel-runtime "^6.26.0"
+    esutils "^2.0.2"
+    lodash "^4.17.4"
+    to-fast-properties "^1.0.3"
 
-"basic-auth@~2.0.1":
-  "integrity" "sha1-uZgnm/R844NEtPPPkW1Gebv1Hjo="
-  "resolved" "http://registry.m.jd.com/basic-auth/download/basic-auth-2.0.1.tgz"
-  "version" "2.0.1"
+babylon@^6.18.0:
+  version "6.18.0"
+  resolved "http://registry.m.jd.com/babylon/download/babylon-6.18.0.tgz"
+
+balanced-match@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz"
+
+base@^0.11.1:
+  version "0.11.2"
+  resolved "http://registry.m.jd.com/base/download/base-0.11.2.tgz"
   dependencies:
-    "safe-buffer" "5.1.2"
+    cache-base "^1.0.1"
+    class-utils "^0.3.5"
+    component-emitter "^1.2.1"
+    define-property "^1.0.0"
+    isobject "^3.0.1"
+    mixin-deep "^1.2.0"
+    pascalcase "^0.1.1"
 
-"binary-extensions@^2.0.0":
-  "integrity" "sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0="
-  "resolved" "http://registry.m.jd.com/binary-extensions/download/binary-extensions-2.2.0.tgz"
-  "version" "2.2.0"
-
-"bluebird@^3.2.2", "bluebird@^3.5.0", "bluebird@^3.5.1", "bluebird@^3.5.2", "bluebird@^3.5.5":
-  "integrity" "sha1-nyKcFb4nJFT/qXOs4NvueaGww28="
-  "resolved" "http://registry.m.jd.com/bluebird/download/bluebird-3.7.2.tgz"
-  "version" "3.7.2"
-
-"brace-expansion@^1.1.7":
-  "integrity" "sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0="
-  "resolved" "http://registry.m.jd.com/brace-expansion/download/brace-expansion-1.1.11.tgz"
-  "version" "1.1.11"
+basic-auth@~2.0.1:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/basic-auth/download/basic-auth-2.0.1.tgz"
   dependencies:
-    "balanced-match" "^1.0.0"
-    "concat-map" "0.0.1"
+    safe-buffer "5.1.2"
 
-"braces@^2.3.1":
-  "integrity" "sha1-WXn9PxTNUxVl5fot8av/8d+u5yk="
-  "resolved" "http://registry.m.jd.com/braces/download/braces-2.3.2.tgz"
-  "version" "2.3.2"
+binary-extensions@^2.0.0:
+  version "2.2.0"
+  resolved "http://registry.m.jd.com/binary-extensions/download/binary-extensions-2.2.0.tgz"
+
+bluebird@^3.2.2, bluebird@^3.5.0, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
+  version "3.7.2"
+  resolved "http://registry.m.jd.com/bluebird/download/bluebird-3.7.2.tgz"
+
+brace-expansion@^1.1.7:
+  version "1.1.11"
+  resolved "http://registry.m.jd.com/brace-expansion/download/brace-expansion-1.1.11.tgz"
   dependencies:
-    "arr-flatten" "^1.1.0"
-    "array-unique" "^0.3.2"
-    "extend-shallow" "^2.0.1"
-    "fill-range" "^4.0.0"
-    "isobject" "^3.0.1"
-    "repeat-element" "^1.1.2"
-    "snapdragon" "^0.8.1"
-    "snapdragon-node" "^2.0.1"
-    "split-string" "^3.0.2"
-    "to-regex" "^3.0.1"
+    balanced-match "^1.0.0"
+    concat-map "0.0.1"
 
-"braces@^3.0.1", "braces@~3.0.2":
-  "integrity" "sha1-NFThpGLujVmeI23zNs2epPiv4Qc="
-  "resolved" "http://registry.m.jd.com/braces/download/braces-3.0.2.tgz"
-  "version" "3.0.2"
+braces@^2.3.1:
+  version "2.3.2"
+  resolved "http://registry.m.jd.com/braces/download/braces-2.3.2.tgz"
   dependencies:
-    "fill-range" "^7.0.1"
+    arr-flatten "^1.1.0"
+    array-unique "^0.3.2"
+    extend-shallow "^2.0.1"
+    fill-range "^4.0.0"
+    isobject "^3.0.1"
+    repeat-element "^1.1.2"
+    snapdragon "^0.8.1"
+    snapdragon-node "^2.0.1"
+    split-string "^3.0.2"
+    to-regex "^3.0.1"
 
-"bytes@3.0.0":
-  "integrity" "sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg="
-  "resolved" "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"
-  "version" "3.0.0"
-
-"cache-base@^1.0.1":
-  "integrity" "sha1-Cn9GQWgxyLZi7jb+TnxZ129marI="
-  "resolved" "http://registry.m.jd.com/cache-base/download/cache-base-1.0.1.tgz"
-  "version" "1.0.1"
+braces@^3.0.1, braces@~3.0.2:
+  version "3.0.2"
+  resolved "http://registry.m.jd.com/braces/download/braces-3.0.2.tgz"
   dependencies:
-    "collection-visit" "^1.0.0"
-    "component-emitter" "^1.2.1"
-    "get-value" "^2.0.6"
-    "has-value" "^1.0.0"
-    "isobject" "^3.0.1"
-    "set-value" "^2.0.0"
-    "to-object-path" "^0.3.0"
-    "union-value" "^1.0.0"
-    "unset-value" "^1.0.0"
+    fill-range "^7.0.1"
 
-"cachedir@2.2.0":
-  "integrity" "sha1-Ga+kMF4F155BdWaILgyPlg9i/w4="
-  "resolved" "http://registry.m.jd.com/cachedir/download/cachedir-2.2.0.tgz"
-  "version" "2.2.0"
+bytes@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"
 
-"call-bind@^1.0.2":
-  "integrity" "sha1-sdTonmiBGcPJqQOtMKuy9qkZvjw="
-  "resolved" "http://registry.m.jd.com/call-bind/download/call-bind-1.0.2.tgz"
-  "version" "1.0.2"
+cache-base@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/cache-base/download/cache-base-1.0.1.tgz"
   dependencies:
-    "function-bind" "^1.1.1"
-    "get-intrinsic" "^1.0.2"
+    collection-visit "^1.0.0"
+    component-emitter "^1.2.1"
+    get-value "^2.0.6"
+    has-value "^1.0.0"
+    isobject "^3.0.1"
+    set-value "^2.0.0"
+    to-object-path "^0.3.0"
+    union-value "^1.0.0"
+    unset-value "^1.0.0"
 
-"callsites@^3.0.0":
-  "integrity" "sha1-s2MKvYlDQy9Us/BRkjjjPNffL3M="
-  "resolved" "http://registry.m.jd.com/callsites/download/callsites-3.1.0.tgz"
-  "version" "3.1.0"
+cachedir@2.2.0:
+  version "2.2.0"
+  resolved "http://registry.m.jd.com/cachedir/download/cachedir-2.2.0.tgz"
 
-"camel-case@^4.0.0":
-  "integrity" "sha1-lygHKpVPgFIoIlpt7qazhGHhvVo="
-  "resolved" "http://registry.m.jd.com/camel-case/download/camel-case-4.1.2.tgz"
-  "version" "4.1.2"
+call-bind@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.m.jd.com/call-bind/download/call-bind-1.0.2.tgz"
   dependencies:
-    "pascal-case" "^3.1.2"
-    "tslib" "^2.0.3"
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.2"
 
-"camelcase@^1.0.2":
-  "integrity" "sha1-m7UwTS4LVmmLLHWLCKPqqdqlijk="
-  "resolved" "http://registry.m.jd.com/camelcase/download/camelcase-1.2.1.tgz"
-  "version" "1.2.1"
+callsites@^3.0.0:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/callsites/download/callsites-3.1.0.tgz"
 
-"center-align@^0.1.1":
-  "integrity" "sha1-qg0yYptu6XIgBBHL1EYckHvCt60="
-  "resolved" "https://registry.npmjs.org/center-align/-/center-align-0.1.3.tgz"
-  "version" "0.1.3"
+camel-case@^4.0.0:
+  version "4.1.2"
+  resolved "http://registry.m.jd.com/camel-case/download/camel-case-4.1.2.tgz"
   dependencies:
-    "align-text" "^0.1.3"
-    "lazy-cache" "^1.0.3"
+    pascal-case "^3.1.2"
+    tslib "^2.0.3"
 
-"chalk@^2.0.0":
-  "integrity" "sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ="
-  "resolved" "http://registry.m.jd.com/chalk/download/chalk-2.4.2.tgz"
-  "version" "2.4.2"
+camelcase@^1.0.2:
+  version "1.2.1"
+  resolved "http://registry.m.jd.com/camelcase/download/camelcase-1.2.1.tgz"
+
+center-align@^0.1.1:
+  version "0.1.3"
+  resolved "https://registry.npmjs.org/center-align/-/center-align-0.1.3.tgz"
   dependencies:
-    "ansi-styles" "^3.2.1"
-    "escape-string-regexp" "^1.0.5"
-    "supports-color" "^5.3.0"
+    align-text "^0.1.3"
+    lazy-cache "^1.0.3"
 
-"chalk@^2.4.1":
-  "integrity" "sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ="
-  "resolved" "http://registry.m.jd.com/chalk/download/chalk-2.4.2.tgz"
-  "version" "2.4.2"
+chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
+  version "2.4.2"
+  resolved "http://registry.m.jd.com/chalk/download/chalk-2.4.2.tgz"
   dependencies:
-    "ansi-styles" "^3.2.1"
-    "escape-string-regexp" "^1.0.5"
-    "supports-color" "^5.3.0"
+    ansi-styles "^3.2.1"
+    escape-string-regexp "^1.0.5"
+    supports-color "^5.3.0"
 
-"chalk@^2.4.2":
-  "integrity" "sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ="
-  "resolved" "http://registry.m.jd.com/chalk/download/chalk-2.4.2.tgz"
-  "version" "2.4.2"
+chalk@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/chalk/download/chalk-3.0.0.tgz"
   dependencies:
-    "ansi-styles" "^3.2.1"
-    "escape-string-regexp" "^1.0.5"
-    "supports-color" "^5.3.0"
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
 
-"chalk@^3.0.0":
-  "integrity" "sha1-P3PCv1JlkfV0zEksUeJFY0n4ROQ="
-  "resolved" "http://registry.m.jd.com/chalk/download/chalk-3.0.0.tgz"
-  "version" "3.0.0"
+chalk@^4.0.0:
+  version "4.1.0"
+  resolved "http://registry.m.jd.com/chalk/download/chalk-4.1.0.tgz"
   dependencies:
-    "ansi-styles" "^4.1.0"
-    "supports-color" "^7.1.0"
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
 
-"chalk@^4.0.0":
-  "integrity" "sha1-ThSHCmGNni7dl92DRf2dncMVZGo="
-  "resolved" "http://registry.m.jd.com/chalk/download/chalk-4.1.0.tgz"
-  "version" "4.1.0"
+character-parser@^2.1.1:
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/character-parser/-/character-parser-2.2.0.tgz"
   dependencies:
-    "ansi-styles" "^4.1.0"
-    "supports-color" "^7.1.0"
+    is-regex "^1.0.3"
 
-"character-parser@^2.1.1":
-  "integrity" "sha1-x84o821LzZdE5f/CxfzeHHMmH8A="
-  "resolved" "https://registry.npmjs.org/character-parser/-/character-parser-2.2.0.tgz"
-  "version" "2.2.0"
+chardet@^0.7.0:
+  version "0.7.0"
+  resolved "http://registry.m.jd.com/chardet/download/chardet-0.7.0.tgz"
+
+chokidar@^3.0.0:
+  version "3.5.1"
+  resolved "http://registry.m.jd.com/chokidar/download/chokidar-3.5.1.tgz"
   dependencies:
-    "is-regex" "^1.0.3"
-
-"chardet@^0.7.0":
-  "integrity" "sha1-kAlISfCTfy7twkJdDSip5fDLrZ4="
-  "resolved" "http://registry.m.jd.com/chardet/download/chardet-0.7.0.tgz"
-  "version" "0.7.0"
-
-"chokidar@^3.0.0":
-  "integrity" "sha1-7pznu+vSt59J8wR5nVRo4x4U5oo="
-  "resolved" "http://registry.m.jd.com/chokidar/download/chokidar-3.5.1.tgz"
-  "version" "3.5.1"
-  dependencies:
-    "anymatch" "~3.1.1"
-    "braces" "~3.0.2"
-    "fsevents" "~2.3.1"
-    "glob-parent" "~5.1.0"
-    "is-binary-path" "~2.1.0"
-    "is-glob" "~4.0.1"
-    "normalize-path" "~3.0.0"
-    "readdirp" "~3.5.0"
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.5.0"
   optionalDependencies:
-    "fsevents" "~2.3.1"
+    fsevents "~2.3.1"
 
-"ci-info@^2.0.0":
-  "integrity" "sha1-Z6npZL4xpR4V5QENWObxKDQAL0Y="
-  "resolved" "http://registry.m.jd.com/ci-info/download/ci-info-2.0.0.tgz"
-  "version" "2.0.0"
-
-"class-utils@^0.3.5":
-  "integrity" "sha1-+TNprouafOAv1B+q0MqDAzGQxGM="
-  "resolved" "http://registry.m.jd.com/class-utils/download/class-utils-0.3.6.tgz"
-  "version" "0.3.6"
+class-utils@^0.3.5:
+  version "0.3.6"
+  resolved "http://registry.m.jd.com/class-utils/download/class-utils-0.3.6.tgz"
   dependencies:
-    "arr-union" "^3.1.0"
-    "define-property" "^0.2.5"
-    "isobject" "^3.0.0"
-    "static-extend" "^0.1.1"
+    arr-union "^3.1.0"
+    define-property "^0.2.5"
+    isobject "^3.0.0"
+    static-extend "^0.1.1"
 
-"clean-css@^4.1.11":
-  "integrity" "sha1-UHtd59l7SO5T2ErbAWD/YhY4D3g="
-  "resolved" "http://registry.m.jd.com/clean-css/download/clean-css-4.2.3.tgz"
-  "version" "4.2.3"
+clean-css@^4.1.11:
+  version "4.2.3"
+  resolved "http://registry.m.jd.com/clean-css/download/clean-css-4.2.3.tgz"
   dependencies:
-    "source-map" "~0.6.0"
+    source-map "~0.6.0"
 
-"cli-cursor@^2.1.0":
-  "integrity" "sha1-s12sN2R5+sw+lHR9QdDQ9SOP/LU="
-  "resolved" "https://registry.npmjs.org/cli-cursor/-/cli-cursor-2.1.0.tgz"
-  "version" "2.1.0"
+cli-cursor@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/cli-cursor/-/cli-cursor-2.1.0.tgz"
   dependencies:
-    "restore-cursor" "^2.0.0"
+    restore-cursor "^2.0.0"
 
-"cli-width@^2.0.0":
-  "integrity" "sha1-sEM9C06chH7xiGik7xb9X8gnHEg="
-  "resolved" "http://registry.m.jd.com/cli-width/download/cli-width-2.2.1.tgz"
-  "version" "2.2.1"
+cli-width@^2.0.0:
+  version "2.2.1"
+  resolved "http://registry.m.jd.com/cli-width/download/cli-width-2.2.1.tgz"
 
-"clipboard@^2.0.0":
-  "integrity" "sha1-UpISlu7A/fd+rRdJQhshyWhkc3Y="
-  "resolved" "http://registry.m.jd.com/clipboard/download/clipboard-2.0.6.tgz"
-  "version" "2.0.6"
+clipboard@^2.0.0:
+  version "2.0.6"
+  resolved "http://registry.m.jd.com/clipboard/download/clipboard-2.0.6.tgz"
   dependencies:
-    "good-listener" "^1.2.2"
-    "select" "^1.1.2"
-    "tiny-emitter" "^2.0.0"
+    good-listener "^1.2.2"
+    select "^1.1.2"
+    tiny-emitter "^2.0.0"
 
-"cliui@^2.1.0":
-  "integrity" "sha1-S0dXYP+AJkx2LDoXGQMukcf+oNE="
-  "resolved" "http://registry.m.jd.com/cliui/download/cliui-2.1.0.tgz"
-  "version" "2.1.0"
+cliui@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/cliui/download/cliui-2.1.0.tgz"
   dependencies:
-    "center-align" "^0.1.1"
-    "right-align" "^0.1.1"
-    "wordwrap" "0.0.2"
+    center-align "^0.1.1"
+    right-align "^0.1.1"
+    wordwrap "0.0.2"
 
-"collection-visit@^1.0.0":
-  "integrity" "sha1-S8A3PBZLwykbTTaMgpzxqApZ3KA="
-  "resolved" "https://registry.npmjs.org/collection-visit/-/collection-visit-1.0.0.tgz"
-  "version" "1.0.0"
+collection-visit@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/collection-visit/-/collection-visit-1.0.0.tgz"
   dependencies:
-    "map-visit" "^1.0.0"
-    "object-visit" "^1.0.0"
+    map-visit "^1.0.0"
+    object-visit "^1.0.0"
 
-"color-convert@^1.9.0":
-  "integrity" "sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg="
-  "resolved" "http://registry.m.jd.com/color-convert/download/color-convert-1.9.3.tgz"
-  "version" "1.9.3"
+color-convert@^1.9.0:
+  version "1.9.3"
+  resolved "http://registry.m.jd.com/color-convert/download/color-convert-1.9.3.tgz"
   dependencies:
-    "color-name" "1.1.3"
+    color-name "1.1.3"
 
-"color-convert@^2.0.1":
-  "integrity" "sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM="
-  "resolved" "http://registry.m.jd.com/color-convert/download/color-convert-2.0.1.tgz"
-  "version" "2.0.1"
+color-convert@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/color-convert/download/color-convert-2.0.1.tgz"
   dependencies:
-    "color-name" "~1.1.4"
+    color-name "~1.1.4"
 
-"color-name@~1.1.4":
-  "integrity" "sha1-wqCah6y95pVD3m9j+jmVyCbFNqI="
-  "resolved" "http://registry.m.jd.com/color-name/download/color-name-1.1.4.tgz"
-  "version" "1.1.4"
+color-name@1.1.3:
+  version "1.1.3"
+  resolved "http://registry.m.jd.com/color-name/download/color-name-1.1.3.tgz"
 
-"color-name@1.1.3":
-  "integrity" "sha1-p9BVi9icQveV3UIyj3QIMcpTvCU="
-  "resolved" "http://registry.m.jd.com/color-name/download/color-name-1.1.3.tgz"
-  "version" "1.1.3"
+color-name@~1.1.4:
+  version "1.1.4"
+  resolved "http://registry.m.jd.com/color-name/download/color-name-1.1.4.tgz"
 
-"colors@~0.6.0-1":
-  "integrity" "sha1-JCP+ZnisDF2uiFLl0OW+CMmXq8w="
-  "resolved" "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
-  "version" "0.6.2"
+colors@~0.6.0-1:
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
 
-"command-exists@^1.2.8":
-  "integrity" "sha1-xQclrzgIyKsCYP1gsB+/oluVT2k="
-  "resolved" "http://registry.m.jd.com/command-exists/download/command-exists-1.2.9.tgz"
-  "version" "1.2.9"
+command-exists@^1.2.8:
+  version "1.2.9"
+  resolved "http://registry.m.jd.com/command-exists/download/command-exists-1.2.9.tgz"
 
-"commander@^5.1.0":
-  "integrity" "sha1-Rqu9FlL44Fm92u+Zu9yyrZzxea4="
-  "resolved" "http://registry.m.jd.com/commander/download/commander-5.1.0.tgz"
-  "version" "5.1.0"
+commander@^5.1.0:
+  version "5.1.0"
+  resolved "http://registry.m.jd.com/commander/download/commander-5.1.0.tgz"
 
-"commander@~2.1.0":
-  "integrity" "sha1-0SG7roYNmZKj1Re6lvVliOR8Z4E="
-  "resolved" "http://registry.m.jd.com/commander/download/commander-2.1.0.tgz"
-  "version" "2.1.0"
+commander@~2.1.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/commander/download/commander-2.1.0.tgz"
 
-"commitizen@^4.0.3":
-  "integrity" "sha1-GpPdByCFIeoeu/gyWTVC2scUzHk="
-  "resolved" "http://registry.m.jd.com/commitizen/download/commitizen-4.2.2.tgz"
-  "version" "4.2.2"
+commitizen@^4.0.3:
+  version "4.2.2"
+  resolved "http://registry.m.jd.com/commitizen/download/commitizen-4.2.2.tgz"
   dependencies:
-    "cachedir" "2.2.0"
-    "cz-conventional-changelog" "3.3.0"
-    "dedent" "0.7.0"
-    "detect-indent" "6.0.0"
-    "find-node-modules" "2.0.0"
-    "find-root" "1.1.0"
-    "fs-extra" "8.1.0"
-    "glob" "7.1.4"
-    "inquirer" "6.5.2"
-    "is-utf8" "^0.2.1"
-    "lodash" "^4.17.20"
-    "minimist" "1.2.5"
-    "strip-bom" "4.0.0"
-    "strip-json-comments" "3.0.1"
+    cachedir "2.2.0"
+    cz-conventional-changelog "3.3.0"
+    dedent "0.7.0"
+    detect-indent "6.0.0"
+    find-node-modules "2.0.0"
+    find-root "1.1.0"
+    fs-extra "8.1.0"
+    glob "7.1.4"
+    inquirer "6.5.2"
+    is-utf8 "^0.2.1"
+    lodash "^4.17.20"
+    minimist "1.2.5"
+    strip-bom "4.0.0"
+    strip-json-comments "3.0.1"
 
-"compare-versions@^3.6.0":
-  "integrity" "sha1-GlaJkTaF5ah2N7jT/8p1UU7EHWI="
-  "resolved" "http://registry.m.jd.com/compare-versions/download/compare-versions-3.6.0.tgz"
-  "version" "3.6.0"
+component-emitter@^1.2.1:
+  version "1.3.0"
+  resolved "http://registry.m.jd.com/component-emitter/download/component-emitter-1.3.0.tgz"
 
-"component-emitter@^1.2.1":
-  "integrity" "sha1-FuQHD7qK4ptnnyIVhT7hgasuq8A="
-  "resolved" "http://registry.m.jd.com/component-emitter/download/component-emitter-1.3.0.tgz"
-  "version" "1.3.0"
-
-"compressible@~2.0.16":
-  "integrity" "sha1-r1PMprBw1MPAdQ+9dyhqbXzEb7o="
-  "resolved" "http://registry.m.jd.com/compressible/download/compressible-2.0.18.tgz"
-  "version" "2.0.18"
+compressible@~2.0.16:
+  version "2.0.18"
+  resolved "http://registry.m.jd.com/compressible/download/compressible-2.0.18.tgz"
   dependencies:
-    "mime-db" ">= 1.43.0 < 2"
+    mime-db ">= 1.43.0 < 2"
 
-"compression@^1.7.4":
-  "integrity" "sha1-lVI+/xcMpXwpoMpB5v4TH0Hlu48="
-  "resolved" "http://registry.m.jd.com/compression/download/compression-1.7.4.tgz"
-  "version" "1.7.4"
+compression@^1.7.4:
+  version "1.7.4"
+  resolved "http://registry.m.jd.com/compression/download/compression-1.7.4.tgz"
   dependencies:
-    "accepts" "~1.3.5"
-    "bytes" "3.0.0"
-    "compressible" "~2.0.16"
-    "debug" "2.6.9"
-    "on-headers" "~1.0.2"
-    "safe-buffer" "5.1.2"
-    "vary" "~1.1.2"
+    accepts "~1.3.5"
+    bytes "3.0.0"
+    compressible "~2.0.16"
+    debug "2.6.9"
+    on-headers "~1.0.2"
+    safe-buffer "5.1.2"
+    vary "~1.1.2"
 
-"concat-map@0.0.1":
-  "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
-  "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
-  "version" "0.0.1"
+concat-map@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
 
-"connect@^3.7.0":
-  "integrity" "sha1-XUk0iRDKpeB6AYALAw0MNfIEhPg="
-  "resolved" "http://registry.m.jd.com/connect/download/connect-3.7.0.tgz"
-  "version" "3.7.0"
+connect@^3.7.0:
+  version "3.7.0"
+  resolved "http://registry.m.jd.com/connect/download/connect-3.7.0.tgz"
   dependencies:
-    "debug" "2.6.9"
-    "finalhandler" "1.1.2"
-    "parseurl" "~1.3.3"
-    "utils-merge" "1.0.1"
+    debug "2.6.9"
+    finalhandler "1.1.2"
+    parseurl "~1.3.3"
+    utils-merge "1.0.1"
 
-"constantinople@^3.0.1", "constantinople@^3.1.2":
-  "integrity" "sha1-1F7XJPV9PRBQABen06iJwTga5kc="
-  "resolved" "http://registry.m.jd.com/constantinople/download/constantinople-3.1.2.tgz"
-  "version" "3.1.2"
+constantinople@^3.0.1, constantinople@^3.1.2:
+  version "3.1.2"
+  resolved "http://registry.m.jd.com/constantinople/download/constantinople-3.1.2.tgz"
   dependencies:
     "@types/babel-types" "^7.0.0"
     "@types/babylon" "^6.16.2"
-    "babel-types" "^6.26.0"
-    "babylon" "^6.18.0"
+    babel-types "^6.26.0"
+    babylon "^6.18.0"
 
-"conventional-commit-types@^2.0.0":
-  "integrity" "sha1-vDyOu6Cp5LPsxUjx0GdOJRq4viI="
-  "resolved" "http://registry.m.jd.com/conventional-commit-types/download/conventional-commit-types-2.3.0.tgz"
-  "version" "2.3.0"
+conventional-commit-types@^2.0.0:
+  version "2.3.0"
+  resolved "http://registry.m.jd.com/conventional-commit-types/download/conventional-commit-types-2.3.0.tgz"
 
-"conventional-commit-types@^3.0.0":
-  "integrity" "sha1-fJIU5Y6uk+hd1m2/uv5+T/+iNls="
-  "resolved" "http://registry.m.jd.com/conventional-commit-types/download/conventional-commit-types-3.0.0.tgz"
-  "version" "3.0.0"
+conventional-commit-types@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/conventional-commit-types/download/conventional-commit-types-3.0.0.tgz"
 
-"copy-descriptor@^0.1.0":
-  "integrity" "sha1-Z29us8OZl8LuGsOpJP1hJHSPV40="
-  "resolved" "https://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz"
-  "version" "0.1.1"
+copy-descriptor@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz"
 
-"core-js@^2.4.0":
-  "integrity" "sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw="
-  "resolved" "http://registry.m.jd.com/core-js/download/core-js-2.6.12.tgz"
-  "version" "2.6.12"
+core-js@^2.4.0:
+  version "2.6.12"
+  resolved "http://registry.m.jd.com/core-js/download/core-js-2.6.12.tgz"
 
-"cosmiconfig@^7.0.0":
-  "integrity" "sha1-75tE13OVnK5j3ezRIt4jhTtg+NM="
-  "resolved" "http://registry.m.jd.com/cosmiconfig/download/cosmiconfig-7.0.0.tgz"
-  "version" "7.0.0"
+cosmiconfig@^7.0.0:
+  version "7.0.0"
+  resolved "http://registry.m.jd.com/cosmiconfig/download/cosmiconfig-7.0.0.tgz"
   dependencies:
     "@types/parse-json" "^4.0.0"
-    "import-fresh" "^3.2.1"
-    "parse-json" "^5.0.0"
-    "path-type" "^4.0.0"
-    "yaml" "^1.10.0"
+    import-fresh "^3.2.1"
+    parse-json "^5.0.0"
+    path-type "^4.0.0"
+    yaml "^1.10.0"
 
-"cross-spawn@^7.0.0":
-  "integrity" "sha1-9zqFudXUHQRVUcF34ogtSshXKKY="
-  "resolved" "http://registry.m.jd.com/cross-spawn/download/cross-spawn-7.0.3.tgz"
-  "version" "7.0.3"
+cross-spawn@^7.0.0:
+  version "7.0.3"
+  resolved "http://registry.m.jd.com/cross-spawn/download/cross-spawn-7.0.3.tgz"
   dependencies:
-    "path-key" "^3.1.0"
-    "shebang-command" "^2.0.0"
-    "which" "^2.0.1"
+    path-key "^3.1.0"
+    shebang-command "^2.0.0"
+    which "^2.0.1"
 
-"css-parse@~2.0.0":
-  "integrity" "sha1-pGjuZnwW2BzPBcWMONKpfHgNv9Q="
-  "resolved" "http://registry.m.jd.com/css-parse/download/css-parse-2.0.0.tgz"
-  "version" "2.0.0"
+css-parse@1.7.x:
+  version "1.7.0"
+  resolved "https://registry.npmjs.org/css-parse/-/css-parse-1.7.0.tgz"
+
+css-parse@~2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/css-parse/download/css-parse-2.0.0.tgz"
   dependencies:
-    "css" "^2.0.0"
+    css "^2.0.0"
 
-"css-parse@1.7.x":
-  "integrity" "sha1-Mh9s9zeCpv91ERE5D8BeLGV9jJs="
-  "resolved" "https://registry.npmjs.org/css-parse/-/css-parse-1.7.0.tgz"
-  "version" "1.7.0"
-
-"css@^2.0.0":
-  "integrity" "sha1-xkZ1XHOXHyu6amAeLPL9cbEpiSk="
-  "resolved" "http://registry.m.jd.com/css/download/css-2.2.4.tgz"
-  "version" "2.2.4"
+css@^2.0.0:
+  version "2.2.4"
+  resolved "http://registry.m.jd.com/css/download/css-2.2.4.tgz"
   dependencies:
-    "inherits" "^2.0.3"
-    "source-map" "^0.6.1"
-    "source-map-resolve" "^0.5.2"
-    "urix" "^0.1.0"
+    inherits "^2.0.3"
+    source-map "^0.6.1"
+    source-map-resolve "^0.5.2"
+    urix "^0.1.0"
 
-"cuid@^2.1.4":
-  "integrity" "sha1-y7iPlUFx4NV0dgbAE5+2XFEB6sA="
-  "resolved" "http://registry.m.jd.com/cuid/download/cuid-2.1.8.tgz"
-  "version" "2.1.8"
+cuid@^2.1.4:
+  version "2.1.8"
+  resolved "http://registry.m.jd.com/cuid/download/cuid-2.1.8.tgz"
 
-"cz-conventional-changelog@^3.1.0", "cz-conventional-changelog@3.3.0":
-  "integrity" "sha1-kkaUfJBAQUmz/iz37pGsrTt9ItI="
-  "resolved" "http://registry.m.jd.com/cz-conventional-changelog/download/cz-conventional-changelog-3.3.0.tgz"
-  "version" "3.3.0"
+cz-conventional-changelog@3.3.0, cz-conventional-changelog@^3.1.0:
+  version "3.3.0"
+  resolved "http://registry.m.jd.com/cz-conventional-changelog/download/cz-conventional-changelog-3.3.0.tgz"
   dependencies:
-    "@commitlint/load" ">6.1.1"
-    "chalk" "^2.4.1"
-    "commitizen" "^4.0.3"
-    "conventional-commit-types" "^3.0.0"
-    "lodash.map" "^4.5.1"
-    "longest" "^2.0.1"
-    "word-wrap" "^1.0.3"
+    chalk "^2.4.1"
+    commitizen "^4.0.3"
+    conventional-commit-types "^3.0.0"
+    lodash.map "^4.5.1"
+    longest "^2.0.1"
+    word-wrap "^1.0.3"
   optionalDependencies:
     "@commitlint/load" ">6.1.1"
 
-"debug@*":
-  "integrity" "sha1-8NIpxQXgxtjEmsVT0bE9wYP2su4="
-  "resolved" "http://registry.m.jd.com/debug/download/debug-4.3.1.tgz"
-  "version" "4.3.1"
-  dependencies:
-    "ms" "2.1.2"
-
-"debug@^2.2.0":
-  "integrity" "sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8="
-  "resolved" "http://registry.m.jd.com/debug/download/debug-2.6.9.tgz"
-  "version" "2.6.9"
-  dependencies:
-    "ms" "2.0.0"
-
-"debug@^2.3.3":
-  "integrity" "sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8="
-  "resolved" "http://registry.m.jd.com/debug/download/debug-2.6.9.tgz"
-  "version" "2.6.9"
-  dependencies:
-    "ms" "2.0.0"
-
-"debug@~3.1.0":
-  "integrity" "sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE="
-  "resolved" "http://registry.m.jd.com/debug/download/debug-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "ms" "2.0.0"
-
-"debug@2.6.9":
-  "integrity" "sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8="
-  "resolved" "http://registry.m.jd.com/debug/download/debug-2.6.9.tgz"
-  "version" "2.6.9"
-  dependencies:
-    "ms" "2.0.0"
-
-"decamelize@^1.0.0":
-  "integrity" "sha1-9lNNFRSCabIDUue+4m9QH5oZEpA="
-  "resolved" "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
-  "version" "1.2.0"
-
-"decode-uri-component@^0.2.0":
-  "integrity" "sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU="
-  "resolved" "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz"
-  "version" "0.2.0"
-
-"dedent@0.7.0":
-  "integrity" "sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw="
-  "resolved" "https://registry.npmjs.org/dedent/-/dedent-0.7.0.tgz"
-  "version" "0.7.0"
-
-"deepmerge@^4.2.2":
-  "integrity" "sha1-RNLqNnm49NT/ujPwPYZfwee/SVU="
-  "resolved" "http://registry.m.jd.com/deepmerge/download/deepmerge-4.2.2.tgz"
-  "version" "4.2.2"
-
-"define-property@^0.2.5":
-  "integrity" "sha1-w1se+RjsPJkPmlvFe+BKrOxcgRY="
-  "resolved" "https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz"
-  "version" "0.2.5"
-  dependencies:
-    "is-descriptor" "^0.1.0"
-
-"define-property@^1.0.0":
-  "integrity" "sha1-dp66rz9KY6rTr56NMEybvnm/sOY="
-  "resolved" "http://registry.m.jd.com/define-property/download/define-property-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "is-descriptor" "^1.0.0"
-
-"define-property@^2.0.2":
-  "integrity" "sha1-1Flono1lS6d+AqgX+HENcCyxbp0="
-  "resolved" "http://registry.m.jd.com/define-property/download/define-property-2.0.2.tgz"
-  "version" "2.0.2"
-  dependencies:
-    "is-descriptor" "^1.0.2"
-    "isobject" "^3.0.1"
-
-"delegate@^3.1.2":
-  "integrity" "sha1-tmtxwxWFIuirV0T3INjKDCr1kWY="
-  "resolved" "http://registry.m.jd.com/delegate/download/delegate-3.2.0.tgz"
-  "version" "3.2.0"
-
-"depd@~1.1.2":
-  "integrity" "sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak="
-  "resolved" "http://registry.m.jd.com/depd/download/depd-1.1.2.tgz"
-  "version" "1.1.2"
-
-"depd@~2.0.0":
-  "integrity" "sha1-tpYWPMdXVg0JzyLMj60Vcbeedt8="
-  "resolved" "http://registry.m.jd.com/depd/download/depd-2.0.0.tgz"
-  "version" "2.0.0"
-
-"destroy@~1.0.4":
-  "integrity" "sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA="
-  "resolved" "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz"
-  "version" "1.0.4"
-
-"detect-file@^1.0.0":
-  "integrity" "sha1-8NZtA2cqglyxtzvbP+YjEMjlUrc="
-  "resolved" "https://registry.npmjs.org/detect-file/-/detect-file-1.0.0.tgz"
-  "version" "1.0.0"
-
-"detect-indent@6.0.0":
-  "integrity" "sha1-Cr0PVJ9p/GZZolT+lnhhhrb1KP0="
-  "resolved" "http://registry.m.jd.com/detect-indent/download/detect-indent-6.0.0.tgz"
-  "version" "6.0.0"
-
-"doctypes@^1.1.0":
-  "integrity" "sha1-6oCxBqh1OHdOijpKWv4pPeSJ4Kk="
-  "resolved" "https://registry.npmjs.org/doctypes/-/doctypes-1.1.0.tgz"
-  "version" "1.1.0"
-
-"dom-serializer@^1.0.1":
-  "integrity" "sha1-NDPZE2rrPGJ5gdqjhfx/MtJ8SPE="
-  "resolved" "http://registry.m.jd.com/dom-serializer/download/dom-serializer-1.2.0.tgz"
-  "version" "1.2.0"
-  dependencies:
-    "domelementtype" "^2.0.1"
-    "domhandler" "^4.0.0"
-    "entities" "^2.0.0"
-
-"domelementtype@^2.0.1", "domelementtype@^2.1.0":
-  "integrity" "sha1-qFHAgKbRw9lDRK7RUdmfZp7fWF4="
-  "resolved" "http://registry.m.jd.com/domelementtype/download/domelementtype-2.1.0.tgz"
-  "version" "2.1.0"
-
-"domhandler@^3.0.0":
-  "integrity" "sha1-bbfqRuRhfrFc+HXfaLK4UkzgA3o="
-  "resolved" "http://registry.m.jd.com/domhandler/download/domhandler-3.3.0.tgz"
-  "version" "3.3.0"
-  dependencies:
-    "domelementtype" "^2.0.1"
-
-"domhandler@^4.0.0":
-  "integrity" "sha1-Aep4Id6ZbYX2kCnoH6hzwhgzCY4="
-  "resolved" "http://registry.m.jd.com/domhandler/download/domhandler-4.0.0.tgz"
-  "version" "4.0.0"
-  dependencies:
-    "domelementtype" "^2.1.0"
-
-"domutils@^2.0.0":
-  "integrity" "sha1-KCc5xLFQ0CLTRpl5c2mq2NGbu9M="
-  "resolved" "http://registry.m.jd.com/domutils/download/domutils-2.4.4.tgz"
-  "version" "2.4.4"
-  dependencies:
-    "dom-serializer" "^1.0.1"
-    "domelementtype" "^2.0.1"
-    "domhandler" "^4.0.0"
-
-"ee-first@1.1.1":
-  "integrity" "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="
-  "resolved" "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
-  "version" "1.1.1"
-
-"ejs@^2.6.1":
-  "integrity" "sha1-SGYSh1c9zFPjZsehrlLDoSDuybo="
-  "resolved" "http://registry.m.jd.com/ejs/download/ejs-2.7.4.tgz"
-  "version" "2.7.4"
-
-"encodeurl@~1.0.2":
-  "integrity" "sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k="
-  "resolved" "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz"
-  "version" "1.0.2"
-
-"entities@^2.0.0":
-  "integrity" "sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU="
-  "resolved" "http://registry.m.jd.com/entities/download/entities-2.2.0.tgz"
-  "version" "2.2.0"
-
-"error-ex@^1.3.1":
-  "integrity" "sha1-tKxAZIEH/c3PriQvQovqihTU8b8="
-  "resolved" "http://registry.m.jd.com/error-ex/download/error-ex-1.3.2.tgz"
-  "version" "1.3.2"
-  dependencies:
-    "is-arrayish" "^0.2.1"
-
-"escape-html@~1.0.3":
-  "integrity" "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg="
-  "resolved" "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
-  "version" "1.0.3"
-
-"escape-string-regexp@^1.0.5":
-  "integrity" "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
-  "resolved" "http://registry.m.jd.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
-  "version" "1.0.5"
-
-"escape-string-regexp@^2.0.0":
-  "integrity" "sha1-owME6Z2qMuI7L9IPUbq9B8/8o0Q="
-  "resolved" "http://registry.m.jd.com/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz"
-  "version" "2.0.0"
-
-"esprima@^4.0.0":
-  "integrity" "sha1-E7BM2z5sXRnfkatph6hpVhmwqnE="
-  "resolved" "http://registry.m.jd.com/esprima/download/esprima-4.0.1.tgz"
-  "version" "4.0.1"
-
-"esutils@^2.0.2":
-  "integrity" "sha1-dNLrTeC42hKTcRkQ1Qd1ubcQ72Q="
-  "resolved" "http://registry.m.jd.com/esutils/download/esutils-2.0.3.tgz"
-  "version" "2.0.3"
-
-"etag@~1.8.1":
-  "integrity" "sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc="
-  "resolved" "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz"
-  "version" "1.8.1"
-
-"expand-brackets@^2.1.4":
-  "integrity" "sha1-t3c14xXOMPa27/D4OwQVGiJEliI="
-  "resolved" "https://registry.npmjs.org/expand-brackets/-/expand-brackets-2.1.4.tgz"
-  "version" "2.1.4"
-  dependencies:
-    "debug" "^2.3.3"
-    "define-property" "^0.2.5"
-    "extend-shallow" "^2.0.1"
-    "posix-character-classes" "^0.1.0"
-    "regex-not" "^1.0.0"
-    "snapdragon" "^0.8.1"
-    "to-regex" "^3.0.1"
-
-"expand-tilde@^2.0.0", "expand-tilde@^2.0.2":
-  "integrity" "sha1-l+gBqgUt8CRU3kawK/YhZCzchQI="
-  "resolved" "https://registry.npmjs.org/expand-tilde/-/expand-tilde-2.0.2.tgz"
-  "version" "2.0.2"
-  dependencies:
-    "homedir-polyfill" "^1.0.1"
-
-"extend-shallow@^2.0.1":
-  "integrity" "sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8="
-  "resolved" "http://registry.m.jd.com/extend-shallow/download/extend-shallow-2.0.1.tgz"
-  "version" "2.0.1"
-  dependencies:
-    "is-extendable" "^0.1.0"
-
-"extend-shallow@^3.0.0", "extend-shallow@^3.0.2":
-  "integrity" "sha1-Jqcarwc7OfshJxcnRhMcJwQCjbg="
-  "resolved" "https://registry.npmjs.org/extend-shallow/-/extend-shallow-3.0.2.tgz"
-  "version" "3.0.2"
-  dependencies:
-    "assign-symbols" "^1.0.0"
-    "is-extendable" "^1.0.1"
-
-"external-editor@^3.0.3":
-  "integrity" "sha1-ywP3QL764D6k0oPK7SdBqD8zVJU="
-  "resolved" "http://registry.m.jd.com/external-editor/download/external-editor-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "chardet" "^0.7.0"
-    "iconv-lite" "^0.4.24"
-    "tmp" "^0.0.33"
-
-"extglob@^2.0.4":
-  "integrity" "sha1-rQD+TcYSqSMuhxhxHcXLWrAoVUM="
-  "resolved" "http://registry.m.jd.com/extglob/download/extglob-2.0.4.tgz"
-  "version" "2.0.4"
-  dependencies:
-    "array-unique" "^0.3.2"
-    "define-property" "^1.0.0"
-    "expand-brackets" "^2.1.4"
-    "extend-shallow" "^2.0.1"
-    "fragment-cache" "^0.2.1"
-    "regex-not" "^1.0.0"
-    "snapdragon" "^0.8.1"
-    "to-regex" "^3.0.1"
-
-"figures@^2.0.0":
-  "integrity" "sha1-OrGi0qYsi/tDGgyUy3l6L84nyWI="
-  "resolved" "https://registry.npmjs.org/figures/-/figures-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "escape-string-regexp" "^1.0.5"
-
-"fill-range@^4.0.0":
-  "integrity" "sha1-1USBHUKPmOsGpj3EAtJAPDKMOPc="
-  "resolved" "http://registry.m.jd.com/fill-range/download/fill-range-4.0.0.tgz"
-  "version" "4.0.0"
-  dependencies:
-    "extend-shallow" "^2.0.1"
-    "is-number" "^3.0.0"
-    "repeat-string" "^1.6.1"
-    "to-regex-range" "^2.1.0"
-
-"fill-range@^7.0.1":
-  "integrity" "sha1-GRmmp8df44ssfHflGYU12prN2kA="
-  "resolved" "http://registry.m.jd.com/fill-range/download/fill-range-7.0.1.tgz"
-  "version" "7.0.1"
-  dependencies:
-    "to-regex-range" "^5.0.1"
-
-"finalhandler@1.1.2":
-  "integrity" "sha1-t+fQAP/RGTjQ/bBTUG9uur6fWH0="
-  "resolved" "http://registry.m.jd.com/finalhandler/download/finalhandler-1.1.2.tgz"
-  "version" "1.1.2"
-  dependencies:
-    "debug" "2.6.9"
-    "encodeurl" "~1.0.2"
-    "escape-html" "~1.0.3"
-    "on-finished" "~2.3.0"
-    "parseurl" "~1.3.3"
-    "statuses" "~1.5.0"
-    "unpipe" "~1.0.0"
-
-"find-node-modules@2.0.0":
-  "integrity" "sha1-XbH7nmaKPUUds9YYzRZ83VnkG2k="
-  "resolved" "http://registry.m.jd.com/find-node-modules/download/find-node-modules-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "findup-sync" "^3.0.0"
-    "merge" "^1.2.1"
-
-"find-parent-dir@^0.3.0":
-  "integrity" "sha1-M8RLQpqysvBkYpnF+fcY83b/jVQ="
-  "resolved" "https://registry.npmjs.org/find-parent-dir/-/find-parent-dir-0.3.0.tgz"
-  "version" "0.3.0"
-
-"find-root@1.1.0":
-  "integrity" "sha1-q8/Iunb3CMQql7PWhbfpRQv7nOQ="
-  "resolved" "http://registry.m.jd.com/find-root/download/find-root-1.1.0.tgz"
-  "version" "1.1.0"
-
-"find-up@^5.0.0":
-  "integrity" "sha1-TJKBnstwg1YeT0okCoa+UZj1Nvw="
-  "resolved" "http://registry.m.jd.com/find-up/download/find-up-5.0.0.tgz"
-  "version" "5.0.0"
-  dependencies:
-    "locate-path" "^6.0.0"
-    "path-exists" "^4.0.0"
-
-"find-versions@^4.0.0":
-  "integrity" "sha1-PFflc7+XdpuMuN8Wk0tieRXaSWU="
-  "resolved" "http://registry.m.jd.com/find-versions/download/find-versions-4.0.0.tgz"
-  "version" "4.0.0"
-  dependencies:
-    "semver-regex" "^3.1.2"
-
-"findup-sync@^3.0.0":
-  "integrity" "sha1-F7EI+e5RLft6XH88iyfqnhqcCNE="
-  "resolved" "http://registry.m.jd.com/findup-sync/download/findup-sync-3.0.0.tgz"
-  "version" "3.0.0"
-  dependencies:
-    "detect-file" "^1.0.0"
-    "is-glob" "^4.0.0"
-    "micromatch" "^3.0.4"
-    "resolve-dir" "^1.0.1"
-
-"findup@0.1.5":
-  "integrity" "sha1-itkpozk7rGJ5V6fl3kYjsGsOLOs="
-  "resolved" "https://registry.npmjs.org/findup/-/findup-0.1.5.tgz"
-  "version" "0.1.5"
-  dependencies:
-    "colors" "~0.6.0-1"
-    "commander" "~2.1.0"
-
-"for-in@^1.0.2":
-  "integrity" "sha1-gQaNKVqBQuwKxybG4iAMMPttXoA="
-  "resolved" "https://registry.npmjs.org/for-in/-/for-in-1.0.2.tgz"
-  "version" "1.0.2"
-
-"fragment-cache@^0.2.1":
-  "integrity" "sha1-QpD60n8T6Jvn8zeZxrxaCr//DRk="
-  "resolved" "https://registry.npmjs.org/fragment-cache/-/fragment-cache-0.2.1.tgz"
-  "version" "0.2.1"
-  dependencies:
-    "map-cache" "^0.2.2"
-
-"fresh@0.5.2":
-  "integrity" "sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac="
-  "resolved" "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz"
-  "version" "0.5.2"
-
-"fs-extra@8.1.0":
-  "integrity" "sha1-SdQ8RaiM2Wd2aMt74bRu/bjS4cA="
-  "resolved" "http://registry.m.jd.com/fs-extra/download/fs-extra-8.1.0.tgz"
-  "version" "8.1.0"
-  dependencies:
-    "graceful-fs" "^4.2.0"
-    "jsonfile" "^4.0.0"
-    "universalify" "^0.1.0"
-
-"fs.realpath@^1.0.0":
-  "integrity" "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
-  "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
-  "version" "1.0.0"
-
-"fsevents@~2.3.1":
-  "integrity" "sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro="
-  "resolved" "http://registry.m.jd.com/fsevents/download/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
-
-"function-bind@^1.1.1":
-  "integrity" "sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0="
-  "resolved" "http://registry.m.jd.com/function-bind/download/function-bind-1.1.1.tgz"
-  "version" "1.1.1"
-
-"get-intrinsic@^1.0.2":
-  "integrity" "sha1-FfWfN2+FXERpY5SPDSTNNje0q8Y="
-  "resolved" "http://registry.m.jd.com/get-intrinsic/download/get-intrinsic-1.1.1.tgz"
-  "version" "1.1.1"
-  dependencies:
-    "function-bind" "^1.1.1"
-    "has" "^1.0.3"
-    "has-symbols" "^1.0.1"
-
-"get-value@^2.0.3", "get-value@^2.0.6":
-  "integrity" "sha1-3BXKHGcjh8p2vTesCjlbogQqLCg="
-  "resolved" "https://registry.npmjs.org/get-value/-/get-value-2.0.6.tgz"
-  "version" "2.0.6"
-
-"glob-parent@~5.1.0":
-  "integrity" "sha1-tsHvQXxOVmPqSY8cRa+saRa7wik="
-  "resolved" "http://registry.m.jd.com/glob-parent/download/glob-parent-5.1.1.tgz"
-  "version" "5.1.1"
-  dependencies:
-    "is-glob" "^4.0.1"
-
-"glob@^7.1.6":
-  "integrity" "sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY="
-  "resolved" "http://registry.m.jd.com/glob/download/glob-7.1.6.tgz"
-  "version" "7.1.6"
-  dependencies:
-    "fs.realpath" "^1.0.0"
-    "inflight" "^1.0.4"
-    "inherits" "2"
-    "minimatch" "^3.0.4"
-    "once" "^1.3.0"
-    "path-is-absolute" "^1.0.0"
-
-"glob@7.0.x":
-  "integrity" "sha1-IRuvr0nlJbjNkyYNFKsTYVKz9Xo="
-  "resolved" "http://registry.m.jd.com/glob/download/glob-7.0.6.tgz"
-  "version" "7.0.6"
-  dependencies:
-    "fs.realpath" "^1.0.0"
-    "inflight" "^1.0.4"
-    "inherits" "2"
-    "minimatch" "^3.0.2"
-    "once" "^1.3.0"
-    "path-is-absolute" "^1.0.0"
-
-"glob@7.1.4":
-  "integrity" "sha1-qmCKL2xXetNX4a5aXCbZqNGWklU="
-  "resolved" "http://registry.m.jd.com/glob/download/glob-7.1.4.tgz"
-  "version" "7.1.4"
-  dependencies:
-    "fs.realpath" "^1.0.0"
-    "inflight" "^1.0.4"
-    "inherits" "2"
-    "minimatch" "^3.0.4"
-    "once" "^1.3.0"
-    "path-is-absolute" "^1.0.0"
-
-"global-dirs@^0.1.1":
-  "integrity" "sha1-sxnA3UYH81PzvpzKTHL8FIxJ9EU="
-  "resolved" "https://registry.npmjs.org/global-dirs/-/global-dirs-0.1.1.tgz"
-  "version" "0.1.1"
-  dependencies:
-    "ini" "^1.3.4"
-
-"global-modules@^1.0.0":
-  "integrity" "sha1-bXcPDrUjrHgWTXK15xqIdyZcw+o="
-  "resolved" "http://registry.m.jd.com/global-modules/download/global-modules-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "global-prefix" "^1.0.1"
-    "is-windows" "^1.0.1"
-    "resolve-dir" "^1.0.0"
-
-"global-prefix@^1.0.1":
-  "integrity" "sha1-2/dDxsFJklk8ZVVoy2btMsASLr4="
-  "resolved" "https://registry.npmjs.org/global-prefix/-/global-prefix-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "expand-tilde" "^2.0.2"
-    "homedir-polyfill" "^1.0.1"
-    "ini" "^1.3.4"
-    "is-windows" "^1.0.1"
-    "which" "^1.2.14"
-
-"good-listener@^1.2.2":
-  "integrity" "sha1-1TswzfkxPf+33JoNR3CWqm0UXFA="
-  "resolved" "http://registry.m.jd.com/good-listener/download/good-listener-1.2.2.tgz"
-  "version" "1.2.2"
-  dependencies:
-    "delegate" "^3.1.2"
-
-"graceful-fs@^4.1.11", "graceful-fs@^4.1.3", "graceful-fs@^4.1.6", "graceful-fs@^4.2.0":
-  "integrity" "sha1-/wQLKwhTsjw9MQJ1I3BvGIXXa+4="
-  "resolved" "http://registry.m.jd.com/graceful-fs/download/graceful-fs-4.2.6.tgz"
-  "version" "4.2.6"
-
-"has-flag@^3.0.0":
-  "integrity" "sha1-tdRU3CGZriJWmfNGfloH87lVuv0="
-  "resolved" "http://registry.m.jd.com/has-flag/download/has-flag-3.0.0.tgz"
-  "version" "3.0.0"
-
-"has-flag@^4.0.0":
-  "integrity" "sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s="
-  "resolved" "http://registry.m.jd.com/has-flag/download/has-flag-4.0.0.tgz"
-  "version" "4.0.0"
-
-"has-symbols@^1.0.1":
-  "integrity" "sha1-Fl0wcMADCXUqEjakeTMeOsVvFCM="
-  "resolved" "http://registry.m.jd.com/has-symbols/download/has-symbols-1.0.2.tgz"
-  "version" "1.0.2"
-
-"has-value@^0.3.1":
-  "integrity" "sha1-ex9YutpiyoJ+wKIHgCVlSEWZXh8="
-  "resolved" "https://registry.npmjs.org/has-value/-/has-value-0.3.1.tgz"
-  "version" "0.3.1"
-  dependencies:
-    "get-value" "^2.0.3"
-    "has-values" "^0.1.4"
-    "isobject" "^2.0.0"
-
-"has-value@^1.0.0":
-  "integrity" "sha1-GLKB2lhbHFxR3vJMkw7SmgvmsXc="
-  "resolved" "https://registry.npmjs.org/has-value/-/has-value-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "get-value" "^2.0.6"
-    "has-values" "^1.0.0"
-    "isobject" "^3.0.0"
-
-"has-values@^0.1.4":
-  "integrity" "sha1-bWHeldkd/Km5oCCJrThL/49it3E="
-  "resolved" "https://registry.npmjs.org/has-values/-/has-values-0.1.4.tgz"
-  "version" "0.1.4"
-
-"has-values@^1.0.0":
-  "integrity" "sha1-lbC2P+whRmGab+V/51Yo1aOe/k8="
-  "resolved" "https://registry.npmjs.org/has-values/-/has-values-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "is-number" "^3.0.0"
-    "kind-of" "^4.0.0"
-
-"has@^1.0.3":
-  "integrity" "sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y="
-  "resolved" "http://registry.m.jd.com/has/download/has-1.0.3.tgz"
-  "version" "1.0.3"
-  dependencies:
-    "function-bind" "^1.1.1"
-
-"hexo-cli@^4.0.0":
-  "integrity" "sha1-dGR7xyqQuc6/BK9bxwg5qygaMF0="
-  "resolved" "http://registry.m.jd.com/hexo-cli/download/hexo-cli-4.2.0.tgz"
-  "version" "4.2.0"
-  dependencies:
-    "abbrev" "^1.1.1"
-    "bluebird" "^3.5.5"
-    "chalk" "^4.0.0"
-    "command-exists" "^1.2.8"
-    "hexo-fs" "^3.0.1"
-    "hexo-log" "^2.0.0"
-    "hexo-util" "^2.0.0"
-    "minimist" "^1.2.5"
-    "resolve" "^1.11.0"
-    "tildify" "^2.0.0"
-
-"hexo-deployer-git@^2.1.0":
-  "integrity" "sha1-LnLwXXsxjb4pkp0VbqE/kTI1T/E="
-  "resolved" "http://registry.m.jd.com/hexo-deployer-git/download/hexo-deployer-git-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "bluebird" "^3.5.0"
-    "chalk" "^3.0.0"
-    "hexo-fs" "^2.0.0"
-    "hexo-util" "^1.0.0"
-    "moment" "^2.18.0"
-    "swig-templates" "^2.0.2"
-
-"hexo-front-matter@^2.0.0":
-  "integrity" "sha1-A/Oanu2xbFRI27O+x9/yxOIkAGw="
-  "resolved" "http://registry.m.jd.com/hexo-front-matter/download/hexo-front-matter-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "js-yaml" "^3.13.1"
-
-"hexo-fs@^2.0.0":
-  "integrity" "sha1-q73K3sBnqDJtFLSOEBk1zxpPSOk="
-  "resolved" "http://registry.m.jd.com/hexo-fs/download/hexo-fs-2.0.1.tgz"
-  "version" "2.0.1"
-  dependencies:
-    "bluebird" "^3.5.1"
-    "chokidar" "^3.0.0"
-    "escape-string-regexp" "^2.0.0"
-    "graceful-fs" "^4.1.11"
-
-"hexo-fs@^3.0.1", "hexo-fs@^3.1.0":
-  "integrity" "sha1-IFL/csaM2ixXeoeqDqeYCuUD+pk="
-  "resolved" "http://registry.m.jd.com/hexo-fs/download/hexo-fs-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "bluebird" "^3.5.1"
-    "chokidar" "^3.0.0"
-    "graceful-fs" "^4.1.11"
-    "hexo-util" "^2.0.0"
-
-"hexo-generator-archive@^1.0.0":
-  "integrity" "sha1-rSr7EiMqZeL4YI/Byj8ZFi+2N4Y="
-  "resolved" "http://registry.m.jd.com/hexo-generator-archive/download/hexo-generator-archive-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "hexo-pagination" "1.0.0"
-
-"hexo-generator-category@^1.0.0":
-  "integrity" "sha1-zSorA+sybaPvgh1uKUCEiMwTLrU="
-  "resolved" "http://registry.m.jd.com/hexo-generator-category/download/hexo-generator-category-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "hexo-pagination" "1.0.0"
-
-"hexo-generator-index@^2.0.0":
-  "integrity" "sha1-FecfTSjunSFy4td+jR26BIgu3I8="
-  "resolved" "http://registry.m.jd.com/hexo-generator-index/download/hexo-generator-index-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "hexo-pagination" "1.0.0"
-    "timsort" "^0.3.0"
-
-"hexo-generator-search@^2.4.0":
-  "integrity" "sha1-Yj0Hj0qU/igvdupyhPOKWBg1Zac="
-  "resolved" "http://registry.m.jd.com/hexo-generator-search/download/hexo-generator-search-2.4.1.tgz"
-  "version" "2.4.1"
-  dependencies:
-    "nunjucks" "^3.0.1"
-    "utils-merge" "^1.0.0"
-
-"hexo-generator-searchdb@^1.2.0":
-  "integrity" "sha1-SNWFyeLiMs1fh16bO8VELoUl2G4="
-  "resolved" "http://registry.m.jd.com/hexo-generator-searchdb/download/hexo-generator-searchdb-1.3.3.tgz"
-  "version" "1.3.3"
-  dependencies:
-    "nunjucks" "^3.2.2"
-
-"hexo-generator-tag@^1.0.0":
-  "integrity" "sha1-VOwj3pQJx1WE6oHjYFelkDGwIvE="
-  "resolved" "http://registry.m.jd.com/hexo-generator-tag/download/hexo-generator-tag-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "hexo-pagination" "1.0.0"
-
-"hexo-i18n@^1.0.0":
-  "integrity" "sha1-eYP7OjE+kGFbhN2PqUanHEie9b0="
-  "resolved" "http://registry.m.jd.com/hexo-i18n/download/hexo-i18n-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "sprintf-js" "^1.0.3"
-
-"hexo-log@^2.0.0":
-  "integrity" "sha1-HcyOlgApsIshmU/ixWxOPWNG6JM="
-  "resolved" "http://registry.m.jd.com/hexo-log/download/hexo-log-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "chalk" "^4.0.0"
-
-"hexo-pagination@1.0.0":
-  "integrity" "sha1-ycDKNmUme56dCon8PtyvMnaQfcE="
-  "resolved" "http://registry.m.jd.com/hexo-pagination/download/hexo-pagination-1.0.0.tgz"
-  "version" "1.0.0"
-
-"hexo-renderer-ejs@^1.0.0":
-  "integrity" "sha1-Q8TeSe6uIkA2pFffhg6xwUxotLQ="
-  "resolved" "http://registry.m.jd.com/hexo-renderer-ejs/download/hexo-renderer-ejs-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "ejs" "^2.6.1"
-
-"hexo-renderer-marked@^3.0.0":
-  "integrity" "sha1-VLzp8A01bHE5Ky/DqIHff/ba6L0="
-  "resolved" "http://registry.m.jd.com/hexo-renderer-marked/download/hexo-renderer-marked-3.3.0.tgz"
-  "version" "3.3.0"
-  dependencies:
-    "hexo-util" "^2.1.0"
-    "marked" "^1.0.0"
-
-"hexo-renderer-pug@^1.0.0":
-  "integrity" "sha1-4jz6U9MIoJha6OwrJaT40kxLTcw="
-  "resolved" "http://registry.m.jd.com/hexo-renderer-pug/download/hexo-renderer-pug-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "pug" "^2.0.1"
-
-"hexo-renderer-stylus@^2.0.0":
-  "integrity" "sha1-xlVm6X6QWKUuRsgrDEXPVh9LlMs="
-  "resolved" "http://registry.m.jd.com/hexo-renderer-stylus/download/hexo-renderer-stylus-2.0.1.tgz"
-  "version" "2.0.1"
-  dependencies:
-    "nib" "^1.1.2"
-    "stylus" "^0.54.8"
-
-"hexo-server@^2.0.0":
-  "integrity" "sha1-GtksyKfTUo/sb/pl/4RT8kL3mD8="
-  "resolved" "http://registry.m.jd.com/hexo-server/download/hexo-server-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "bluebird" "^3.5.5"
-    "chalk" "^4.0.0"
-    "compression" "^1.7.4"
-    "connect" "^3.7.0"
-    "mime" "^2.4.3"
-    "morgan" "^1.9.1"
-    "open" "^7.0.0"
-    "serve-static" "^1.14.1"
-
-"hexo-util@^1.0.0":
-  "integrity" "sha1-FdwQ0NykdMl4zbqcIOjQQXrJk94="
-  "resolved" "http://registry.m.jd.com/hexo-util/download/hexo-util-1.9.1.tgz"
-  "version" "1.9.1"
-  dependencies:
-    "bluebird" "^3.5.2"
-    "camel-case" "^4.0.0"
-    "cross-spawn" "^7.0.0"
-    "deepmerge" "^4.2.2"
-    "highlight.js" "^9.13.1"
-    "htmlparser2" "^4.0.0"
-    "prismjs" "^1.17.1"
-    "punycode.js" "^2.1.0"
-    "strip-indent" "^3.0.0"
-    "striptags" "^3.1.1"
-
-"hexo-util@^2.0.0", "hexo-util@^2.1.0", "hexo-util@^2.2.0":
-  "integrity" "sha1-9cAJmgoXGLOtJwYeXk0fuet/K0E="
-  "resolved" "http://registry.m.jd.com/hexo-util/download/hexo-util-2.4.0.tgz"
-  "version" "2.4.0"
-  dependencies:
-    "bluebird" "^3.5.2"
-    "camel-case" "^4.0.0"
-    "cross-spawn" "^7.0.0"
-    "deepmerge" "^4.2.2"
-    "highlight.js" "^10.0.0"
-    "htmlparser2" "^4.0.0"
-    "prismjs" "^1.17.1"
-    "strip-indent" "^3.0.0"
-    "striptags" "^3.1.1"
-
-"hexo-wordcount@^6.0.1":
-  "integrity" "sha1-WmDvydPI5CGVby/WaDypSop5UmQ="
-  "resolved" "http://registry.m.jd.com/hexo-wordcount/download/hexo-wordcount-6.0.1.tgz"
-  "version" "6.0.1"
-
-"hexo@5.0.0":
-  "integrity" "sha1-5e67A0VkicT09Q02QMTNQ/P01Jc="
-  "resolved" "http://registry.m.jd.com/hexo/download/hexo-5.0.0.tgz"
-  "version" "5.0.0"
-  dependencies:
-    "abbrev" "^1.1.1"
-    "archy" "^1.0.0"
-    "bluebird" "^3.5.2"
-    "chalk" "^4.0.0"
-    "hexo-cli" "^4.0.0"
-    "hexo-front-matter" "^2.0.0"
-    "hexo-fs" "^3.1.0"
-    "hexo-i18n" "^1.0.0"
-    "hexo-log" "^2.0.0"
-    "hexo-util" "^2.2.0"
-    "js-yaml" "^3.12.0"
-    "micromatch" "^4.0.2"
-    "moment" "^2.22.2"
-    "moment-timezone" "^0.5.21"
-    "nunjucks" "^3.2.1"
-    "pretty-hrtime" "^1.0.3"
-    "resolve" "^1.8.1"
-    "strip-ansi" "^6.0.0"
-    "text-table" "^0.2.0"
-    "tildify" "^2.0.0"
-    "titlecase" "^1.1.2"
-    "warehouse" "^4.0.0"
-
-"highlight.js@^10.0.0":
-  "integrity" "sha1-AHOqcdVmkGllum4be+eyaC9eGLY="
-  "resolved" "http://registry.m.jd.com/highlight.js/download/highlight.js-10.6.0.tgz"
-  "version" "10.6.0"
-
-"highlight.js@^9.13.1":
-  "integrity" "sha1-0Yo1mGfzeME41oGe38KorNXymCU="
-  "resolved" "http://registry.m.jd.com/highlight.js/download/highlight.js-9.18.5.tgz"
-  "version" "9.18.5"
-
-"homedir-polyfill@^1.0.1":
-  "integrity" "sha1-dDKYzvTlrz4ZQWH7rcwhUdOgWOg="
-  "resolved" "http://registry.m.jd.com/homedir-polyfill/download/homedir-polyfill-1.0.3.tgz"
-  "version" "1.0.3"
-  dependencies:
-    "parse-passwd" "^1.0.0"
-
-"htmlparser2@^4.0.0":
-  "integrity" "sha1-mk7xYfLkYl6/ffvmwKL1LRilnng="
-  "resolved" "http://registry.m.jd.com/htmlparser2/download/htmlparser2-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "domelementtype" "^2.0.1"
-    "domhandler" "^3.0.0"
-    "domutils" "^2.0.0"
-    "entities" "^2.0.0"
-
-"http-errors@~1.7.2":
-  "integrity" "sha1-bGGeT5xgMIw4UZSYwU+7EKrOuwY="
-  "resolved" "http://registry.m.jd.com/http-errors/download/http-errors-1.7.3.tgz"
-  "version" "1.7.3"
-  dependencies:
-    "depd" "~1.1.2"
-    "inherits" "2.0.4"
-    "setprototypeof" "1.1.1"
-    "statuses" ">= 1.5.0 < 2"
-    "toidentifier" "1.0.0"
-
-"husky@^4.2.1":
-  "integrity" "sha1-MRRAYL6WP9aFDlzI8Bmh3+GUKW0="
-  "resolved" "http://registry.m.jd.com/husky/download/husky-4.3.8.tgz"
-  "version" "4.3.8"
-  dependencies:
-    "chalk" "^4.0.0"
-    "ci-info" "^2.0.0"
-    "compare-versions" "^3.6.0"
-    "cosmiconfig" "^7.0.0"
-    "find-versions" "^4.0.0"
-    "opencollective-postinstall" "^2.0.2"
-    "pkg-dir" "^5.0.0"
-    "please-upgrade-node" "^3.2.0"
-    "slash" "^3.0.0"
-    "which-pm-runs" "^1.0.0"
-
-"iconv-lite@^0.4.24":
-  "integrity" "sha1-ICK0sl+93CHS9SSXSkdKr+czkIs="
-  "resolved" "http://registry.m.jd.com/iconv-lite/download/iconv-lite-0.4.24.tgz"
-  "version" "0.4.24"
-  dependencies:
-    "safer-buffer" ">= 2.1.2 < 3"
-
-"import-fresh@^3.0.0", "import-fresh@^3.2.1":
-  "integrity" "sha1-NxYsJfy566oublPVtNiM4X2eDCs="
-  "resolved" "http://registry.m.jd.com/import-fresh/download/import-fresh-3.3.0.tgz"
-  "version" "3.3.0"
-  dependencies:
-    "parent-module" "^1.0.0"
-    "resolve-from" "^4.0.0"
-
-"inflight@^1.0.4":
-  "integrity" "sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk="
-  "resolved" "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"
-  "version" "1.0.6"
-  dependencies:
-    "once" "^1.3.0"
-    "wrappy" "1"
-
-"inherits@^2.0.3", "inherits@2", "inherits@2.0.4":
-  "integrity" "sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w="
-  "resolved" "http://registry.m.jd.com/inherits/download/inherits-2.0.4.tgz"
-  "version" "2.0.4"
-
-"ini@^1.3.4":
-  "integrity" "sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw="
-  "resolved" "http://registry.m.jd.com/ini/download/ini-1.3.8.tgz"
-  "version" "1.3.8"
-
-"inquirer@6.5.2":
-  "integrity" "sha1-rVCUI3XQNtMn/1KMCL1fqwiZKMo="
-  "resolved" "http://registry.m.jd.com/inquirer/download/inquirer-6.5.2.tgz"
-  "version" "6.5.2"
-  dependencies:
-    "ansi-escapes" "^3.2.0"
-    "chalk" "^2.4.2"
-    "cli-cursor" "^2.1.0"
-    "cli-width" "^2.0.0"
-    "external-editor" "^3.0.3"
-    "figures" "^2.0.0"
-    "lodash" "^4.17.12"
-    "mute-stream" "0.0.7"
-    "run-async" "^2.2.0"
-    "rxjs" "^6.4.0"
-    "string-width" "^2.1.0"
-    "strip-ansi" "^5.1.0"
-    "through" "^2.3.6"
-
-"is-accessor-descriptor@^0.1.6":
-  "integrity" "sha1-qeEss66Nh2cn7u84Q/igiXtcmNY="
-  "resolved" "https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz"
-  "version" "0.1.6"
-  dependencies:
-    "kind-of" "^3.0.2"
-
-"is-accessor-descriptor@^1.0.0":
-  "integrity" "sha1-FpwvbT3x+ZJhgHI2XJsOofaHhlY="
-  "resolved" "http://registry.m.jd.com/is-accessor-descriptor/download/is-accessor-descriptor-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "kind-of" "^6.0.0"
-
-"is-arrayish@^0.2.1":
-  "integrity" "sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0="
-  "resolved" "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz"
-  "version" "0.2.1"
-
-"is-binary-path@~2.1.0":
-  "integrity" "sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk="
-  "resolved" "http://registry.m.jd.com/is-binary-path/download/is-binary-path-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "binary-extensions" "^2.0.0"
-
-"is-buffer@^1.1.5":
-  "integrity" "sha1-76ouqdqg16suoTqXsritUf776L4="
-  "resolved" "http://registry.m.jd.com/is-buffer/download/is-buffer-1.1.6.tgz"
-  "version" "1.1.6"
-
-"is-core-module@^2.2.0":
-  "integrity" "sha1-lwN+89UiJNhRY/VZeytj2a/tmBo="
-  "resolved" "http://registry.m.jd.com/is-core-module/download/is-core-module-2.2.0.tgz"
-  "version" "2.2.0"
-  dependencies:
-    "has" "^1.0.3"
-
-"is-data-descriptor@^0.1.4":
-  "integrity" "sha1-C17mSDiOLIYCgueT8YVv7D8wG1Y="
-  "resolved" "https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz"
-  "version" "0.1.4"
-  dependencies:
-    "kind-of" "^3.0.2"
-
-"is-data-descriptor@^1.0.0":
-  "integrity" "sha1-2Eh2Mh0Oet0DmQQGq7u9NrqSaMc="
-  "resolved" "http://registry.m.jd.com/is-data-descriptor/download/is-data-descriptor-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "kind-of" "^6.0.0"
-
-"is-descriptor@^0.1.0":
-  "integrity" "sha1-Nm2CQN3kh8pRgjsaufB6EKeCUco="
-  "resolved" "http://registry.m.jd.com/is-descriptor/download/is-descriptor-0.1.6.tgz"
-  "version" "0.1.6"
-  dependencies:
-    "is-accessor-descriptor" "^0.1.6"
-    "is-data-descriptor" "^0.1.4"
-    "kind-of" "^5.0.0"
-
-"is-descriptor@^1.0.0":
-  "integrity" "sha1-OxWXRqZmBLBPjIFSS6NlxfFNhuw="
-  "resolved" "http://registry.m.jd.com/is-descriptor/download/is-descriptor-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "is-accessor-descriptor" "^1.0.0"
-    "is-data-descriptor" "^1.0.0"
-    "kind-of" "^6.0.2"
-
-"is-descriptor@^1.0.2":
-  "integrity" "sha1-OxWXRqZmBLBPjIFSS6NlxfFNhuw="
-  "resolved" "http://registry.m.jd.com/is-descriptor/download/is-descriptor-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "is-accessor-descriptor" "^1.0.0"
-    "is-data-descriptor" "^1.0.0"
-    "kind-of" "^6.0.2"
-
-"is-docker@^2.0.0":
-  "integrity" "sha1-QSWojkTkUNOE4JBH7eca3C0UQVY="
-  "resolved" "http://registry.m.jd.com/is-docker/download/is-docker-2.1.1.tgz"
-  "version" "2.1.1"
-
-"is-expression@^3.0.0":
-  "integrity" "sha1-Oayqa+f9HzRx3ELHQW5hwkMXrJ8="
-  "resolved" "https://registry.npmjs.org/is-expression/-/is-expression-3.0.0.tgz"
-  "version" "3.0.0"
-  dependencies:
-    "acorn" "~4.0.2"
-    "object-assign" "^4.0.1"
-
-"is-extendable@^0.1.0", "is-extendable@^0.1.1":
-  "integrity" "sha1-YrEQ4omkcUGOPsNqYX1HLjAd/Ik="
-  "resolved" "https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz"
-  "version" "0.1.1"
-
-"is-extendable@^1.0.1":
-  "integrity" "sha1-p0cPnkJnM9gb2B4RVSZOOjUHyrQ="
-  "resolved" "http://registry.m.jd.com/is-extendable/download/is-extendable-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "is-plain-object" "^2.0.4"
-
-"is-extglob@^2.1.1":
-  "integrity" "sha1-qIwCU1eR8C7TfHahueqXc8gz+MI="
-  "resolved" "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz"
-  "version" "2.1.1"
-
-"is-fullwidth-code-point@^2.0.0":
-  "integrity" "sha1-o7MKXE8ZkYMWeqq5O+764937ZU8="
-  "resolved" "http://registry.m.jd.com/is-fullwidth-code-point/download/is-fullwidth-code-point-2.0.0.tgz"
-  "version" "2.0.0"
-
-"is-glob@^4.0.0", "is-glob@^4.0.1", "is-glob@~4.0.1":
-  "integrity" "sha1-dWfb6fL14kZ7x3q4PEopSCQHpdw="
-  "resolved" "http://registry.m.jd.com/is-glob/download/is-glob-4.0.1.tgz"
-  "version" "4.0.1"
-  dependencies:
-    "is-extglob" "^2.1.1"
-
-"is-number@^3.0.0":
-  "integrity" "sha1-JP1iAaR4LPUFYcgQJ2r8fRLXEZU="
-  "resolved" "https://registry.npmjs.org/is-number/-/is-number-3.0.0.tgz"
-  "version" "3.0.0"
-  dependencies:
-    "kind-of" "^3.0.2"
-
-"is-number@^7.0.0":
-  "integrity" "sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss="
-  "resolved" "http://registry.m.jd.com/is-number/download/is-number-7.0.0.tgz"
-  "version" "7.0.0"
-
-"is-plain-object@^2.0.3":
-  "integrity" "sha1-LBY7P6+xtgbZ0Xko8FwqHDjgdnc="
-  "resolved" "http://registry.m.jd.com/is-plain-object/download/is-plain-object-2.0.4.tgz"
-  "version" "2.0.4"
-  dependencies:
-    "isobject" "^3.0.1"
-
-"is-plain-object@^2.0.4":
-  "integrity" "sha1-LBY7P6+xtgbZ0Xko8FwqHDjgdnc="
-  "resolved" "http://registry.m.jd.com/is-plain-object/download/is-plain-object-2.0.4.tgz"
-  "version" "2.0.4"
-  dependencies:
-    "isobject" "^3.0.1"
-
-"is-plain-object@^3.0.0":
-  "integrity" "sha1-Zi2S0kwKpDAkB7DUXSHyJRyF+Fs="
-  "resolved" "http://registry.m.jd.com/is-plain-object/download/is-plain-object-3.0.1.tgz"
-  "version" "3.0.1"
-
-"is-promise@^2.0.0":
-  "integrity" "sha1-OauVnMv5p3TPB597QMeib3YxNfE="
-  "resolved" "http://registry.m.jd.com/is-promise/download/is-promise-2.2.2.tgz"
-  "version" "2.2.2"
-
-"is-regex@^1.0.3":
-  "integrity" "sha1-gcjr3k2xQvLPHFP8htakV4gmYlE="
-  "resolved" "http://registry.m.jd.com/is-regex/download/is-regex-1.1.2.tgz"
-  "version" "1.1.2"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "has-symbols" "^1.0.1"
-
-"is-utf8@^0.2.1":
-  "integrity" "sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI="
-  "resolved" "https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz"
-  "version" "0.2.1"
-
-"is-windows@^1.0.1", "is-windows@^1.0.2":
-  "integrity" "sha1-0YUOuXkezRjmGCzhKjDzlmNLsZ0="
-  "resolved" "http://registry.m.jd.com/is-windows/download/is-windows-1.0.2.tgz"
-  "version" "1.0.2"
-
-"is-wsl@^2.1.1":
-  "integrity" "sha1-dKTHbnfKn9P5MvKQwX6jJs0VcnE="
-  "resolved" "http://registry.m.jd.com/is-wsl/download/is-wsl-2.2.0.tgz"
-  "version" "2.2.0"
-  dependencies:
-    "is-docker" "^2.0.0"
-
-"isarray@1.0.0":
-  "integrity" "sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE="
-  "resolved" "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
-  "version" "1.0.0"
-
-"isexe@^2.0.0":
-  "integrity" "sha1-6PvzdNxVb/iUehDcsFctYz8s+hA="
-  "resolved" "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
-  "version" "2.0.0"
-
-"isobject@^2.0.0":
-  "integrity" "sha1-8GVWEJaj8dou9GJy+BXIQNh+DIk="
-  "resolved" "https://registry.npmjs.org/isobject/-/isobject-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "isarray" "1.0.0"
-
-"isobject@^3.0.0", "isobject@^3.0.1":
-  "integrity" "sha1-TkMekrEalzFjaqH5yNHMvP2reN8="
-  "resolved" "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
-  "version" "3.0.1"
-
-"js-stringify@^1.0.1":
-  "integrity" "sha1-Fzb939lyTyijaCrcYjCufk6Weds="
-  "resolved" "https://registry.npmjs.org/js-stringify/-/js-stringify-1.0.2.tgz"
-  "version" "1.0.2"
-
-"js-tokens@^4.0.0":
-  "integrity" "sha1-GSA/tZmR35jjoocFDUZHzerzJJk="
-  "resolved" "http://registry.m.jd.com/js-tokens/download/js-tokens-4.0.0.tgz"
-  "version" "4.0.0"
-
-"js-yaml@^3.12.0", "js-yaml@^3.13.1":
-  "integrity" "sha1-2ugS/bOCX6MGYJqHFzg8UMNqBTc="
-  "resolved" "http://registry.m.jd.com/js-yaml/download/js-yaml-3.14.1.tgz"
-  "version" "3.14.1"
-  dependencies:
-    "argparse" "^1.0.7"
-    "esprima" "^4.0.0"
-
-"json-parse-even-better-errors@^2.3.0":
-  "integrity" "sha1-fEeAWpQxmSjgV3dAXcEuH3pO4C0="
-  "resolved" "http://registry.m.jd.com/json-parse-even-better-errors/download/json-parse-even-better-errors-2.3.1.tgz"
-  "version" "2.3.1"
-
-"jsonfile@^4.0.0":
-  "integrity" "sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss="
-  "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
-  "version" "4.0.0"
-  dependencies:
-    "graceful-fs" "^4.1.6"
-
-"jsonparse@^1.2.0":
-  "integrity" "sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA="
-  "resolved" "https://registry.npmjs.org/jsonparse/-/jsonparse-1.3.1.tgz"
-  "version" "1.3.1"
-
-"JSONStream@^1.0.7":
-  "integrity" "sha1-MgjB8I06TZkmGrZPkjArwV4RHKA="
-  "resolved" "http://registry.m.jd.com/JSONStream/download/JSONStream-1.3.5.tgz"
-  "version" "1.3.5"
-  dependencies:
-    "jsonparse" "^1.2.0"
-    "through" ">=2.2.7 <3"
-
-"jstransformer@1.0.0":
-  "integrity" "sha1-7Yvwkh4vPx7U1cGkT2hwntJHIsM="
-  "resolved" "https://registry.npmjs.org/jstransformer/-/jstransformer-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "is-promise" "^2.0.0"
-    "promise" "^7.0.1"
-
-"kind-of@^3.0.2", "kind-of@^3.0.3", "kind-of@^3.2.0":
-  "integrity" "sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ="
-  "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz"
-  "version" "3.2.2"
-  dependencies:
-    "is-buffer" "^1.1.5"
-
-"kind-of@^4.0.0":
-  "integrity" "sha1-IIE989cSkosgc3hpGkUGb65y3Vc="
-  "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-4.0.0.tgz"
-  "version" "4.0.0"
-  dependencies:
-    "is-buffer" "^1.1.5"
-
-"kind-of@^5.0.0":
-  "integrity" "sha1-cpyR4thXt6QZofmqZWhcTDP1hF0="
-  "resolved" "http://registry.m.jd.com/kind-of/download/kind-of-5.1.0.tgz"
-  "version" "5.1.0"
-
-"kind-of@^6.0.0", "kind-of@^6.0.2":
-  "integrity" "sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0="
-  "resolved" "http://registry.m.jd.com/kind-of/download/kind-of-6.0.3.tgz"
-  "version" "6.0.3"
-
-"lazy-cache@^1.0.3":
-  "integrity" "sha1-odePw6UEdMuAhF07O24dpJpEbo4="
-  "resolved" "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz"
-  "version" "1.0.4"
-
-"lines-and-columns@^1.1.6":
-  "integrity" "sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA="
-  "resolved" "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz"
-  "version" "1.1.6"
-
-"locate-path@^6.0.0":
-  "integrity" "sha1-VTIeswn+u8WcSAHZMackUqaB0oY="
-  "resolved" "http://registry.m.jd.com/locate-path/download/locate-path-6.0.0.tgz"
-  "version" "6.0.0"
-  dependencies:
-    "p-locate" "^5.0.0"
-
-"lodash.map@^4.5.1":
-  "integrity" "sha1-dx7Hg540c9nEzeKLGTlMNWL09tM="
-  "resolved" "https://registry.npmjs.org/lodash.map/-/lodash.map-4.6.0.tgz"
-  "version" "4.6.0"
-
-"lodash@^4.17.12", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.4":
-  "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw="
-  "resolved" "http://registry.m.jd.com/lodash/download/lodash-4.17.21.tgz"
-  "version" "4.17.21"
-
-"longest@^1.0.1":
-  "integrity" "sha1-MKCy2jj3N3DoKUoNIuZiXtd9AJc="
-  "resolved" "https://registry.npmjs.org/longest/-/longest-1.0.1.tgz"
-  "version" "1.0.1"
-
-"longest@^2.0.1":
-  "integrity" "sha1-eB4YMpaqlPbU2RbcM10NF676I/g="
-  "resolved" "http://registry.m.jd.com/longest/download/longest-2.0.1.tgz"
-  "version" "2.0.1"
-
-"lower-case@^2.0.2":
-  "integrity" "sha1-b6I3xj29xKgsoP2ILkci3F5jTig="
-  "resolved" "http://registry.m.jd.com/lower-case/download/lower-case-2.0.2.tgz"
-  "version" "2.0.2"
-  dependencies:
-    "tslib" "^2.0.3"
-
-"map-cache@^0.2.2":
-  "integrity" "sha1-wyq9C9ZSXZsFFkW7TyasXcmKDb8="
-  "resolved" "https://registry.npmjs.org/map-cache/-/map-cache-0.2.2.tgz"
-  "version" "0.2.2"
-
-"map-visit@^1.0.0":
-  "integrity" "sha1-7Nyo8TFE5mDxtb1B8S80edmN+48="
-  "resolved" "https://registry.npmjs.org/map-visit/-/map-visit-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "object-visit" "^1.0.0"
-
-"marked@^1.0.0":
-  "integrity" "sha1-U3hviwXUwBoqWna30eyZQ9Kdctw="
-  "resolved" "http://registry.m.jd.com/marked/download/marked-1.2.9.tgz"
-  "version" "1.2.9"
-
-"merge@^1.2.1":
-  "integrity" "sha1-OL6/gMMiCopIe2/Ps5QbsRcgwUU="
-  "resolved" "http://registry.m.jd.com/merge/download/merge-1.2.1.tgz"
-  "version" "1.2.1"
-
-"micromatch@^3.0.4":
-  "integrity" "sha1-cIWbyVyYQJUvNZoGij/En57PrCM="
-  "resolved" "http://registry.m.jd.com/micromatch/download/micromatch-3.1.10.tgz"
-  "version" "3.1.10"
-  dependencies:
-    "arr-diff" "^4.0.0"
-    "array-unique" "^0.3.2"
-    "braces" "^2.3.1"
-    "define-property" "^2.0.2"
-    "extend-shallow" "^3.0.2"
-    "extglob" "^2.0.4"
-    "fragment-cache" "^0.2.1"
-    "kind-of" "^6.0.2"
-    "nanomatch" "^1.2.9"
-    "object.pick" "^1.3.0"
-    "regex-not" "^1.0.0"
-    "snapdragon" "^0.8.1"
-    "to-regex" "^3.0.2"
-
-"micromatch@^4.0.2":
-  "integrity" "sha1-T8sJmb+fvC/L3SEvbWKbmlbDklk="
-  "resolved" "http://registry.m.jd.com/micromatch/download/micromatch-4.0.2.tgz"
-  "version" "4.0.2"
-  dependencies:
-    "braces" "^3.0.1"
-    "picomatch" "^2.0.5"
-
-"mime-db@>= 1.43.0 < 2", "mime-db@1.46.0":
-  "integrity" "sha1-Ymd0in95lZTePLyM3pHe80lmHO4="
-  "resolved" "http://registry.m.jd.com/mime-db/download/mime-db-1.46.0.tgz"
-  "version" "1.46.0"
-
-"mime-types@~2.1.24":
-  "integrity" "sha1-HUq3faZLkfX3JInfKSNlY3VLsbI="
-  "resolved" "http://registry.m.jd.com/mime-types/download/mime-types-2.1.29.tgz"
-  "version" "2.1.29"
-  dependencies:
-    "mime-db" "1.46.0"
-
-"mime@^2.4.3":
-  "integrity" "sha1-bj3GzCuVEGQ4MOXxnVy3U9pe6r4="
-  "resolved" "http://registry.m.jd.com/mime/download/mime-2.5.2.tgz"
-  "version" "2.5.2"
-
-"mime@1.6.0":
-  "integrity" "sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE="
-  "resolved" "http://registry.m.jd.com/mime/download/mime-1.6.0.tgz"
-  "version" "1.6.0"
-
-"mimic-fn@^1.0.0":
-  "integrity" "sha1-ggyGo5M0ZA6ZUWkovQP8qIBX0CI="
-  "resolved" "http://registry.m.jd.com/mimic-fn/download/mimic-fn-1.2.0.tgz"
-  "version" "1.2.0"
-
-"min-indent@^1.0.0":
-  "integrity" "sha1-pj9oFnOzBXH76LwlaGrnRu76mGk="
-  "resolved" "http://registry.m.jd.com/min-indent/download/min-indent-1.0.1.tgz"
-  "version" "1.0.1"
-
-"minimatch@^3.0.2", "minimatch@^3.0.4":
-  "integrity" "sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM="
-  "resolved" "http://registry.m.jd.com/minimatch/download/minimatch-3.0.4.tgz"
-  "version" "3.0.4"
-  dependencies:
-    "brace-expansion" "^1.1.7"
-
-"minimist@^1.2.5", "minimist@1.2.5":
-  "integrity" "sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI="
-  "resolved" "http://registry.m.jd.com/minimist/download/minimist-1.2.5.tgz"
-  "version" "1.2.5"
-
-"minimist@~0.0.1":
-  "integrity" "sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8="
-  "resolved" "https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz"
-  "version" "0.0.10"
-
-"mixin-deep@^1.2.0":
-  "integrity" "sha1-ESC0PcNZp4Xc5ltVuC4lfM9HlWY="
-  "resolved" "http://registry.m.jd.com/mixin-deep/download/mixin-deep-1.3.2.tgz"
-  "version" "1.3.2"
-  dependencies:
-    "for-in" "^1.0.2"
-    "is-extendable" "^1.0.1"
-
-"mkdirp@~1.0.4":
-  "integrity" "sha1-PrXtYmInVteaXw4qIh3+utdcL34="
-  "resolved" "http://registry.m.jd.com/mkdirp/download/mkdirp-1.0.4.tgz"
-  "version" "1.0.4"
-
-"mkdirp@0.5.x":
-  "integrity" "sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8="
-  "resolved" "http://registry.m.jd.com/mkdirp/download/mkdirp-0.5.5.tgz"
-  "version" "0.5.5"
-  dependencies:
-    "minimist" "^1.2.5"
-
-"moment-timezone@^0.5.21":
-  "integrity" "sha1-slL9a7V/NBybWaWrYajlGnO70iw="
-  "resolved" "http://registry.m.jd.com/moment-timezone/download/moment-timezone-0.5.33.tgz"
-  "version" "0.5.33"
-  dependencies:
-    "moment" ">= 2.9.0"
-
-"moment@^2.18.0", "moment@^2.22.2", "moment@>= 2.9.0":
-  "integrity" "sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M="
-  "resolved" "http://registry.m.jd.com/moment/download/moment-2.29.1.tgz"
-  "version" "2.29.1"
-
-"morgan@^1.9.1":
-  "integrity" "sha1-CRd4q8H8R801CYJGU9rh+qtrF9c="
-  "resolved" "http://registry.m.jd.com/morgan/download/morgan-1.10.0.tgz"
-  "version" "1.10.0"
-  dependencies:
-    "basic-auth" "~2.0.1"
-    "debug" "2.6.9"
-    "depd" "~2.0.0"
-    "on-finished" "~2.3.0"
-    "on-headers" "~1.0.2"
-
-"ms@2.0.0":
-  "integrity" "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g="
-  "resolved" "http://registry.m.jd.com/ms/download/ms-2.0.0.tgz"
-  "version" "2.0.0"
-
-"ms@2.1.1":
-  "integrity" "sha1-MKWGTrPrsKZvLr5tcnrwagnYbgo="
-  "resolved" "http://registry.m.jd.com/ms/download/ms-2.1.1.tgz"
-  "version" "2.1.1"
-
-"ms@2.1.2":
-  "integrity" "sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk="
-  "resolved" "http://registry.m.jd.com/ms/download/ms-2.1.2.tgz"
-  "version" "2.1.2"
-
-"mute-stream@0.0.7":
-  "integrity" "sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s="
-  "resolved" "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.7.tgz"
-  "version" "0.0.7"
-
-"nanomatch@^1.2.9":
-  "integrity" "sha1-uHqKpPwN6P5r6IiVs4mD/yZb0Rk="
-  "resolved" "http://registry.m.jd.com/nanomatch/download/nanomatch-1.2.13.tgz"
-  "version" "1.2.13"
-  dependencies:
-    "arr-diff" "^4.0.0"
-    "array-unique" "^0.3.2"
-    "define-property" "^2.0.2"
-    "extend-shallow" "^3.0.2"
-    "fragment-cache" "^0.2.1"
-    "is-windows" "^1.0.2"
-    "kind-of" "^6.0.2"
-    "object.pick" "^1.3.0"
-    "regex-not" "^1.0.0"
-    "snapdragon" "^0.8.1"
-    "to-regex" "^3.0.1"
-
-"negotiator@0.6.2":
-  "integrity" "sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs="
-  "resolved" "http://registry.m.jd.com/negotiator/download/negotiator-0.6.2.tgz"
-  "version" "0.6.2"
-
-"nib@^1.1.2":
-  "integrity" "sha1-amnt5AgblcDe+L4CSkyK4MLLtsc="
-  "resolved" "https://registry.npmjs.org/nib/-/nib-1.1.2.tgz"
-  "version" "1.1.2"
-  dependencies:
-    "stylus" "0.54.5"
-
-"no-case@^3.0.4":
-  "integrity" "sha1-02H9XJgA9VhVGoNp/A3NRmK2Ek0="
-  "resolved" "http://registry.m.jd.com/no-case/download/no-case-3.0.4.tgz"
-  "version" "3.0.4"
-  dependencies:
-    "lower-case" "^2.0.2"
-    "tslib" "^2.0.3"
-
-"normalize-path@^3.0.0", "normalize-path@~3.0.0":
-  "integrity" "sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU="
-  "resolved" "http://registry.m.jd.com/normalize-path/download/normalize-path-3.0.0.tgz"
-  "version" "3.0.0"
-
-"nunjucks@^3.0.1", "nunjucks@^3.2.1", "nunjucks@^3.2.2":
-  "integrity" "sha1-GzNhUkcpDpTigmO12FXs52VkijE="
-  "resolved" "http://registry.m.jd.com/nunjucks/download/nunjucks-3.2.3.tgz"
-  "version" "3.2.3"
-  dependencies:
-    "a-sync-waterfall" "^1.0.0"
-    "asap" "^2.0.3"
-    "commander" "^5.1.0"
-
-"object-assign@^4.0.1", "object-assign@^4.1.0":
-  "integrity" "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM="
-  "resolved" "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
-  "version" "4.1.1"
-
-"object-copy@^0.1.0":
-  "integrity" "sha1-fn2Fi3gb18mRpBupde04EnVOmYw="
-  "resolved" "https://registry.npmjs.org/object-copy/-/object-copy-0.1.0.tgz"
-  "version" "0.1.0"
-  dependencies:
-    "copy-descriptor" "^0.1.0"
-    "define-property" "^0.2.5"
-    "kind-of" "^3.0.3"
-
-"object-visit@^1.0.0":
-  "integrity" "sha1-95xEk68MU3e1n+OdOV5BBC3QRbs="
-  "resolved" "https://registry.npmjs.org/object-visit/-/object-visit-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "isobject" "^3.0.0"
-
-"object.pick@^1.3.0":
-  "integrity" "sha1-h6EKxMFpS9Lhy/U1kaZhQftd10c="
-  "resolved" "https://registry.npmjs.org/object.pick/-/object.pick-1.3.0.tgz"
-  "version" "1.3.0"
-  dependencies:
-    "isobject" "^3.0.1"
-
-"on-finished@~2.3.0":
-  "integrity" "sha1-IPEzZIGwg811M3mSoWlxqi2QaUc="
-  "resolved" "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz"
-  "version" "2.3.0"
-  dependencies:
-    "ee-first" "1.1.1"
-
-"on-headers@~1.0.2":
-  "integrity" "sha1-dysK5qqlJcOZ5Imt+tkMQD6zwo8="
-  "resolved" "http://registry.m.jd.com/on-headers/download/on-headers-1.0.2.tgz"
-  "version" "1.0.2"
-
-"once@^1.3.0":
-  "integrity" "sha1-WDsap3WWHUsROsF9nFC6753Xa9E="
-  "resolved" "https://registry.npmjs.org/once/-/once-1.4.0.tgz"
-  "version" "1.4.0"
-  dependencies:
-    "wrappy" "1"
-
-"onetime@^2.0.0":
-  "integrity" "sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ="
-  "resolved" "https://registry.npmjs.org/onetime/-/onetime-2.0.1.tgz"
-  "version" "2.0.1"
-  dependencies:
-    "mimic-fn" "^1.0.0"
-
-"open@^7.0.0":
-  "integrity" "sha1-uBR+Jtzz5CYxbHMAif1x7dKcIyE="
-  "resolved" "http://registry.m.jd.com/open/download/open-7.4.2.tgz"
-  "version" "7.4.2"
-  dependencies:
-    "is-docker" "^2.0.0"
-    "is-wsl" "^2.1.1"
-
-"opencollective-postinstall@^2.0.2":
-  "integrity" "sha1-eg//l49tv6TQBiOPusmO1BmMMlk="
-  "resolved" "http://registry.m.jd.com/opencollective-postinstall/download/opencollective-postinstall-2.0.3.tgz"
-  "version" "2.0.3"
-
-"optimist@~0.6":
-  "integrity" "sha1-2j6nRob6IaGaERwybpDrFaAZZoY="
-  "resolved" "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz"
-  "version" "0.6.1"
-  dependencies:
-    "minimist" "~0.0.1"
-    "wordwrap" "~0.0.2"
-
-"os-tmpdir@~1.0.2":
-  "integrity" "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ="
-  "resolved" "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
-  "version" "1.0.2"
-
-"p-limit@^3.0.2":
-  "integrity" "sha1-4drMvnjQ0TiMoYxk/qOOPlfjcGs="
-  "resolved" "http://registry.m.jd.com/p-limit/download/p-limit-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "yocto-queue" "^0.1.0"
-
-"p-locate@^5.0.0":
-  "integrity" "sha1-g8gxXGeFAF470CGDlBHJ4RDm2DQ="
-  "resolved" "http://registry.m.jd.com/p-locate/download/p-locate-5.0.0.tgz"
-  "version" "5.0.0"
-  dependencies:
-    "p-limit" "^3.0.2"
-
-"parent-module@^1.0.0":
-  "integrity" "sha1-aR0nCeeMefrjoVZiJFLQB2LKqqI="
-  "resolved" "http://registry.m.jd.com/parent-module/download/parent-module-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "callsites" "^3.0.0"
-
-"parse-json@^5.0.0":
-  "integrity" "sha1-x2/Gbe5UIxyWKyK8yKcs8vmXU80="
-  "resolved" "http://registry.m.jd.com/parse-json/download/parse-json-5.2.0.tgz"
-  "version" "5.2.0"
+debug@*:
+  version "4.3.1"
+  resolved "http://registry.m.jd.com/debug/download/debug-4.3.1.tgz"
+  dependencies:
+    ms "2.1.2"
+
+debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
+  version "2.6.9"
+  resolved "http://registry.m.jd.com/debug/download/debug-2.6.9.tgz"
+  dependencies:
+    ms "2.0.0"
+
+debug@~3.1.0:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/debug/download/debug-3.1.0.tgz"
+  dependencies:
+    ms "2.0.0"
+
+decamelize@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
+
+decode-uri-component@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz"
+
+dedent@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.npmjs.org/dedent/-/dedent-0.7.0.tgz"
+
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "http://registry.m.jd.com/deepmerge/download/deepmerge-4.2.2.tgz"
+
+define-property@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz"
+  dependencies:
+    is-descriptor "^0.1.0"
+
+define-property@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/define-property/download/define-property-1.0.0.tgz"
+  dependencies:
+    is-descriptor "^1.0.0"
+
+define-property@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.m.jd.com/define-property/download/define-property-2.0.2.tgz"
+  dependencies:
+    is-descriptor "^1.0.2"
+    isobject "^3.0.1"
+
+delegate@^3.1.2:
+  version "3.2.0"
+  resolved "http://registry.m.jd.com/delegate/download/delegate-3.2.0.tgz"
+
+depd@~1.1.2:
+  version "1.1.2"
+  resolved "http://registry.m.jd.com/depd/download/depd-1.1.2.tgz"
+
+depd@~2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/depd/download/depd-2.0.0.tgz"
+
+destroy@~1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz"
+
+detect-file@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/detect-file/-/detect-file-1.0.0.tgz"
+
+detect-indent@6.0.0:
+  version "6.0.0"
+  resolved "http://registry.m.jd.com/detect-indent/download/detect-indent-6.0.0.tgz"
+
+doctypes@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/doctypes/-/doctypes-1.1.0.tgz"
+
+dom-serializer@^1.0.1:
+  version "1.2.0"
+  resolved "http://registry.m.jd.com/dom-serializer/download/dom-serializer-1.2.0.tgz"
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^4.0.0"
+    entities "^2.0.0"
+
+domelementtype@^2.0.1, domelementtype@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/domelementtype/download/domelementtype-2.1.0.tgz"
+
+domhandler@^3.0.0:
+  version "3.3.0"
+  resolved "http://registry.m.jd.com/domhandler/download/domhandler-3.3.0.tgz"
+  dependencies:
+    domelementtype "^2.0.1"
+
+domhandler@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/domhandler/download/domhandler-4.0.0.tgz"
+  dependencies:
+    domelementtype "^2.1.0"
+
+domutils@^2.0.0:
+  version "2.4.4"
+  resolved "http://registry.m.jd.com/domutils/download/domutils-2.4.4.tgz"
+  dependencies:
+    dom-serializer "^1.0.1"
+    domelementtype "^2.0.1"
+    domhandler "^4.0.0"
+
+ee-first@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
+
+ejs@^2.6.1:
+  version "2.7.4"
+  resolved "http://registry.m.jd.com/ejs/download/ejs-2.7.4.tgz"
+
+encodeurl@~1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz"
+
+entities@^2.0.0:
+  version "2.2.0"
+  resolved "http://registry.m.jd.com/entities/download/entities-2.2.0.tgz"
+
+error-ex@^1.3.1:
+  version "1.3.2"
+  resolved "http://registry.m.jd.com/error-ex/download/error-ex-1.3.2.tgz"
+  dependencies:
+    is-arrayish "^0.2.1"
+
+escape-html@~1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
+
+escape-string-regexp@^1.0.5:
+  version "1.0.5"
+  resolved "http://registry.m.jd.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
+
+escape-string-regexp@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz"
+
+esprima@^4.0.0:
+  version "4.0.1"
+  resolved "http://registry.m.jd.com/esprima/download/esprima-4.0.1.tgz"
+
+esutils@^2.0.2:
+  version "2.0.3"
+  resolved "http://registry.m.jd.com/esutils/download/esutils-2.0.3.tgz"
+
+etag@~1.8.1:
+  version "1.8.1"
+  resolved "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz"
+
+expand-brackets@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.npmjs.org/expand-brackets/-/expand-brackets-2.1.4.tgz"
+  dependencies:
+    debug "^2.3.3"
+    define-property "^0.2.5"
+    extend-shallow "^2.0.1"
+    posix-character-classes "^0.1.0"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
+
+expand-tilde@^2.0.0, expand-tilde@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/expand-tilde/-/expand-tilde-2.0.2.tgz"
+  dependencies:
+    homedir-polyfill "^1.0.1"
+
+extend-shallow@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/extend-shallow/download/extend-shallow-2.0.1.tgz"
+  dependencies:
+    is-extendable "^0.1.0"
+
+extend-shallow@^3.0.0, extend-shallow@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/extend-shallow/-/extend-shallow-3.0.2.tgz"
+  dependencies:
+    assign-symbols "^1.0.0"
+    is-extendable "^1.0.1"
+
+external-editor@^3.0.3:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/external-editor/download/external-editor-3.1.0.tgz"
+  dependencies:
+    chardet "^0.7.0"
+    iconv-lite "^0.4.24"
+    tmp "^0.0.33"
+
+extglob@^2.0.4:
+  version "2.0.4"
+  resolved "http://registry.m.jd.com/extglob/download/extglob-2.0.4.tgz"
+  dependencies:
+    array-unique "^0.3.2"
+    define-property "^1.0.0"
+    expand-brackets "^2.1.4"
+    extend-shallow "^2.0.1"
+    fragment-cache "^0.2.1"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
+
+figures@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/figures/-/figures-2.0.0.tgz"
+  dependencies:
+    escape-string-regexp "^1.0.5"
+
+fill-range@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/fill-range/download/fill-range-4.0.0.tgz"
+  dependencies:
+    extend-shallow "^2.0.1"
+    is-number "^3.0.0"
+    repeat-string "^1.6.1"
+    to-regex-range "^2.1.0"
+
+fill-range@^7.0.1:
+  version "7.0.1"
+  resolved "http://registry.m.jd.com/fill-range/download/fill-range-7.0.1.tgz"
+  dependencies:
+    to-regex-range "^5.0.1"
+
+finalhandler@1.1.2:
+  version "1.1.2"
+  resolved "http://registry.m.jd.com/finalhandler/download/finalhandler-1.1.2.tgz"
+  dependencies:
+    debug "2.6.9"
+    encodeurl "~1.0.2"
+    escape-html "~1.0.3"
+    on-finished "~2.3.0"
+    parseurl "~1.3.3"
+    statuses "~1.5.0"
+    unpipe "~1.0.0"
+
+find-node-modules@2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/find-node-modules/download/find-node-modules-2.0.0.tgz"
+  dependencies:
+    findup-sync "^3.0.0"
+    merge "^1.2.1"
+
+find-parent-dir@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npmjs.org/find-parent-dir/-/find-parent-dir-0.3.0.tgz"
+
+find-root@1.1.0:
+  version "1.1.0"
+  resolved "http://registry.m.jd.com/find-root/download/find-root-1.1.0.tgz"
+
+findup-sync@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/findup-sync/download/findup-sync-3.0.0.tgz"
+  dependencies:
+    detect-file "^1.0.0"
+    is-glob "^4.0.0"
+    micromatch "^3.0.4"
+    resolve-dir "^1.0.1"
+
+findup@0.1.5:
+  version "0.1.5"
+  resolved "https://registry.npmjs.org/findup/-/findup-0.1.5.tgz"
+  dependencies:
+    colors "~0.6.0-1"
+    commander "~2.1.0"
+
+for-in@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/for-in/-/for-in-1.0.2.tgz"
+
+fragment-cache@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/fragment-cache/-/fragment-cache-0.2.1.tgz"
+  dependencies:
+    map-cache "^0.2.2"
+
+fresh@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz"
+
+fs-extra@8.1.0:
+  version "8.1.0"
+  resolved "http://registry.m.jd.com/fs-extra/download/fs-extra-8.1.0.tgz"
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
+fs.realpath@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
+
+fsevents@~2.3.1:
+  version "2.3.2"
+  resolved "http://registry.m.jd.com/fsevents/download/fsevents-2.3.2.tgz"
+
+function-bind@^1.1.1:
+  version "1.1.1"
+  resolved "http://registry.m.jd.com/function-bind/download/function-bind-1.1.1.tgz"
+
+get-intrinsic@^1.0.2:
+  version "1.1.1"
+  resolved "http://registry.m.jd.com/get-intrinsic/download/get-intrinsic-1.1.1.tgz"
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
+
+get-value@^2.0.3, get-value@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/get-value/-/get-value-2.0.6.tgz"
+
+glob-parent@~5.1.0:
+  version "5.1.1"
+  resolved "http://registry.m.jd.com/glob-parent/download/glob-parent-5.1.1.tgz"
+  dependencies:
+    is-glob "^4.0.1"
+
+glob@7.0.x:
+  version "7.0.6"
+  resolved "http://registry.m.jd.com/glob/download/glob-7.0.6.tgz"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.2"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@7.1.4:
+  version "7.1.4"
+  resolved "http://registry.m.jd.com/glob/download/glob-7.1.4.tgz"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@^7.1.6:
+  version "7.1.6"
+  resolved "http://registry.m.jd.com/glob/download/glob-7.1.6.tgz"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+global-dirs@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/global-dirs/-/global-dirs-0.1.1.tgz"
+  dependencies:
+    ini "^1.3.4"
+
+global-modules@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/global-modules/download/global-modules-1.0.0.tgz"
+  dependencies:
+    global-prefix "^1.0.1"
+    is-windows "^1.0.1"
+    resolve-dir "^1.0.0"
+
+global-prefix@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/global-prefix/-/global-prefix-1.0.2.tgz"
+  dependencies:
+    expand-tilde "^2.0.2"
+    homedir-polyfill "^1.0.1"
+    ini "^1.3.4"
+    is-windows "^1.0.1"
+    which "^1.2.14"
+
+good-listener@^1.2.2:
+  version "1.2.2"
+  resolved "http://registry.m.jd.com/good-listener/download/good-listener-1.2.2.tgz"
+  dependencies:
+    delegate "^3.1.2"
+
+graceful-fs@^4.1.11, graceful-fs@^4.1.3, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
+  version "4.2.6"
+  resolved "http://registry.m.jd.com/graceful-fs/download/graceful-fs-4.2.6.tgz"
+
+has-flag@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/has-flag/download/has-flag-3.0.0.tgz"
+
+has-flag@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/has-flag/download/has-flag-4.0.0.tgz"
+
+has-symbols@^1.0.1:
+  version "1.0.2"
+  resolved "http://registry.m.jd.com/has-symbols/download/has-symbols-1.0.2.tgz"
+
+has-value@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/has-value/-/has-value-0.3.1.tgz"
+  dependencies:
+    get-value "^2.0.3"
+    has-values "^0.1.4"
+    isobject "^2.0.0"
+
+has-value@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/has-value/-/has-value-1.0.0.tgz"
+  dependencies:
+    get-value "^2.0.6"
+    has-values "^1.0.0"
+    isobject "^3.0.0"
+
+has-values@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.npmjs.org/has-values/-/has-values-0.1.4.tgz"
+
+has-values@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/has-values/-/has-values-1.0.0.tgz"
+  dependencies:
+    is-number "^3.0.0"
+    kind-of "^4.0.0"
+
+has@^1.0.3:
+  version "1.0.3"
+  resolved "http://registry.m.jd.com/has/download/has-1.0.3.tgz"
+  dependencies:
+    function-bind "^1.1.1"
+
+hexo-cli@^4.0.0:
+  version "4.2.0"
+  resolved "http://registry.m.jd.com/hexo-cli/download/hexo-cli-4.2.0.tgz"
+  dependencies:
+    abbrev "^1.1.1"
+    bluebird "^3.5.5"
+    chalk "^4.0.0"
+    command-exists "^1.2.8"
+    hexo-fs "^3.0.1"
+    hexo-log "^2.0.0"
+    hexo-util "^2.0.0"
+    minimist "^1.2.5"
+    resolve "^1.11.0"
+    tildify "^2.0.0"
+
+hexo-deployer-git@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/hexo-deployer-git/download/hexo-deployer-git-2.1.0.tgz"
+  dependencies:
+    bluebird "^3.5.0"
+    chalk "^3.0.0"
+    hexo-fs "^2.0.0"
+    hexo-util "^1.0.0"
+    moment "^2.18.0"
+    swig-templates "^2.0.2"
+
+hexo-front-matter@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/hexo-front-matter/download/hexo-front-matter-2.0.0.tgz"
+  dependencies:
+    js-yaml "^3.13.1"
+
+hexo-fs@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/hexo-fs/download/hexo-fs-2.0.1.tgz"
+  dependencies:
+    bluebird "^3.5.1"
+    chokidar "^3.0.0"
+    escape-string-regexp "^2.0.0"
+    graceful-fs "^4.1.11"
+
+hexo-fs@^3.0.1, hexo-fs@^3.1.0:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/hexo-fs/download/hexo-fs-3.1.0.tgz"
+  dependencies:
+    bluebird "^3.5.1"
+    chokidar "^3.0.0"
+    graceful-fs "^4.1.11"
+    hexo-util "^2.0.0"
+
+hexo-generator-archive@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/hexo-generator-archive/download/hexo-generator-archive-1.0.0.tgz"
+  dependencies:
+    hexo-pagination "1.0.0"
+
+hexo-generator-category@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/hexo-generator-category/download/hexo-generator-category-1.0.0.tgz"
+  dependencies:
+    hexo-pagination "1.0.0"
+
+hexo-generator-index@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/hexo-generator-index/download/hexo-generator-index-2.0.0.tgz"
+  dependencies:
+    hexo-pagination "1.0.0"
+    timsort "^0.3.0"
+
+hexo-generator-search@^2.4.0:
+  version "2.4.1"
+  resolved "http://registry.m.jd.com/hexo-generator-search/download/hexo-generator-search-2.4.1.tgz"
+  dependencies:
+    nunjucks "^3.0.1"
+    utils-merge "^1.0.0"
+
+hexo-generator-searchdb@^1.2.0:
+  version "1.3.3"
+  resolved "http://registry.m.jd.com/hexo-generator-searchdb/download/hexo-generator-searchdb-1.3.3.tgz"
+  dependencies:
+    nunjucks "^3.2.2"
+
+hexo-generator-tag@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/hexo-generator-tag/download/hexo-generator-tag-1.0.0.tgz"
+  dependencies:
+    hexo-pagination "1.0.0"
+
+hexo-i18n@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/hexo-i18n/download/hexo-i18n-1.0.0.tgz"
+  dependencies:
+    sprintf-js "^1.0.3"
+
+hexo-log@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/hexo-log/download/hexo-log-2.0.0.tgz"
+  dependencies:
+    chalk "^4.0.0"
+
+hexo-pagination@1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/hexo-pagination/download/hexo-pagination-1.0.0.tgz"
+
+hexo-renderer-ejs@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/hexo-renderer-ejs/download/hexo-renderer-ejs-1.0.0.tgz"
+  dependencies:
+    ejs "^2.6.1"
+
+hexo-renderer-marked@^3.0.0:
+  version "3.3.0"
+  resolved "http://registry.m.jd.com/hexo-renderer-marked/download/hexo-renderer-marked-3.3.0.tgz"
+  dependencies:
+    hexo-util "^2.1.0"
+    marked "^1.0.0"
+
+hexo-renderer-pug@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/hexo-renderer-pug/download/hexo-renderer-pug-1.0.0.tgz"
+  dependencies:
+    pug "^2.0.1"
+
+hexo-renderer-stylus@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/hexo-renderer-stylus/download/hexo-renderer-stylus-2.0.1.tgz"
+  dependencies:
+    nib "^1.1.2"
+    stylus "^0.54.8"
+
+hexo-server@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/hexo-server/download/hexo-server-2.0.0.tgz"
+  dependencies:
+    bluebird "^3.5.5"
+    chalk "^4.0.0"
+    compression "^1.7.4"
+    connect "^3.7.0"
+    mime "^2.4.3"
+    morgan "^1.9.1"
+    open "^7.0.0"
+    serve-static "^1.14.1"
+
+hexo-util@^1.0.0:
+  version "1.9.1"
+  resolved "http://registry.m.jd.com/hexo-util/download/hexo-util-1.9.1.tgz"
+  dependencies:
+    bluebird "^3.5.2"
+    camel-case "^4.0.0"
+    cross-spawn "^7.0.0"
+    deepmerge "^4.2.2"
+    highlight.js "^9.13.1"
+    htmlparser2 "^4.0.0"
+    prismjs "^1.17.1"
+    punycode.js "^2.1.0"
+    strip-indent "^3.0.0"
+    striptags "^3.1.1"
+
+hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.2.0:
+  version "2.4.0"
+  resolved "http://registry.m.jd.com/hexo-util/download/hexo-util-2.4.0.tgz"
+  dependencies:
+    bluebird "^3.5.2"
+    camel-case "^4.0.0"
+    cross-spawn "^7.0.0"
+    deepmerge "^4.2.2"
+    highlight.js "^10.0.0"
+    htmlparser2 "^4.0.0"
+    prismjs "^1.17.1"
+    strip-indent "^3.0.0"
+    striptags "^3.1.1"
+
+hexo-wordcount@^6.0.1:
+  version "6.0.1"
+  resolved "http://registry.m.jd.com/hexo-wordcount/download/hexo-wordcount-6.0.1.tgz"
+
+hexo@5.0.0:
+  version "5.0.0"
+  resolved "http://registry.m.jd.com/hexo/download/hexo-5.0.0.tgz"
+  dependencies:
+    abbrev "^1.1.1"
+    archy "^1.0.0"
+    bluebird "^3.5.2"
+    chalk "^4.0.0"
+    hexo-cli "^4.0.0"
+    hexo-front-matter "^2.0.0"
+    hexo-fs "^3.1.0"
+    hexo-i18n "^1.0.0"
+    hexo-log "^2.0.0"
+    hexo-util "^2.2.0"
+    js-yaml "^3.12.0"
+    micromatch "^4.0.2"
+    moment "^2.22.2"
+    moment-timezone "^0.5.21"
+    nunjucks "^3.2.1"
+    pretty-hrtime "^1.0.3"
+    resolve "^1.8.1"
+    strip-ansi "^6.0.0"
+    text-table "^0.2.0"
+    tildify "^2.0.0"
+    titlecase "^1.1.2"
+    warehouse "^4.0.0"
+
+highlight.js@^10.0.0:
+  version "10.6.0"
+  resolved "http://registry.m.jd.com/highlight.js/download/highlight.js-10.6.0.tgz"
+
+highlight.js@^9.13.1:
+  version "9.18.5"
+  resolved "http://registry.m.jd.com/highlight.js/download/highlight.js-9.18.5.tgz"
+
+homedir-polyfill@^1.0.1:
+  version "1.0.3"
+  resolved "http://registry.m.jd.com/homedir-polyfill/download/homedir-polyfill-1.0.3.tgz"
+  dependencies:
+    parse-passwd "^1.0.0"
+
+htmlparser2@^4.0.0:
+  version "4.1.0"
+  resolved "http://registry.m.jd.com/htmlparser2/download/htmlparser2-4.1.0.tgz"
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^3.0.0"
+    domutils "^2.0.0"
+    entities "^2.0.0"
+
+http-errors@~1.7.2:
+  version "1.7.3"
+  resolved "http://registry.m.jd.com/http-errors/download/http-errors-1.7.3.tgz"
+  dependencies:
+    depd "~1.1.2"
+    inherits "2.0.4"
+    setprototypeof "1.1.1"
+    statuses ">= 1.5.0 < 2"
+    toidentifier "1.0.0"
+
+husky@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
+
+iconv-lite@^0.4.24:
+  version "0.4.24"
+  resolved "http://registry.m.jd.com/iconv-lite/download/iconv-lite-0.4.24.tgz"
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3"
+
+import-fresh@^3.0.0, import-fresh@^3.2.1:
+  version "3.3.0"
+  resolved "http://registry.m.jd.com/import-fresh/download/import-fresh-3.3.0.tgz"
+  dependencies:
+    parent-module "^1.0.0"
+    resolve-from "^4.0.0"
+
+inflight@^1.0.4:
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"
+  dependencies:
+    once "^1.3.0"
+    wrappy "1"
+
+inherits@2, inherits@2.0.4, inherits@^2.0.3:
+  version "2.0.4"
+  resolved "http://registry.m.jd.com/inherits/download/inherits-2.0.4.tgz"
+
+ini@^1.3.4:
+  version "1.3.8"
+  resolved "http://registry.m.jd.com/ini/download/ini-1.3.8.tgz"
+
+inquirer@6.5.2:
+  version "6.5.2"
+  resolved "http://registry.m.jd.com/inquirer/download/inquirer-6.5.2.tgz"
+  dependencies:
+    ansi-escapes "^3.2.0"
+    chalk "^2.4.2"
+    cli-cursor "^2.1.0"
+    cli-width "^2.0.0"
+    external-editor "^3.0.3"
+    figures "^2.0.0"
+    lodash "^4.17.12"
+    mute-stream "0.0.7"
+    run-async "^2.2.0"
+    rxjs "^6.4.0"
+    string-width "^2.1.0"
+    strip-ansi "^5.1.0"
+    through "^2.3.6"
+
+is-accessor-descriptor@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz"
+  dependencies:
+    kind-of "^3.0.2"
+
+is-accessor-descriptor@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/is-accessor-descriptor/download/is-accessor-descriptor-1.0.0.tgz"
+  dependencies:
+    kind-of "^6.0.0"
+
+is-arrayish@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz"
+
+is-binary-path@~2.1.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/is-binary-path/download/is-binary-path-2.1.0.tgz"
+  dependencies:
+    binary-extensions "^2.0.0"
+
+is-buffer@^1.1.5:
+  version "1.1.6"
+  resolved "http://registry.m.jd.com/is-buffer/download/is-buffer-1.1.6.tgz"
+
+is-core-module@^2.2.0:
+  version "2.2.0"
+  resolved "http://registry.m.jd.com/is-core-module/download/is-core-module-2.2.0.tgz"
+  dependencies:
+    has "^1.0.3"
+
+is-data-descriptor@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz"
+  dependencies:
+    kind-of "^3.0.2"
+
+is-data-descriptor@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/is-data-descriptor/download/is-data-descriptor-1.0.0.tgz"
+  dependencies:
+    kind-of "^6.0.0"
+
+is-descriptor@^0.1.0:
+  version "0.1.6"
+  resolved "http://registry.m.jd.com/is-descriptor/download/is-descriptor-0.1.6.tgz"
+  dependencies:
+    is-accessor-descriptor "^0.1.6"
+    is-data-descriptor "^0.1.4"
+    kind-of "^5.0.0"
+
+is-descriptor@^1.0.0, is-descriptor@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.m.jd.com/is-descriptor/download/is-descriptor-1.0.2.tgz"
+  dependencies:
+    is-accessor-descriptor "^1.0.0"
+    is-data-descriptor "^1.0.0"
+    kind-of "^6.0.2"
+
+is-docker@^2.0.0:
+  version "2.1.1"
+  resolved "http://registry.m.jd.com/is-docker/download/is-docker-2.1.1.tgz"
+
+is-expression@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/is-expression/-/is-expression-3.0.0.tgz"
+  dependencies:
+    acorn "~4.0.2"
+    object-assign "^4.0.1"
+
+is-extendable@^0.1.0, is-extendable@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz"
+
+is-extendable@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/is-extendable/download/is-extendable-1.0.1.tgz"
+  dependencies:
+    is-plain-object "^2.0.4"
+
+is-extglob@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz"
+
+is-fullwidth-code-point@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/is-fullwidth-code-point/download/is-fullwidth-code-point-2.0.0.tgz"
+
+is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
+  version "4.0.1"
+  resolved "http://registry.m.jd.com/is-glob/download/is-glob-4.0.1.tgz"
+  dependencies:
+    is-extglob "^2.1.1"
+
+is-number@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/is-number/-/is-number-3.0.0.tgz"
+  dependencies:
+    kind-of "^3.0.2"
+
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "http://registry.m.jd.com/is-number/download/is-number-7.0.0.tgz"
+
+is-plain-object@^2.0.3, is-plain-object@^2.0.4:
+  version "2.0.4"
+  resolved "http://registry.m.jd.com/is-plain-object/download/is-plain-object-2.0.4.tgz"
+  dependencies:
+    isobject "^3.0.1"
+
+is-plain-object@^3.0.0:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/is-plain-object/download/is-plain-object-3.0.1.tgz"
+
+is-promise@^2.0.0:
+  version "2.2.2"
+  resolved "http://registry.m.jd.com/is-promise/download/is-promise-2.2.2.tgz"
+
+is-regex@^1.0.3:
+  version "1.1.2"
+  resolved "http://registry.m.jd.com/is-regex/download/is-regex-1.1.2.tgz"
+  dependencies:
+    call-bind "^1.0.2"
+    has-symbols "^1.0.1"
+
+is-utf8@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz"
+
+is-windows@^1.0.1, is-windows@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.m.jd.com/is-windows/download/is-windows-1.0.2.tgz"
+
+is-wsl@^2.1.1:
+  version "2.2.0"
+  resolved "http://registry.m.jd.com/is-wsl/download/is-wsl-2.2.0.tgz"
+  dependencies:
+    is-docker "^2.0.0"
+
+isarray@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
+
+isexe@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+
+isobject@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/isobject/-/isobject-2.1.0.tgz"
+  dependencies:
+    isarray "1.0.0"
+
+isobject@^3.0.0, isobject@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
+
+js-stringify@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/js-stringify/-/js-stringify-1.0.2.tgz"
+
+js-tokens@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/js-tokens/download/js-tokens-4.0.0.tgz"
+
+js-yaml@^3.12.0, js-yaml@^3.13.1:
+  version "3.14.1"
+  resolved "http://registry.m.jd.com/js-yaml/download/js-yaml-3.14.1.tgz"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+json-parse-even-better-errors@^2.3.0:
+  version "2.3.1"
+  resolved "http://registry.m.jd.com/json-parse-even-better-errors/download/json-parse-even-better-errors-2.3.1.tgz"
+
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
+  dependencies:
+    graceful-fs "^4.1.6"
+
+jsonparse@^1.2.0:
+  version "1.3.1"
+  resolved "https://registry.npmjs.org/jsonparse/-/jsonparse-1.3.1.tgz"
+
+jstransformer@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/jstransformer/-/jstransformer-1.0.0.tgz"
+  dependencies:
+    is-promise "^2.0.0"
+    promise "^7.0.1"
+
+kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
+  version "3.2.2"
+  resolved "https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz"
+  dependencies:
+    is-buffer "^1.1.5"
+
+kind-of@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/kind-of/-/kind-of-4.0.0.tgz"
+  dependencies:
+    is-buffer "^1.1.5"
+
+kind-of@^5.0.0:
+  version "5.1.0"
+  resolved "http://registry.m.jd.com/kind-of/download/kind-of-5.1.0.tgz"
+
+kind-of@^6.0.0, kind-of@^6.0.2:
+  version "6.0.3"
+  resolved "http://registry.m.jd.com/kind-of/download/kind-of-6.0.3.tgz"
+
+lazy-cache@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz"
+
+lines-and-columns@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz"
+
+lodash.map@^4.5.1:
+  version "4.6.0"
+  resolved "https://registry.npmjs.org/lodash.map/-/lodash.map-4.6.0.tgz"
+
+lodash@^4.17.12, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.4:
+  version "4.17.21"
+  resolved "http://registry.m.jd.com/lodash/download/lodash-4.17.21.tgz"
+
+longest@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/longest/-/longest-1.0.1.tgz"
+
+longest@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/longest/download/longest-2.0.1.tgz"
+
+lower-case@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.m.jd.com/lower-case/download/lower-case-2.0.2.tgz"
+  dependencies:
+    tslib "^2.0.3"
+
+map-cache@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/map-cache/-/map-cache-0.2.2.tgz"
+
+map-visit@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/map-visit/-/map-visit-1.0.0.tgz"
+  dependencies:
+    object-visit "^1.0.0"
+
+marked@^1.0.0:
+  version "1.2.9"
+  resolved "http://registry.m.jd.com/marked/download/marked-1.2.9.tgz"
+
+merge@^1.2.1:
+  version "1.2.1"
+  resolved "http://registry.m.jd.com/merge/download/merge-1.2.1.tgz"
+
+micromatch@^3.0.4:
+  version "3.1.10"
+  resolved "http://registry.m.jd.com/micromatch/download/micromatch-3.1.10.tgz"
+  dependencies:
+    arr-diff "^4.0.0"
+    array-unique "^0.3.2"
+    braces "^2.3.1"
+    define-property "^2.0.2"
+    extend-shallow "^3.0.2"
+    extglob "^2.0.4"
+    fragment-cache "^0.2.1"
+    kind-of "^6.0.2"
+    nanomatch "^1.2.9"
+    object.pick "^1.3.0"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.2"
+
+micromatch@^4.0.2:
+  version "4.0.2"
+  resolved "http://registry.m.jd.com/micromatch/download/micromatch-4.0.2.tgz"
+  dependencies:
+    braces "^3.0.1"
+    picomatch "^2.0.5"
+
+mime-db@1.46.0, "mime-db@>= 1.43.0 < 2":
+  version "1.46.0"
+  resolved "http://registry.m.jd.com/mime-db/download/mime-db-1.46.0.tgz"
+
+mime-types@~2.1.24:
+  version "2.1.29"
+  resolved "http://registry.m.jd.com/mime-types/download/mime-types-2.1.29.tgz"
+  dependencies:
+    mime-db "1.46.0"
+
+mime@1.6.0:
+  version "1.6.0"
+  resolved "http://registry.m.jd.com/mime/download/mime-1.6.0.tgz"
+
+mime@^2.4.3:
+  version "2.5.2"
+  resolved "http://registry.m.jd.com/mime/download/mime-2.5.2.tgz"
+
+mimic-fn@^1.0.0:
+  version "1.2.0"
+  resolved "http://registry.m.jd.com/mimic-fn/download/mimic-fn-1.2.0.tgz"
+
+min-indent@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/min-indent/download/min-indent-1.0.1.tgz"
+
+minimatch@^3.0.2, minimatch@^3.0.4:
+  version "3.0.4"
+  resolved "http://registry.m.jd.com/minimatch/download/minimatch-3.0.4.tgz"
+  dependencies:
+    brace-expansion "^1.1.7"
+
+minimist@1.2.5, minimist@^1.2.5:
+  version "1.2.5"
+  resolved "http://registry.m.jd.com/minimist/download/minimist-1.2.5.tgz"
+
+minimist@~0.0.1:
+  version "0.0.10"
+  resolved "https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz"
+
+mixin-deep@^1.2.0:
+  version "1.3.2"
+  resolved "http://registry.m.jd.com/mixin-deep/download/mixin-deep-1.3.2.tgz"
+  dependencies:
+    for-in "^1.0.2"
+    is-extendable "^1.0.1"
+
+mkdirp@0.5.x:
+  version "0.5.5"
+  resolved "http://registry.m.jd.com/mkdirp/download/mkdirp-0.5.5.tgz"
+  dependencies:
+    minimist "^1.2.5"
+
+mkdirp@~1.0.4:
+  version "1.0.4"
+  resolved "http://registry.m.jd.com/mkdirp/download/mkdirp-1.0.4.tgz"
+
+moment-timezone@^0.5.21:
+  version "0.5.33"
+  resolved "http://registry.m.jd.com/moment-timezone/download/moment-timezone-0.5.33.tgz"
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.18.0, moment@^2.22.2:
+  version "2.29.1"
+  resolved "http://registry.m.jd.com/moment/download/moment-2.29.1.tgz"
+
+morgan@^1.9.1:
+  version "1.10.0"
+  resolved "http://registry.m.jd.com/morgan/download/morgan-1.10.0.tgz"
+  dependencies:
+    basic-auth "~2.0.1"
+    debug "2.6.9"
+    depd "~2.0.0"
+    on-finished "~2.3.0"
+    on-headers "~1.0.2"
+
+ms@2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/ms/download/ms-2.0.0.tgz"
+
+ms@2.1.1:
+  version "2.1.1"
+  resolved "http://registry.m.jd.com/ms/download/ms-2.1.1.tgz"
+
+ms@2.1.2:
+  version "2.1.2"
+  resolved "http://registry.m.jd.com/ms/download/ms-2.1.2.tgz"
+
+mute-stream@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.7.tgz"
+
+nanomatch@^1.2.9:
+  version "1.2.13"
+  resolved "http://registry.m.jd.com/nanomatch/download/nanomatch-1.2.13.tgz"
+  dependencies:
+    arr-diff "^4.0.0"
+    array-unique "^0.3.2"
+    define-property "^2.0.2"
+    extend-shallow "^3.0.2"
+    fragment-cache "^0.2.1"
+    is-windows "^1.0.2"
+    kind-of "^6.0.2"
+    object.pick "^1.3.0"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
+
+negotiator@0.6.2:
+  version "0.6.2"
+  resolved "http://registry.m.jd.com/negotiator/download/negotiator-0.6.2.tgz"
+
+nib@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/nib/-/nib-1.1.2.tgz"
+  dependencies:
+    stylus "0.54.5"
+
+no-case@^3.0.4:
+  version "3.0.4"
+  resolved "http://registry.m.jd.com/no-case/download/no-case-3.0.4.tgz"
+  dependencies:
+    lower-case "^2.0.2"
+    tslib "^2.0.3"
+
+normalize-path@^3.0.0, normalize-path@~3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/normalize-path/download/normalize-path-3.0.0.tgz"
+
+nunjucks@^3.0.1, nunjucks@^3.2.1, nunjucks@^3.2.2:
+  version "3.2.3"
+  resolved "http://registry.m.jd.com/nunjucks/download/nunjucks-3.2.3.tgz"
+  dependencies:
+    a-sync-waterfall "^1.0.0"
+    asap "^2.0.3"
+    commander "^5.1.0"
+
+object-assign@^4.0.1, object-assign@^4.1.0:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+
+object-copy@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/object-copy/-/object-copy-0.1.0.tgz"
+  dependencies:
+    copy-descriptor "^0.1.0"
+    define-property "^0.2.5"
+    kind-of "^3.0.3"
+
+object-visit@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/object-visit/-/object-visit-1.0.1.tgz"
+  dependencies:
+    isobject "^3.0.0"
+
+object.pick@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/object.pick/-/object.pick-1.3.0.tgz"
+  dependencies:
+    isobject "^3.0.1"
+
+on-finished@~2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz"
+  dependencies:
+    ee-first "1.1.1"
+
+on-headers@~1.0.2:
+  version "1.0.2"
+  resolved "http://registry.m.jd.com/on-headers/download/on-headers-1.0.2.tgz"
+
+once@^1.3.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/once/-/once-1.4.0.tgz"
+  dependencies:
+    wrappy "1"
+
+onetime@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/onetime/-/onetime-2.0.1.tgz"
+  dependencies:
+    mimic-fn "^1.0.0"
+
+open@^7.0.0:
+  version "7.4.2"
+  resolved "http://registry.m.jd.com/open/download/open-7.4.2.tgz"
+  dependencies:
+    is-docker "^2.0.0"
+    is-wsl "^2.1.1"
+
+optimist@~0.6:
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz"
+  dependencies:
+    minimist "~0.0.1"
+    wordwrap "~0.0.2"
+
+os-tmpdir@~1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
+
+parent-module@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/parent-module/download/parent-module-1.0.1.tgz"
+  dependencies:
+    callsites "^3.0.0"
+
+parse-json@^5.0.0:
+  version "5.2.0"
+  resolved "http://registry.m.jd.com/parse-json/download/parse-json-5.2.0.tgz"
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "error-ex" "^1.3.1"
-    "json-parse-even-better-errors" "^2.3.0"
-    "lines-and-columns" "^1.1.6"
+    error-ex "^1.3.1"
+    json-parse-even-better-errors "^2.3.0"
+    lines-and-columns "^1.1.6"
 
-"parse-passwd@^1.0.0":
-  "integrity" "sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY="
-  "resolved" "https://registry.npmjs.org/parse-passwd/-/parse-passwd-1.0.0.tgz"
-  "version" "1.0.0"
+parse-passwd@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/parse-passwd/-/parse-passwd-1.0.0.tgz"
 
-"parseurl@~1.3.3":
-  "integrity" "sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ="
-  "resolved" "http://registry.m.jd.com/parseurl/download/parseurl-1.3.3.tgz"
-  "version" "1.3.3"
+parseurl@~1.3.3:
+  version "1.3.3"
+  resolved "http://registry.m.jd.com/parseurl/download/parseurl-1.3.3.tgz"
 
-"pascal-case@^3.1.2":
-  "integrity" "sha1-tI4O8rmOIF58Ha50fQsVCCN2YOs="
-  "resolved" "http://registry.m.jd.com/pascal-case/download/pascal-case-3.1.2.tgz"
-  "version" "3.1.2"
+pascal-case@^3.1.2:
+  version "3.1.2"
+  resolved "http://registry.m.jd.com/pascal-case/download/pascal-case-3.1.2.tgz"
   dependencies:
-    "no-case" "^3.0.4"
-    "tslib" "^2.0.3"
+    no-case "^3.0.4"
+    tslib "^2.0.3"
 
-"pascalcase@^0.1.1":
-  "integrity" "sha1-s2PlXoAGym/iF4TS2yK9FdeRfxQ="
-  "resolved" "https://registry.npmjs.org/pascalcase/-/pascalcase-0.1.1.tgz"
-  "version" "0.1.1"
+pascalcase@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/pascalcase/-/pascalcase-0.1.1.tgz"
 
-"path-exists@^4.0.0":
-  "integrity" "sha1-UTvb4tO5XXdi6METfvoZXGxhtbM="
-  "resolved" "http://registry.m.jd.com/path-exists/download/path-exists-4.0.0.tgz"
-  "version" "4.0.0"
+path-is-absolute@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
 
-"path-is-absolute@^1.0.0":
-  "integrity" "sha1-F0uSaHNVNP+8es5r9TpanhtcX18="
-  "resolved" "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
-  "version" "1.0.1"
+path-key@^3.1.0:
+  version "3.1.1"
+  resolved "http://registry.m.jd.com/path-key/download/path-key-3.1.1.tgz"
 
-"path-key@^3.1.0":
-  "integrity" "sha1-WB9q3mWMu6ZaDTOA3ndTKVBU83U="
-  "resolved" "http://registry.m.jd.com/path-key/download/path-key-3.1.1.tgz"
-  "version" "3.1.1"
+path-parse@^1.0.6:
+  version "1.0.6"
+  resolved "http://registry.m.jd.com/path-parse/download/path-parse-1.0.6.tgz"
 
-"path-parse@^1.0.6":
-  "integrity" "sha1-1i27VnlAXXLEc37FhgDp3c8G0kw="
-  "resolved" "http://registry.m.jd.com/path-parse/download/path-parse-1.0.6.tgz"
-  "version" "1.0.6"
+path-type@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/path-type/download/path-type-4.0.0.tgz"
 
-"path-type@^4.0.0":
-  "integrity" "sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs="
-  "resolved" "http://registry.m.jd.com/path-type/download/path-type-4.0.0.tgz"
-  "version" "4.0.0"
+picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1:
+  version "2.2.2"
+  resolved "http://registry.m.jd.com/picomatch/download/picomatch-2.2.2.tgz"
 
-"picomatch@^2.0.4", "picomatch@^2.0.5", "picomatch@^2.2.1":
-  "integrity" "sha1-IfMz6ba46v8CRo9RRupAbTRfTa0="
-  "resolved" "http://registry.m.jd.com/picomatch/download/picomatch-2.2.2.tgz"
-  "version" "2.2.2"
+posix-character-classes@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-0.1.1.tgz"
 
-"pkg-dir@^5.0.0":
-  "integrity" "sha1-oC1q6+a6EzqSj3Suwguv3+a452A="
-  "resolved" "http://registry.m.jd.com/pkg-dir/download/pkg-dir-5.0.0.tgz"
-  "version" "5.0.0"
-  dependencies:
-    "find-up" "^5.0.0"
+pretty-hrtime@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz"
 
-"please-upgrade-node@^3.2.0":
-  "integrity" "sha1-rt3T+ZTJM+StmLmdmlVu+g4v6UI="
-  "resolved" "http://registry.m.jd.com/please-upgrade-node/download/please-upgrade-node-3.2.0.tgz"
-  "version" "3.2.0"
-  dependencies:
-    "semver-compare" "^1.0.0"
-
-"posix-character-classes@^0.1.0":
-  "integrity" "sha1-AerA/jta9xoqbAL+q7jB/vfgDqs="
-  "resolved" "https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-0.1.1.tgz"
-  "version" "0.1.1"
-
-"pretty-hrtime@^1.0.3":
-  "integrity" "sha1-t+PqQkNaTJsnWdmeDyAesZWALuE="
-  "resolved" "https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz"
-  "version" "1.0.3"
-
-"prismjs@^1.17.1":
-  "integrity" "sha1-07OWf31yRAaQSXZSqdQP8EYGfzM="
-  "resolved" "http://registry.m.jd.com/prismjs/download/prismjs-1.23.0.tgz"
-  "version" "1.23.0"
-  dependencies:
-    "clipboard" "^2.0.0"
+prismjs@^1.17.1:
+  version "1.23.0"
+  resolved "http://registry.m.jd.com/prismjs/download/prismjs-1.23.0.tgz"
   optionalDependencies:
-    "clipboard" "^2.0.0"
+    clipboard "^2.0.0"
 
-"promise@^7.0.1":
-  "integrity" "sha1-BktyYCsY+Q8pGSuLG8QY/9Hr078="
-  "resolved" "http://registry.m.jd.com/promise/download/promise-7.3.1.tgz"
-  "version" "7.3.1"
+promise@^7.0.1:
+  version "7.3.1"
+  resolved "http://registry.m.jd.com/promise/download/promise-7.3.1.tgz"
   dependencies:
-    "asap" "~2.0.3"
+    asap "~2.0.3"
 
-"pug-attrs@^2.0.4":
-  "integrity" "sha1-svRMQ55OtK1dTvJcrCDRitKMwzY="
-  "resolved" "http://registry.m.jd.com/pug-attrs/download/pug-attrs-2.0.4.tgz"
-  "version" "2.0.4"
+pug-attrs@^2.0.4:
+  version "2.0.4"
+  resolved "http://registry.m.jd.com/pug-attrs/download/pug-attrs-2.0.4.tgz"
   dependencies:
-    "constantinople" "^3.0.1"
-    "js-stringify" "^1.0.1"
-    "pug-runtime" "^2.0.5"
+    constantinople "^3.0.1"
+    js-stringify "^1.0.1"
+    pug-runtime "^2.0.5"
 
-"pug-code-gen@^2.0.2":
-  "integrity" "sha1-Ei65ram1v2AXBf4VqqCn0mvBNKs="
-  "resolved" "http://registry.m.jd.com/pug-code-gen/download/pug-code-gen-2.0.3.tgz"
-  "version" "2.0.3"
+pug-code-gen@^2.0.2:
+  version "2.0.3"
+  resolved "http://registry.m.jd.com/pug-code-gen/download/pug-code-gen-2.0.3.tgz"
   dependencies:
-    "constantinople" "^3.1.2"
-    "doctypes" "^1.1.0"
-    "js-stringify" "^1.0.1"
-    "pug-attrs" "^2.0.4"
-    "pug-error" "^1.3.3"
-    "pug-runtime" "^2.0.5"
-    "void-elements" "^2.0.1"
-    "with" "^5.0.0"
+    constantinople "^3.1.2"
+    doctypes "^1.1.0"
+    js-stringify "^1.0.1"
+    pug-attrs "^2.0.4"
+    pug-error "^1.3.3"
+    pug-runtime "^2.0.5"
+    void-elements "^2.0.1"
+    with "^5.0.0"
 
-"pug-error@^1.3.3":
-  "integrity" "sha1-80L7AIdS1YA0wYXeA2At2f/hX6Y="
-  "resolved" "http://registry.m.jd.com/pug-error/download/pug-error-1.3.3.tgz"
-  "version" "1.3.3"
+pug-error@^1.3.3:
+  version "1.3.3"
+  resolved "http://registry.m.jd.com/pug-error/download/pug-error-1.3.3.tgz"
 
-"pug-filters@^3.1.1":
-  "integrity" "sha1-qyzILbnuzPV4vaiRMOJSoNsCaqc="
-  "resolved" "http://registry.m.jd.com/pug-filters/download/pug-filters-3.1.1.tgz"
-  "version" "3.1.1"
+pug-filters@^3.1.1:
+  version "3.1.1"
+  resolved "http://registry.m.jd.com/pug-filters/download/pug-filters-3.1.1.tgz"
   dependencies:
-    "clean-css" "^4.1.11"
-    "constantinople" "^3.0.1"
-    "jstransformer" "1.0.0"
-    "pug-error" "^1.3.3"
-    "pug-walk" "^1.1.8"
-    "resolve" "^1.1.6"
-    "uglify-js" "^2.6.1"
+    clean-css "^4.1.11"
+    constantinople "^3.0.1"
+    jstransformer "1.0.0"
+    pug-error "^1.3.3"
+    pug-walk "^1.1.8"
+    resolve "^1.1.6"
+    uglify-js "^2.6.1"
 
-"pug-lexer@^4.1.0":
-  "integrity" "sha1-UxzeSMfAsfy7wrhUhchmXjFInP0="
-  "resolved" "http://registry.m.jd.com/pug-lexer/download/pug-lexer-4.1.0.tgz"
-  "version" "4.1.0"
+pug-lexer@^4.1.0:
+  version "4.1.0"
+  resolved "http://registry.m.jd.com/pug-lexer/download/pug-lexer-4.1.0.tgz"
   dependencies:
-    "character-parser" "^2.1.1"
-    "is-expression" "^3.0.0"
-    "pug-error" "^1.3.3"
+    character-parser "^2.1.1"
+    is-expression "^3.0.0"
+    pug-error "^1.3.3"
 
-"pug-linker@^3.0.6":
-  "integrity" "sha1-9b8hiw79Zc5mcPevxRZY0Pgpifs="
-  "resolved" "http://registry.m.jd.com/pug-linker/download/pug-linker-3.0.6.tgz"
-  "version" "3.0.6"
+pug-linker@^3.0.6:
+  version "3.0.6"
+  resolved "http://registry.m.jd.com/pug-linker/download/pug-linker-3.0.6.tgz"
   dependencies:
-    "pug-error" "^1.3.3"
-    "pug-walk" "^1.1.8"
+    pug-error "^1.3.3"
+    pug-walk "^1.1.8"
 
-"pug-load@^2.0.12":
-  "integrity" "sha1-04yF64X24vcE3qFNzKlBRNNdPns="
-  "resolved" "http://registry.m.jd.com/pug-load/download/pug-load-2.0.12.tgz"
-  "version" "2.0.12"
+pug-load@^2.0.12:
+  version "2.0.12"
+  resolved "http://registry.m.jd.com/pug-load/download/pug-load-2.0.12.tgz"
   dependencies:
-    "object-assign" "^4.1.0"
-    "pug-walk" "^1.1.8"
+    object-assign "^4.1.0"
+    pug-walk "^1.1.8"
 
-"pug-parser@^5.0.1":
-  "integrity" "sha1-A+etpItoQL04Ivhn19kPhC0P/ck="
-  "resolved" "http://registry.m.jd.com/pug-parser/download/pug-parser-5.0.1.tgz"
-  "version" "5.0.1"
+pug-parser@^5.0.1:
+  version "5.0.1"
+  resolved "http://registry.m.jd.com/pug-parser/download/pug-parser-5.0.1.tgz"
   dependencies:
-    "pug-error" "^1.3.3"
-    "token-stream" "0.0.1"
+    pug-error "^1.3.3"
+    token-stream "0.0.1"
 
-"pug-runtime@^2.0.5":
-  "integrity" "sha1-baeXbDa/IvaOczw1kkDYrnoylTo="
-  "resolved" "http://registry.m.jd.com/pug-runtime/download/pug-runtime-2.0.5.tgz"
-  "version" "2.0.5"
+pug-runtime@^2.0.5:
+  version "2.0.5"
+  resolved "http://registry.m.jd.com/pug-runtime/download/pug-runtime-2.0.5.tgz"
 
-"pug-strip-comments@^1.0.4":
-  "integrity" "sha1-zBtt4fbo9ZMc8C7GbN/9P1Dq+Kg="
-  "resolved" "http://registry.m.jd.com/pug-strip-comments/download/pug-strip-comments-1.0.4.tgz"
-  "version" "1.0.4"
+pug-strip-comments@^1.0.4:
+  version "1.0.4"
+  resolved "http://registry.m.jd.com/pug-strip-comments/download/pug-strip-comments-1.0.4.tgz"
   dependencies:
-    "pug-error" "^1.3.3"
+    pug-error "^1.3.3"
 
-"pug-walk@^1.1.8":
-  "integrity" "sha1-tAj2fyeRL4wh2i9FtyMMS9Kl6no="
-  "resolved" "http://registry.m.jd.com/pug-walk/download/pug-walk-1.1.8.tgz"
-  "version" "1.1.8"
+pug-walk@^1.1.8:
+  version "1.1.8"
+  resolved "http://registry.m.jd.com/pug-walk/download/pug-walk-1.1.8.tgz"
 
-"pug@^2.0.1":
-  "integrity" "sha1-7naC7ApgSUs41IqI8F87CskxN30="
-  "resolved" "http://registry.m.jd.com/pug/download/pug-2.0.4.tgz"
-  "version" "2.0.4"
+pug@^2.0.1:
+  version "2.0.4"
+  resolved "http://registry.m.jd.com/pug/download/pug-2.0.4.tgz"
   dependencies:
-    "pug-code-gen" "^2.0.2"
-    "pug-filters" "^3.1.1"
-    "pug-lexer" "^4.1.0"
-    "pug-linker" "^3.0.6"
-    "pug-load" "^2.0.12"
-    "pug-parser" "^5.0.1"
-    "pug-runtime" "^2.0.5"
-    "pug-strip-comments" "^1.0.4"
+    pug-code-gen "^2.0.2"
+    pug-filters "^3.1.1"
+    pug-lexer "^4.1.0"
+    pug-linker "^3.0.6"
+    pug-load "^2.0.12"
+    pug-parser "^5.0.1"
+    pug-runtime "^2.0.5"
+    pug-strip-comments "^1.0.4"
 
-"punycode.js@^2.1.0":
-  "integrity" "sha1-85N/epFBUsLcF+nCgKLPhqJrfNo="
-  "resolved" "http://registry.m.jd.com/punycode.js/download/punycode.js-2.1.0.tgz"
-  "version" "2.1.0"
+punycode.js@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/punycode.js/download/punycode.js-2.1.0.tgz"
 
-"range-parser@~1.2.1":
-  "integrity" "sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE="
-  "resolved" "http://registry.m.jd.com/range-parser/download/range-parser-1.2.1.tgz"
-  "version" "1.2.1"
+range-parser@~1.2.1:
+  version "1.2.1"
+  resolved "http://registry.m.jd.com/range-parser/download/range-parser-1.2.1.tgz"
 
-"readdirp@~3.5.0":
-  "integrity" "sha1-m6dMAZsV02UnjS6Ru4xI17TULJ4="
-  "resolved" "http://registry.m.jd.com/readdirp/download/readdirp-3.5.0.tgz"
-  "version" "3.5.0"
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "http://registry.m.jd.com/readdirp/download/readdirp-3.5.0.tgz"
   dependencies:
-    "picomatch" "^2.2.1"
+    picomatch "^2.2.1"
 
-"regenerator-runtime@^0.11.0":
-  "integrity" "sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk="
-  "resolved" "http://registry.m.jd.com/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz"
-  "version" "0.11.1"
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "http://registry.m.jd.com/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz"
 
-"regex-not@^1.0.0", "regex-not@^1.0.2":
-  "integrity" "sha1-H07OJ+ALC2XgJHpoEOaoXYOldSw="
-  "resolved" "http://registry.m.jd.com/regex-not/download/regex-not-1.0.2.tgz"
-  "version" "1.0.2"
+regex-not@^1.0.0, regex-not@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.m.jd.com/regex-not/download/regex-not-1.0.2.tgz"
   dependencies:
-    "extend-shallow" "^3.0.2"
-    "safe-regex" "^1.1.0"
+    extend-shallow "^3.0.2"
+    safe-regex "^1.1.0"
 
-"repeat-element@^1.1.2":
-  "integrity" "sha1-eC4NglwMWjuzlzH4Tv7mt0Lmsc4="
-  "resolved" "http://registry.m.jd.com/repeat-element/download/repeat-element-1.1.3.tgz"
-  "version" "1.1.3"
+repeat-element@^1.1.2:
+  version "1.1.3"
+  resolved "http://registry.m.jd.com/repeat-element/download/repeat-element-1.1.3.tgz"
 
-"repeat-string@^1.5.2", "repeat-string@^1.6.1":
-  "integrity" "sha1-jcrkcOHIirwtYA//Sndihtp15jc="
-  "resolved" "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz"
-  "version" "1.6.1"
+repeat-string@^1.5.2, repeat-string@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz"
 
-"resolve-dir@^1.0.0", "resolve-dir@^1.0.1":
-  "integrity" "sha1-eaQGRMNivoLybv/nOcm7U4IEb0M="
-  "resolved" "https://registry.npmjs.org/resolve-dir/-/resolve-dir-1.0.1.tgz"
-  "version" "1.0.1"
+resolve-dir@^1.0.0, resolve-dir@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/resolve-dir/-/resolve-dir-1.0.1.tgz"
   dependencies:
-    "expand-tilde" "^2.0.0"
-    "global-modules" "^1.0.0"
+    expand-tilde "^2.0.0"
+    global-modules "^1.0.0"
 
-"resolve-from@^4.0.0":
-  "integrity" "sha1-SrzYUq0y3Xuqv+m0DgCjbbXzkuY="
-  "resolved" "http://registry.m.jd.com/resolve-from/download/resolve-from-4.0.0.tgz"
-  "version" "4.0.0"
+resolve-from@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/resolve-from/download/resolve-from-4.0.0.tgz"
 
-"resolve-from@^5.0.0":
-  "integrity" "sha1-w1IlhD3493bfIcV1V7wIfp39/Gk="
-  "resolved" "http://registry.m.jd.com/resolve-from/download/resolve-from-5.0.0.tgz"
-  "version" "5.0.0"
+resolve-from@^5.0.0:
+  version "5.0.0"
+  resolved "http://registry.m.jd.com/resolve-from/download/resolve-from-5.0.0.tgz"
 
-"resolve-global@^1.0.0":
-  "integrity" "sha1-oqed9K8so/Sb93753azTItrRklU="
-  "resolved" "http://registry.m.jd.com/resolve-global/download/resolve-global-1.0.0.tgz"
-  "version" "1.0.0"
+resolve-global@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/resolve-global/download/resolve-global-1.0.0.tgz"
   dependencies:
-    "global-dirs" "^0.1.1"
+    global-dirs "^0.1.1"
 
-"resolve-url@^0.2.1":
-  "integrity" "sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo="
-  "resolved" "https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz"
-  "version" "0.2.1"
+resolve-url@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz"
 
-"resolve@^1.1.6", "resolve@^1.11.0", "resolve@^1.8.1":
-  "integrity" "sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU="
-  "resolved" "http://registry.m.jd.com/resolve/download/resolve-1.20.0.tgz"
-  "version" "1.20.0"
+resolve@^1.1.6, resolve@^1.11.0, resolve@^1.8.1:
+  version "1.20.0"
+  resolved "http://registry.m.jd.com/resolve/download/resolve-1.20.0.tgz"
   dependencies:
-    "is-core-module" "^2.2.0"
-    "path-parse" "^1.0.6"
+    is-core-module "^2.2.0"
+    path-parse "^1.0.6"
 
-"restore-cursor@^2.0.0":
-  "integrity" "sha1-n37ih/gv0ybU/RYpI9YhKe7g368="
-  "resolved" "https://registry.npmjs.org/restore-cursor/-/restore-cursor-2.0.0.tgz"
-  "version" "2.0.0"
+restore-cursor@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/restore-cursor/-/restore-cursor-2.0.0.tgz"
   dependencies:
-    "onetime" "^2.0.0"
-    "signal-exit" "^3.0.2"
+    onetime "^2.0.0"
+    signal-exit "^3.0.2"
 
-"ret@~0.1.10":
-  "integrity" "sha1-uKSCXVvbH8P29Twrwz+BOIaBx7w="
-  "resolved" "http://registry.m.jd.com/ret/download/ret-0.1.15.tgz"
-  "version" "0.1.15"
+ret@~0.1.10:
+  version "0.1.15"
+  resolved "http://registry.m.jd.com/ret/download/ret-0.1.15.tgz"
 
-"rfdc@^1.1.4":
-  "integrity" "sha1-npiUJY9I8oS0PDFDxoBwpPNzuUk="
-  "resolved" "http://registry.m.jd.com/rfdc/download/rfdc-1.2.0.tgz"
-  "version" "1.2.0"
+rfdc@^1.1.4:
+  version "1.2.0"
+  resolved "http://registry.m.jd.com/rfdc/download/rfdc-1.2.0.tgz"
 
-"right-align@^0.1.1":
-  "integrity" "sha1-YTObci/mo1FWiSENJOFMlhSGE+8="
-  "resolved" "https://registry.npmjs.org/right-align/-/right-align-0.1.3.tgz"
-  "version" "0.1.3"
+right-align@^0.1.1:
+  version "0.1.3"
+  resolved "https://registry.npmjs.org/right-align/-/right-align-0.1.3.tgz"
   dependencies:
-    "align-text" "^0.1.1"
+    align-text "^0.1.1"
 
-"run-async@^2.2.0":
-  "integrity" "sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU="
-  "resolved" "http://registry.m.jd.com/run-async/download/run-async-2.4.1.tgz"
-  "version" "2.4.1"
+run-async@^2.2.0:
+  version "2.4.1"
+  resolved "http://registry.m.jd.com/run-async/download/run-async-2.4.1.tgz"
 
-"rxjs@^6.4.0":
-  "integrity" "sha1-FNhBeqWgfF5jOZW1JeHjwN7AO3A="
-  "resolved" "http://registry.m.jd.com/rxjs/download/rxjs-6.6.6.tgz"
-  "version" "6.6.6"
+rxjs@^6.4.0:
+  version "6.6.6"
+  resolved "http://registry.m.jd.com/rxjs/download/rxjs-6.6.6.tgz"
   dependencies:
-    "tslib" "^1.9.0"
+    tslib "^1.9.0"
 
-"safe-buffer@5.1.2":
-  "integrity" "sha1-mR7GnSluAxN0fVm9/St0XDX4go0="
-  "resolved" "http://registry.m.jd.com/safe-buffer/download/safe-buffer-5.1.2.tgz"
-  "version" "5.1.2"
+safe-buffer@5.1.2:
+  version "5.1.2"
+  resolved "http://registry.m.jd.com/safe-buffer/download/safe-buffer-5.1.2.tgz"
 
-"safe-regex@^1.1.0":
-  "integrity" "sha1-QKNmnzsHfR6UPURinhV91IAjvy4="
-  "resolved" "https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz"
-  "version" "1.1.0"
+safe-regex@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz"
   dependencies:
-    "ret" "~0.1.10"
+    ret "~0.1.10"
 
-"safer-buffer@^2.1.2", "safer-buffer@>= 2.1.2 < 3":
-  "integrity" "sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo="
-  "resolved" "http://registry.m.jd.com/safer-buffer/download/safer-buffer-2.1.2.tgz"
-  "version" "2.1.2"
+"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.1.2:
+  version "2.1.2"
+  resolved "http://registry.m.jd.com/safer-buffer/download/safer-buffer-2.1.2.tgz"
 
-"sax@~1.2.4":
-  "integrity" "sha1-KBYjTiN4vdxOU1T6tcqold9xANk="
-  "resolved" "http://registry.m.jd.com/sax/download/sax-1.2.4.tgz"
-  "version" "1.2.4"
+sax@0.5.x:
+  version "0.5.8"
+  resolved "https://registry.npmjs.org/sax/-/sax-0.5.8.tgz"
 
-"sax@0.5.x":
-  "integrity" "sha1-1HLbIo6zMcJQaw6MFVJK25OdEsE="
-  "resolved" "https://registry.npmjs.org/sax/-/sax-0.5.8.tgz"
-  "version" "0.5.8"
+sax@~1.2.4:
+  version "1.2.4"
+  resolved "http://registry.m.jd.com/sax/download/sax-1.2.4.tgz"
 
-"select@^1.1.2":
-  "integrity" "sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0="
-  "resolved" "http://registry.m.jd.com/select/download/select-1.1.2.tgz"
-  "version" "1.1.2"
+select@^1.1.2:
+  version "1.1.2"
+  resolved "http://registry.m.jd.com/select/download/select-1.1.2.tgz"
 
-"semver-compare@^1.0.0":
-  "integrity" "sha1-De4hahyUGrN+nvsXiPavxf9VN/w="
-  "resolved" "https://registry.npmjs.org/semver-compare/-/semver-compare-1.0.0.tgz"
-  "version" "1.0.0"
+semver-regex@1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/semver-regex/download/semver-regex-1.0.0.tgz"
 
-"semver-regex@^3.1.2":
-  "integrity" "sha1-NLTA02Hu8mLgcZnb7zFtDyqxGAc="
-  "resolved" "http://registry.m.jd.com/semver-regex/download/semver-regex-3.1.2.tgz"
-  "version" "3.1.2"
+semver@^6.3.0:
+  version "6.3.0"
+  resolved "http://registry.m.jd.com/semver/download/semver-6.3.0.tgz"
 
-"semver-regex@1.0.0":
-  "integrity" "sha1-kqSWkGX5xwxpR1PVUkj8aPj2Usk="
-  "resolved" "http://registry.m.jd.com/semver-regex/download/semver-regex-1.0.0.tgz"
-  "version" "1.0.0"
-
-"semver@^6.3.0":
-  "integrity" "sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0="
-  "resolved" "http://registry.m.jd.com/semver/download/semver-6.3.0.tgz"
-  "version" "6.3.0"
-
-"send@0.17.1":
-  "integrity" "sha1-wdiwWfeQD3Rm3Uk4vcROEd2zdsg="
-  "resolved" "http://registry.m.jd.com/send/download/send-0.17.1.tgz"
-  "version" "0.17.1"
+send@0.17.1:
+  version "0.17.1"
+  resolved "http://registry.m.jd.com/send/download/send-0.17.1.tgz"
   dependencies:
-    "debug" "2.6.9"
-    "depd" "~1.1.2"
-    "destroy" "~1.0.4"
-    "encodeurl" "~1.0.2"
-    "escape-html" "~1.0.3"
-    "etag" "~1.8.1"
-    "fresh" "0.5.2"
-    "http-errors" "~1.7.2"
-    "mime" "1.6.0"
-    "ms" "2.1.1"
-    "on-finished" "~2.3.0"
-    "range-parser" "~1.2.1"
-    "statuses" "~1.5.0"
+    debug "2.6.9"
+    depd "~1.1.2"
+    destroy "~1.0.4"
+    encodeurl "~1.0.2"
+    escape-html "~1.0.3"
+    etag "~1.8.1"
+    fresh "0.5.2"
+    http-errors "~1.7.2"
+    mime "1.6.0"
+    ms "2.1.1"
+    on-finished "~2.3.0"
+    range-parser "~1.2.1"
+    statuses "~1.5.0"
 
-"serve-static@^1.14.1":
-  "integrity" "sha1-Zm5jbcTwEPfvKZcKiKZ0MgiYsvk="
-  "resolved" "http://registry.m.jd.com/serve-static/download/serve-static-1.14.1.tgz"
-  "version" "1.14.1"
+serve-static@^1.14.1:
+  version "1.14.1"
+  resolved "http://registry.m.jd.com/serve-static/download/serve-static-1.14.1.tgz"
   dependencies:
-    "encodeurl" "~1.0.2"
-    "escape-html" "~1.0.3"
-    "parseurl" "~1.3.3"
-    "send" "0.17.1"
+    encodeurl "~1.0.2"
+    escape-html "~1.0.3"
+    parseurl "~1.3.3"
+    send "0.17.1"
 
-"set-value@^2.0.0", "set-value@^2.0.1":
-  "integrity" "sha1-oY1AUw5vB95CKMfe/kInr4ytAFs="
-  "resolved" "http://registry.m.jd.com/set-value/download/set-value-2.0.1.tgz"
-  "version" "2.0.1"
+set-value@^2.0.0, set-value@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/set-value/download/set-value-2.0.1.tgz"
   dependencies:
-    "extend-shallow" "^2.0.1"
-    "is-extendable" "^0.1.1"
-    "is-plain-object" "^2.0.3"
-    "split-string" "^3.0.1"
+    extend-shallow "^2.0.1"
+    is-extendable "^0.1.1"
+    is-plain-object "^2.0.3"
+    split-string "^3.0.1"
 
-"setprototypeof@1.1.1":
-  "integrity" "sha1-fpWsskqpL1iF4KvvW6ExMw1K5oM="
-  "resolved" "http://registry.m.jd.com/setprototypeof/download/setprototypeof-1.1.1.tgz"
-  "version" "1.1.1"
+setprototypeof@1.1.1:
+  version "1.1.1"
+  resolved "http://registry.m.jd.com/setprototypeof/download/setprototypeof-1.1.1.tgz"
 
-"shebang-command@^2.0.0":
-  "integrity" "sha1-zNCvT4g1+9wmW4JGGq8MNmY/NOo="
-  "resolved" "http://registry.m.jd.com/shebang-command/download/shebang-command-2.0.0.tgz"
-  "version" "2.0.0"
+shebang-command@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/shebang-command/download/shebang-command-2.0.0.tgz"
   dependencies:
-    "shebang-regex" "^3.0.0"
+    shebang-regex "^3.0.0"
 
-"shebang-regex@^3.0.0":
-  "integrity" "sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI="
-  "resolved" "http://registry.m.jd.com/shebang-regex/download/shebang-regex-3.0.0.tgz"
-  "version" "3.0.0"
+shebang-regex@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/shebang-regex/download/shebang-regex-3.0.0.tgz"
 
-"signal-exit@^3.0.2":
-  "integrity" "sha1-oUEMLt2PB3sItOJTyOrPyvBXRhw="
-  "resolved" "http://registry.m.jd.com/signal-exit/download/signal-exit-3.0.3.tgz"
-  "version" "3.0.3"
+signal-exit@^3.0.2:
+  version "3.0.3"
+  resolved "http://registry.m.jd.com/signal-exit/download/signal-exit-3.0.3.tgz"
 
-"slash@^3.0.0":
-  "integrity" "sha1-ZTm+hwwWWtvVJAIg2+Nh8bxNRjQ="
-  "resolved" "http://registry.m.jd.com/slash/download/slash-3.0.0.tgz"
-  "version" "3.0.0"
-
-"snapdragon-node@^2.0.1":
-  "integrity" "sha1-bBdfhv8UvbByRWPo88GwIaKGhTs="
-  "resolved" "http://registry.m.jd.com/snapdragon-node/download/snapdragon-node-2.1.1.tgz"
-  "version" "2.1.1"
+snapdragon-node@^2.0.1:
+  version "2.1.1"
+  resolved "http://registry.m.jd.com/snapdragon-node/download/snapdragon-node-2.1.1.tgz"
   dependencies:
-    "define-property" "^1.0.0"
-    "isobject" "^3.0.0"
-    "snapdragon-util" "^3.0.1"
+    define-property "^1.0.0"
+    isobject "^3.0.0"
+    snapdragon-util "^3.0.1"
 
-"snapdragon-util@^3.0.1":
-  "integrity" "sha1-+VZHlIbyrNeXAGk/b3uAXkWrVuI="
-  "resolved" "http://registry.m.jd.com/snapdragon-util/download/snapdragon-util-3.0.1.tgz"
-  "version" "3.0.1"
+snapdragon-util@^3.0.1:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/snapdragon-util/download/snapdragon-util-3.0.1.tgz"
   dependencies:
-    "kind-of" "^3.2.0"
+    kind-of "^3.2.0"
 
-"snapdragon@^0.8.1":
-  "integrity" "sha1-ZJIufFZbDhQgS6GqfWlkJ40lGC0="
-  "resolved" "http://registry.m.jd.com/snapdragon/download/snapdragon-0.8.2.tgz"
-  "version" "0.8.2"
+snapdragon@^0.8.1:
+  version "0.8.2"
+  resolved "http://registry.m.jd.com/snapdragon/download/snapdragon-0.8.2.tgz"
   dependencies:
-    "base" "^0.11.1"
-    "debug" "^2.2.0"
-    "define-property" "^0.2.5"
-    "extend-shallow" "^2.0.1"
-    "map-cache" "^0.2.2"
-    "source-map" "^0.5.6"
-    "source-map-resolve" "^0.5.0"
-    "use" "^3.1.0"
+    base "^0.11.1"
+    debug "^2.2.0"
+    define-property "^0.2.5"
+    extend-shallow "^2.0.1"
+    map-cache "^0.2.2"
+    source-map "^0.5.6"
+    source-map-resolve "^0.5.0"
+    use "^3.1.0"
 
-"source-map-resolve@^0.5.0", "source-map-resolve@^0.5.2":
-  "integrity" "sha1-GQhmvs51U+H48mei7oLGBrVQmho="
-  "resolved" "http://registry.m.jd.com/source-map-resolve/download/source-map-resolve-0.5.3.tgz"
-  "version" "0.5.3"
+source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
+  version "0.5.3"
+  resolved "http://registry.m.jd.com/source-map-resolve/download/source-map-resolve-0.5.3.tgz"
   dependencies:
-    "atob" "^2.1.2"
-    "decode-uri-component" "^0.2.0"
-    "resolve-url" "^0.2.1"
-    "source-map-url" "^0.4.0"
-    "urix" "^0.1.0"
+    atob "^2.1.2"
+    decode-uri-component "^0.2.0"
+    resolve-url "^0.2.1"
+    source-map-url "^0.4.0"
+    urix "^0.1.0"
 
-"source-map-url@^0.4.0":
-  "integrity" "sha1-CvZmBadFpaL5HPG7+KevvCg97FY="
-  "resolved" "http://registry.m.jd.com/source-map-url/download/source-map-url-0.4.1.tgz"
-  "version" "0.4.1"
+source-map-url@^0.4.0:
+  version "0.4.1"
+  resolved "http://registry.m.jd.com/source-map-url/download/source-map-url-0.4.1.tgz"
 
-"source-map@^0.5.6", "source-map@~0.5.1":
-  "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w="
-  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
-  "version" "0.5.7"
-
-"source-map@^0.6.1":
-  "integrity" "sha1-dHIq8y6WFOnCh6jQu95IteLxomM="
-  "resolved" "http://registry.m.jd.com/source-map/download/source-map-0.6.1.tgz"
-  "version" "0.6.1"
-
-"source-map@^0.7.3":
-  "integrity" "sha1-UwL4FpAxc1ImVECS5kmB91F1A4M="
-  "resolved" "http://registry.m.jd.com/source-map/download/source-map-0.7.3.tgz"
-  "version" "0.7.3"
-
-"source-map@~0.6.0":
-  "integrity" "sha1-dHIq8y6WFOnCh6jQu95IteLxomM="
-  "resolved" "http://registry.m.jd.com/source-map/download/source-map-0.6.1.tgz"
-  "version" "0.6.1"
-
-"source-map@0.1.x":
-  "integrity" "sha1-wkvBRspRfBRx9drL4lcbK3+eM0Y="
-  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz"
-  "version" "0.1.43"
+source-map@0.1.x:
+  version "0.1.43"
+  resolved "https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz"
   dependencies:
-    "amdefine" ">=0.0.4"
+    amdefine ">=0.0.4"
 
-"split-string@^3.0.1", "split-string@^3.0.2":
-  "integrity" "sha1-fLCd2jqGWFcFxks5pkZgOGguj+I="
-  "resolved" "http://registry.m.jd.com/split-string/download/split-string-3.1.0.tgz"
-  "version" "3.1.0"
+source-map@^0.5.6, source-map@~0.5.1:
+  version "0.5.7"
+  resolved "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
+
+source-map@^0.6.1, source-map@~0.6.0:
+  version "0.6.1"
+  resolved "http://registry.m.jd.com/source-map/download/source-map-0.6.1.tgz"
+
+source-map@^0.7.3:
+  version "0.7.3"
+  resolved "http://registry.m.jd.com/source-map/download/source-map-0.7.3.tgz"
+
+split-string@^3.0.1, split-string@^3.0.2:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/split-string/download/split-string-3.1.0.tgz"
   dependencies:
-    "extend-shallow" "^3.0.0"
+    extend-shallow "^3.0.0"
 
-"sprintf-js@^1.0.3", "sprintf-js@~1.0.2":
-  "integrity" "sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw="
-  "resolved" "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
-  "version" "1.0.3"
+sprintf-js@^1.0.3, sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
 
-"static-extend@^0.1.1":
-  "integrity" "sha1-YICcOcv/VTNyJv1eC1IPNB8ftcY="
-  "resolved" "https://registry.npmjs.org/static-extend/-/static-extend-0.1.2.tgz"
-  "version" "0.1.2"
+static-extend@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/static-extend/-/static-extend-0.1.2.tgz"
   dependencies:
-    "define-property" "^0.2.5"
-    "object-copy" "^0.1.0"
+    define-property "^0.2.5"
+    object-copy "^0.1.0"
 
-"statuses@>= 1.5.0 < 2", "statuses@~1.5.0":
-  "integrity" "sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow="
-  "resolved" "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
-  "version" "1.5.0"
+"statuses@>= 1.5.0 < 2", statuses@~1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
 
-"string-width@^2.1.0":
-  "integrity" "sha1-q5Pyeo3BPSjKyBXEYhQ6bZASrp4="
-  "resolved" "http://registry.m.jd.com/string-width/download/string-width-2.1.1.tgz"
-  "version" "2.1.1"
+string-width@^2.1.0:
+  version "2.1.1"
+  resolved "http://registry.m.jd.com/string-width/download/string-width-2.1.1.tgz"
   dependencies:
-    "is-fullwidth-code-point" "^2.0.0"
-    "strip-ansi" "^4.0.0"
+    is-fullwidth-code-point "^2.0.0"
+    strip-ansi "^4.0.0"
 
-"strip-ansi@^4.0.0":
-  "integrity" "sha1-qEeQIusaw2iocTibY1JixQXuNo8="
-  "resolved" "http://registry.m.jd.com/strip-ansi/download/strip-ansi-4.0.0.tgz"
-  "version" "4.0.0"
+strip-ansi@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/strip-ansi/download/strip-ansi-4.0.0.tgz"
   dependencies:
-    "ansi-regex" "^3.0.0"
+    ansi-regex "^3.0.0"
 
-"strip-ansi@^5.1.0":
-  "integrity" "sha1-jJpTb+tq/JYr36WxBKUJHBrZwK4="
-  "resolved" "http://registry.m.jd.com/strip-ansi/download/strip-ansi-5.2.0.tgz"
-  "version" "5.2.0"
+strip-ansi@^5.1.0:
+  version "5.2.0"
+  resolved "http://registry.m.jd.com/strip-ansi/download/strip-ansi-5.2.0.tgz"
   dependencies:
-    "ansi-regex" "^4.1.0"
+    ansi-regex "^4.1.0"
 
-"strip-ansi@^6.0.0":
-  "integrity" "sha1-CxVx3XZpzNTz4G4U7x7tJiJa5TI="
-  "resolved" "http://registry.m.jd.com/strip-ansi/download/strip-ansi-6.0.0.tgz"
-  "version" "6.0.0"
+strip-ansi@^6.0.0:
+  version "6.0.0"
+  resolved "http://registry.m.jd.com/strip-ansi/download/strip-ansi-6.0.0.tgz"
   dependencies:
-    "ansi-regex" "^5.0.0"
+    ansi-regex "^5.0.0"
 
-"strip-bom@4.0.0":
-  "integrity" "sha1-nDUFwdtFvO3KPZz3oW9cWqOQGHg="
-  "resolved" "http://registry.m.jd.com/strip-bom/download/strip-bom-4.0.0.tgz"
-  "version" "4.0.0"
+strip-bom@4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/strip-bom/download/strip-bom-4.0.0.tgz"
 
-"strip-indent@^3.0.0":
-  "integrity" "sha1-wy4c7pQLazQyx3G8LFS8znPNMAE="
-  "resolved" "http://registry.m.jd.com/strip-indent/download/strip-indent-3.0.0.tgz"
-  "version" "3.0.0"
+strip-indent@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/strip-indent/download/strip-indent-3.0.0.tgz"
   dependencies:
-    "min-indent" "^1.0.0"
+    min-indent "^1.0.0"
 
-"strip-json-comments@3.0.1":
-  "integrity" "sha1-hXE5dakfuHvxswXMp3OV5A0qZKc="
-  "resolved" "http://registry.m.jd.com/strip-json-comments/download/strip-json-comments-3.0.1.tgz"
-  "version" "3.0.1"
+strip-json-comments@3.0.1:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/strip-json-comments/download/strip-json-comments-3.0.1.tgz"
 
-"striptags@^3.1.1":
-  "integrity" "sha1-yMPn/db7S7OjKjt1LltePjgJPr0="
-  "resolved" "https://registry.npmjs.org/striptags/-/striptags-3.1.1.tgz"
-  "version" "3.1.1"
+striptags@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.npmjs.org/striptags/-/striptags-3.1.1.tgz"
 
-"stylus@^0.54.8":
-  "integrity" "sha1-PaPmWWa8Vnp7BEv+DuzmU+CZ0Uc="
-  "resolved" "http://registry.m.jd.com/stylus/download/stylus-0.54.8.tgz"
-  "version" "0.54.8"
+stylus@0.54.5:
+  version "0.54.5"
+  resolved "https://registry.npmjs.org/stylus/-/stylus-0.54.5.tgz"
   dependencies:
-    "css-parse" "~2.0.0"
-    "debug" "~3.1.0"
-    "glob" "^7.1.6"
-    "mkdirp" "~1.0.4"
-    "safer-buffer" "^2.1.2"
-    "sax" "~1.2.4"
-    "semver" "^6.3.0"
-    "source-map" "^0.7.3"
+    css-parse "1.7.x"
+    debug "*"
+    glob "7.0.x"
+    mkdirp "0.5.x"
+    sax "0.5.x"
+    source-map "0.1.x"
 
-"stylus@0.54.5":
-  "integrity" "sha1-QrlWCTHKcJDOhRWnmLqeaqPW3Hk="
-  "resolved" "https://registry.npmjs.org/stylus/-/stylus-0.54.5.tgz"
-  "version" "0.54.5"
+stylus@^0.54.8:
+  version "0.54.8"
+  resolved "http://registry.m.jd.com/stylus/download/stylus-0.54.8.tgz"
   dependencies:
-    "css-parse" "1.7.x"
-    "debug" "*"
-    "glob" "7.0.x"
-    "mkdirp" "0.5.x"
-    "sax" "0.5.x"
-    "source-map" "0.1.x"
+    css-parse "~2.0.0"
+    debug "~3.1.0"
+    glob "^7.1.6"
+    mkdirp "~1.0.4"
+    safer-buffer "^2.1.2"
+    sax "~1.2.4"
+    semver "^6.3.0"
+    source-map "^0.7.3"
 
-"supports-color@^5.3.0":
-  "integrity" "sha1-4uaaRKyHcveKHsCzW2id9lMO/I8="
-  "resolved" "http://registry.m.jd.com/supports-color/download/supports-color-5.5.0.tgz"
-  "version" "5.5.0"
+supports-color@^5.3.0:
+  version "5.5.0"
+  resolved "http://registry.m.jd.com/supports-color/download/supports-color-5.5.0.tgz"
   dependencies:
-    "has-flag" "^3.0.0"
+    has-flag "^3.0.0"
 
-"supports-color@^7.1.0":
-  "integrity" "sha1-G33NyzK4E4gBs+R4umpRyqiWSNo="
-  "resolved" "http://registry.m.jd.com/supports-color/download/supports-color-7.2.0.tgz"
-  "version" "7.2.0"
+supports-color@^7.1.0:
+  version "7.2.0"
+  resolved "http://registry.m.jd.com/supports-color/download/supports-color-7.2.0.tgz"
   dependencies:
-    "has-flag" "^4.0.0"
+    has-flag "^4.0.0"
 
-"swig-templates@^2.0.2":
-  "integrity" "sha1-a0xDtGIXXfKo2oV6IEM3nsbqb9A="
-  "resolved" "http://registry.m.jd.com/swig-templates/download/swig-templates-2.0.3.tgz"
-  "version" "2.0.3"
+swig-templates@^2.0.2:
+  version "2.0.3"
+  resolved "http://registry.m.jd.com/swig-templates/download/swig-templates-2.0.3.tgz"
   dependencies:
-    "optimist" "~0.6"
-    "uglify-js" "2.6.0"
+    optimist "~0.6"
+    uglify-js "2.6.0"
 
-"text-table@^0.2.0":
-  "integrity" "sha1-f17oI66AUgfACvLfSoTsP8+lcLQ="
-  "resolved" "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
-  "version" "0.2.0"
+text-table@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
 
-"through@^2.3.6", "through@>=2.2.7 <3":
-  "integrity" "sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU="
-  "resolved" "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
-  "version" "2.3.8"
+"through@>=2.2.7 <3", through@^2.3.6:
+  version "2.3.8"
+  resolved "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
 
-"tildify@^2.0.0":
-  "integrity" "sha1-8gXzZ01nfOaYtwZ6melJzgO0dUo="
-  "resolved" "http://registry.m.jd.com/tildify/download/tildify-2.0.0.tgz"
-  "version" "2.0.0"
+tildify@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/tildify/download/tildify-2.0.0.tgz"
 
-"timsort@^0.3.0":
-  "integrity" "sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q="
-  "resolved" "http://registry.m.jd.com/timsort/download/timsort-0.3.0.tgz"
-  "version" "0.3.0"
+timsort@^0.3.0:
+  version "0.3.0"
+  resolved "http://registry.m.jd.com/timsort/download/timsort-0.3.0.tgz"
 
-"tiny-emitter@^2.0.0":
-  "integrity" "sha1-HRpW7fxRxD6GPLtTgqcjMONVVCM="
-  "resolved" "http://registry.m.jd.com/tiny-emitter/download/tiny-emitter-2.1.0.tgz"
-  "version" "2.1.0"
+tiny-emitter@^2.0.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/tiny-emitter/download/tiny-emitter-2.1.0.tgz"
 
-"titlecase@^1.1.2":
-  "integrity" "sha1-/G1l/1grBgJBB2jvGgm3BQYxPcM="
-  "resolved" "http://registry.m.jd.com/titlecase/download/titlecase-1.1.3.tgz"
-  "version" "1.1.3"
+titlecase@^1.1.2:
+  version "1.1.3"
+  resolved "http://registry.m.jd.com/titlecase/download/titlecase-1.1.3.tgz"
 
-"tmp@^0.0.33":
-  "integrity" "sha1-bTQzWIl2jSGyvNoKonfO07G/rfk="
-  "resolved" "http://registry.m.jd.com/tmp/download/tmp-0.0.33.tgz"
-  "version" "0.0.33"
+tmp@^0.0.33:
+  version "0.0.33"
+  resolved "http://registry.m.jd.com/tmp/download/tmp-0.0.33.tgz"
   dependencies:
-    "os-tmpdir" "~1.0.2"
+    os-tmpdir "~1.0.2"
 
-"to-fast-properties@^1.0.3":
-  "integrity" "sha1-uDVx+k2MJbguIxsG46MFXeTKGkc="
-  "resolved" "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz"
-  "version" "1.0.3"
+to-fast-properties@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz"
 
-"to-object-path@^0.3.0":
-  "integrity" "sha1-KXWIt7Dn4KwI4E5nL4XB9JmeF68="
-  "resolved" "https://registry.npmjs.org/to-object-path/-/to-object-path-0.3.0.tgz"
-  "version" "0.3.0"
+to-object-path@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npmjs.org/to-object-path/-/to-object-path-0.3.0.tgz"
   dependencies:
-    "kind-of" "^3.0.2"
+    kind-of "^3.0.2"
 
-"to-regex-range@^2.1.0":
-  "integrity" "sha1-fIDBe53+vlmeJzZ+DU3VWQFB2zg="
-  "resolved" "http://registry.m.jd.com/to-regex-range/download/to-regex-range-2.1.1.tgz"
-  "version" "2.1.1"
+to-regex-range@^2.1.0:
+  version "2.1.1"
+  resolved "http://registry.m.jd.com/to-regex-range/download/to-regex-range-2.1.1.tgz"
   dependencies:
-    "is-number" "^3.0.0"
-    "repeat-string" "^1.6.1"
+    is-number "^3.0.0"
+    repeat-string "^1.6.1"
 
-"to-regex-range@^5.0.1":
-  "integrity" "sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ="
-  "resolved" "http://registry.m.jd.com/to-regex-range/download/to-regex-range-5.0.1.tgz"
-  "version" "5.0.1"
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "http://registry.m.jd.com/to-regex-range/download/to-regex-range-5.0.1.tgz"
   dependencies:
-    "is-number" "^7.0.0"
+    is-number "^7.0.0"
 
-"to-regex@^3.0.1", "to-regex@^3.0.2":
-  "integrity" "sha1-E8/dmzNlUvMLUfM6iuG0Knp1mc4="
-  "resolved" "http://registry.m.jd.com/to-regex/download/to-regex-3.0.2.tgz"
-  "version" "3.0.2"
+to-regex@^3.0.1, to-regex@^3.0.2:
+  version "3.0.2"
+  resolved "http://registry.m.jd.com/to-regex/download/to-regex-3.0.2.tgz"
   dependencies:
-    "define-property" "^2.0.2"
-    "extend-shallow" "^3.0.2"
-    "regex-not" "^1.0.2"
-    "safe-regex" "^1.1.0"
+    define-property "^2.0.2"
+    extend-shallow "^3.0.2"
+    regex-not "^1.0.2"
+    safe-regex "^1.1.0"
 
-"toidentifier@1.0.0":
-  "integrity" "sha1-fhvjRw8ed5SLxD2Uo8j013UrpVM="
-  "resolved" "http://registry.m.jd.com/toidentifier/download/toidentifier-1.0.0.tgz"
-  "version" "1.0.0"
+toidentifier@1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/toidentifier/download/toidentifier-1.0.0.tgz"
 
-"token-stream@0.0.1":
-  "integrity" "sha1-zu78cXp2xDFvEm0LnbqlXX598Bo="
-  "resolved" "https://registry.npmjs.org/token-stream/-/token-stream-0.0.1.tgz"
-  "version" "0.0.1"
+token-stream@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/token-stream/-/token-stream-0.0.1.tgz"
 
-"tslib@^1.9.0":
-  "integrity" "sha1-zy04vcNKE0vK8QkcQfZhni9nLQA="
-  "resolved" "http://registry.m.jd.com/tslib/download/tslib-1.14.1.tgz"
-  "version" "1.14.1"
+tslib@^1.9.0:
+  version "1.14.1"
+  resolved "http://registry.m.jd.com/tslib/download/tslib-1.14.1.tgz"
 
-"tslib@^2.0.3":
-  "integrity" "sha1-2mCGDxwuyqVwOrfTm8Bba/mIuXo="
-  "resolved" "http://registry.m.jd.com/tslib/download/tslib-2.1.0.tgz"
-  "version" "2.1.0"
+tslib@^2.0.3:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/tslib/download/tslib-2.1.0.tgz"
 
-"uglify-js@^2.6.1":
-  "integrity" "sha1-KcVzMUgFe7Th913zW3qcty5qWd0="
-  "resolved" "http://registry.m.jd.com/uglify-js/download/uglify-js-2.8.29.tgz"
-  "version" "2.8.29"
+uglify-js@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-2.6.0.tgz"
   dependencies:
-    "source-map" "~0.5.1"
-    "uglify-to-browserify" "~1.0.0"
-    "yargs" "~3.10.0"
+    async "~0.2.6"
+    source-map "~0.5.1"
+    uglify-to-browserify "~1.0.0"
+    yargs "~3.10.0"
 
-"uglify-js@2.6.0":
-  "integrity" "sha1-JeqhzDVQ45QQzu+v0c+7a20V8AE="
-  "resolved" "https://registry.npmjs.org/uglify-js/-/uglify-js-2.6.0.tgz"
-  "version" "2.6.0"
+uglify-js@^2.6.1:
+  version "2.8.29"
+  resolved "http://registry.m.jd.com/uglify-js/download/uglify-js-2.8.29.tgz"
   dependencies:
-    "async" "~0.2.6"
-    "source-map" "~0.5.1"
-    "uglify-to-browserify" "~1.0.0"
-    "yargs" "~3.10.0"
+    source-map "~0.5.1"
+    uglify-to-browserify "~1.0.0"
+    yargs "~3.10.0"
 
-"uglify-to-browserify@~1.0.0":
-  "integrity" "sha1-bgkk1r2mta/jSeOabWMoUKD4grc="
-  "resolved" "https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz"
-  "version" "1.0.2"
+uglify-to-browserify@~1.0.0:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz"
 
-"union-value@^1.0.0":
-  "integrity" "sha1-C2/nuDWuzaYcbqTU8CwUIh4QmEc="
-  "resolved" "http://registry.m.jd.com/union-value/download/union-value-1.0.1.tgz"
-  "version" "1.0.1"
+union-value@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/union-value/download/union-value-1.0.1.tgz"
   dependencies:
-    "arr-union" "^3.1.0"
-    "get-value" "^2.0.6"
-    "is-extendable" "^0.1.1"
-    "set-value" "^2.0.1"
+    arr-union "^3.1.0"
+    get-value "^2.0.6"
+    is-extendable "^0.1.1"
+    set-value "^2.0.1"
 
-"universalify@^0.1.0":
-  "integrity" "sha1-tkb2m+OULavOzJ1mOcgNwQXvqmY="
-  "resolved" "http://registry.m.jd.com/universalify/download/universalify-0.1.2.tgz"
-  "version" "0.1.2"
+universalify@^0.1.0:
+  version "0.1.2"
+  resolved "http://registry.m.jd.com/universalify/download/universalify-0.1.2.tgz"
 
-"unpipe@~1.0.0":
-  "integrity" "sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw="
-  "resolved" "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz"
-  "version" "1.0.0"
+unpipe@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz"
 
-"unset-value@^1.0.0":
-  "integrity" "sha1-g3aHP30jNRef+x5vw6jtDfyKtVk="
-  "resolved" "https://registry.npmjs.org/unset-value/-/unset-value-1.0.0.tgz"
-  "version" "1.0.0"
+unset-value@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/unset-value/-/unset-value-1.0.0.tgz"
   dependencies:
-    "has-value" "^0.3.1"
-    "isobject" "^3.0.0"
+    has-value "^0.3.1"
+    isobject "^3.0.0"
 
-"urix@^0.1.0":
-  "integrity" "sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI="
-  "resolved" "https://registry.npmjs.org/urix/-/urix-0.1.0.tgz"
-  "version" "0.1.0"
+urix@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/urix/-/urix-0.1.0.tgz"
 
-"use@^3.1.0":
-  "integrity" "sha1-1QyMrHmhn7wg8pEfVuuXP04QBw8="
-  "resolved" "http://registry.m.jd.com/use/download/use-3.1.1.tgz"
-  "version" "3.1.1"
+use@^3.1.0:
+  version "3.1.1"
+  resolved "http://registry.m.jd.com/use/download/use-3.1.1.tgz"
 
-"utils-merge@^1.0.0", "utils-merge@1.0.1":
-  "integrity" "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM="
-  "resolved" "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
-  "version" "1.0.1"
+utils-merge@1.0.1, utils-merge@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
 
-"validate-commit-msg@^2.14.0":
-  "integrity" "sha1-5Tg2kQEsuycNzAvCpO/+vhSJDqw="
-  "resolved" "https://registry.npmjs.org/validate-commit-msg/-/validate-commit-msg-2.14.0.tgz"
-  "version" "2.14.0"
+validate-commit-msg@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.npmjs.org/validate-commit-msg/-/validate-commit-msg-2.14.0.tgz"
   dependencies:
-    "conventional-commit-types" "^2.0.0"
-    "find-parent-dir" "^0.3.0"
-    "findup" "0.1.5"
-    "semver-regex" "1.0.0"
+    conventional-commit-types "^2.0.0"
+    find-parent-dir "^0.3.0"
+    findup "0.1.5"
+    semver-regex "1.0.0"
 
-"vary@~1.1.2":
-  "integrity" "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw="
-  "resolved" "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
-  "version" "1.1.2"
+vary@~1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
 
-"void-elements@^2.0.1":
-  "integrity" "sha1-wGavtYK7HLQSjWDqkjkulNXp2+w="
-  "resolved" "https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz"
-  "version" "2.0.1"
+void-elements@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz"
 
-"warehouse@^4.0.0":
-  "integrity" "sha1-RYMrxD4f0yO9nTyGsnYUMLoNHns="
-  "resolved" "http://registry.m.jd.com/warehouse/download/warehouse-4.0.0.tgz"
-  "version" "4.0.0"
+warehouse@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/warehouse/download/warehouse-4.0.0.tgz"
   dependencies:
-    "bluebird" "^3.2.2"
-    "cuid" "^2.1.4"
-    "graceful-fs" "^4.1.3"
-    "is-plain-object" "^3.0.0"
-    "JSONStream" "^1.0.7"
-    "rfdc" "^1.1.4"
+    JSONStream "^1.0.7"
+    bluebird "^3.2.2"
+    cuid "^2.1.4"
+    graceful-fs "^4.1.3"
+    is-plain-object "^3.0.0"
+    rfdc "^1.1.4"
 
-"which-pm-runs@^1.0.0":
-  "integrity" "sha1-Zws6+8VS4LVd9rd4DKdGFfI60cs="
-  "resolved" "https://registry.npmjs.org/which-pm-runs/-/which-pm-runs-1.0.0.tgz"
-  "version" "1.0.0"
-
-"which@^1.2.14":
-  "integrity" "sha1-pFBD1U9YBTFtqNYvn1CRjT2nCwo="
-  "resolved" "http://registry.m.jd.com/which/download/which-1.3.1.tgz"
-  "version" "1.3.1"
+which@^1.2.14:
+  version "1.3.1"
+  resolved "http://registry.m.jd.com/which/download/which-1.3.1.tgz"
   dependencies:
-    "isexe" "^2.0.0"
+    isexe "^2.0.0"
 
-"which@^2.0.1":
-  "integrity" "sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE="
-  "resolved" "http://registry.m.jd.com/which/download/which-2.0.2.tgz"
-  "version" "2.0.2"
+which@^2.0.1:
+  version "2.0.2"
+  resolved "http://registry.m.jd.com/which/download/which-2.0.2.tgz"
   dependencies:
-    "isexe" "^2.0.0"
+    isexe "^2.0.0"
 
-"window-size@0.1.0":
-  "integrity" "sha1-VDjNLqk7IC76Ohn+iIeu58lPnJ0="
-  "resolved" "http://registry.m.jd.com/window-size/download/window-size-0.1.0.tgz"
-  "version" "0.1.0"
+window-size@0.1.0:
+  version "0.1.0"
+  resolved "http://registry.m.jd.com/window-size/download/window-size-0.1.0.tgz"
 
-"with@^5.0.0":
-  "integrity" "sha1-+k2qktrzLE6pTtRTyB8EaGtXXf4="
-  "resolved" "https://registry.npmjs.org/with/-/with-5.1.1.tgz"
-  "version" "5.1.1"
+with@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.npmjs.org/with/-/with-5.1.1.tgz"
   dependencies:
-    "acorn" "^3.1.0"
-    "acorn-globals" "^3.0.0"
+    acorn "^3.1.0"
+    acorn-globals "^3.0.0"
 
-"word-wrap@^1.0.3":
-  "integrity" "sha1-YQY29rH3A4kb00dxzLF/uTtHB5w="
-  "resolved" "http://registry.m.jd.com/word-wrap/download/word-wrap-1.2.3.tgz"
-  "version" "1.2.3"
+word-wrap@^1.0.3:
+  version "1.2.3"
+  resolved "http://registry.m.jd.com/word-wrap/download/word-wrap-1.2.3.tgz"
 
-"wordwrap@~0.0.2":
-  "integrity" "sha1-o9XabNXAvAAI03I0u68b7WMFkQc="
-  "resolved" "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz"
-  "version" "0.0.3"
+wordwrap@0.0.2:
+  version "0.0.2"
+  resolved "http://registry.m.jd.com/wordwrap/download/wordwrap-0.0.2.tgz"
 
-"wordwrap@0.0.2":
-  "integrity" "sha1-t5Zpu0LstAn4PVg8rVLKF+qhZD8="
-  "resolved" "http://registry.m.jd.com/wordwrap/download/wordwrap-0.0.2.tgz"
-  "version" "0.0.2"
+wordwrap@~0.0.2:
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz"
 
-"wrappy@1":
-  "integrity" "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
-  "resolved" "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
-  "version" "1.0.2"
+wrappy@1:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
 
-"yaml@^1.10.0":
-  "integrity" "sha1-O1k63ZRIdgd9TWg/7gEIG9n/8x4="
-  "resolved" "http://registry.m.jd.com/yaml/download/yaml-1.10.0.tgz"
-  "version" "1.10.0"
+yaml@^1.10.0:
+  version "1.10.0"
+  resolved "http://registry.m.jd.com/yaml/download/yaml-1.10.0.tgz"
 
-"yargs@~3.10.0":
-  "integrity" "sha1-9+572FfdfB0tOMDnTvvWgdFDH9E="
-  "resolved" "http://registry.m.jd.com/yargs/download/yargs-3.10.0.tgz"
-  "version" "3.10.0"
+yargs@~3.10.0:
+  version "3.10.0"
+  resolved "http://registry.m.jd.com/yargs/download/yargs-3.10.0.tgz"
   dependencies:
-    "camelcase" "^1.0.2"
-    "cliui" "^2.1.0"
-    "decamelize" "^1.0.0"
-    "window-size" "0.1.0"
-
-"yocto-queue@^0.1.0":
-  "integrity" "sha1-ApTrPe4FAo0x7hpfosVWpqrxChs="
-  "resolved" "http://registry.m.jd.com/yocto-queue/download/yocto-queue-0.1.0.tgz"
-  "version" "0.1.0"
+    camelcase "^1.0.2"
+    cliui "^2.1.0"
+    decamelize "^1.0.0"
+    window-size "0.1.0"
